@@ -4,7 +4,7 @@
     "NVDA": {
       "shares": 4.710670686914347,
       "avg_price": 212.28399658203125,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-10-23"
     },
     "MSFT": {
