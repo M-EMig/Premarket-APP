@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-23T18:35:08.436708",
+  "generated": "2026-10-23T19:30:01.845761",
   "mode": "alerts",
   "depot": {
-    "value": 10004.935807909784,
+    "value": 10002.353338487857,
     "start": 10000.0,
     "cash": 8000.0,
     "positions": {
@@ -23,17 +23,17 @@
   "analyses": [
     {
       "ticker": "NVDA",
-      "price": 211.9550018310547,
-      "rsi": 22.474209384476353,
-      "drop20": -11.404866675982838,
-      "mom5": -1.0157395050488738,
+      "price": 211.7899932861328,
+      "rsi": 22.398696524718403,
+      "drop20": -11.47383864602678,
+      "mom5": -1.0927994878439873,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
         "RSI 22: überverkauft",
-        "-11.4 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-11.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 239.24000549316406,
       "downtrend": false,
@@ -41,10 +41,10 @@
     },
     {
       "ticker": "MSFT",
-      "price": 524.4349975585938,
-      "rsi": 49.539530370775005,
-      "drop20": -3.498944561840145,
-      "mom5": -0.8723164806462402,
+      "price": 523.6199951171875,
+      "rsi": 49.02597724295045,
+      "drop20": -3.648912806039162,
+      "mom5": -1.026366657418043,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -56,36 +56,37 @@
       "from_news": false
     },
     {
-      "ticker": "AAPL",
-      "price": 346.6099853515625,
-      "rsi": 69.97668077906104,
-      "drop20": -0.4623559426502277,
-      "mom5": 0.9171356125466934,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 348.2200012207031,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "ASML",
-      "price": 1575.1300048828125,
-      "rsi": 18.558243009641842,
-      "drop20": -15.64710972161607,
-      "mom5": -4.0444230870480435,
+      "price": 1572.31005859375,
+      "rsi": 18.047849911737202,
+      "drop20": -15.798126221317588,
+      "mom5": -4.2162118106402025,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 19: überverkauft",
-        "-15.6 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 18: überverkauft",
+        "-15.8 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1867.31005859375,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "AAPL",
+      "price": 346.6400146484375,
+      "rsi": 70.03792689999182,
+      "drop20": -0.45373228611995664,
+      "mom5": 0.9258787842761906,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 70: überkauft"
+      ],
+      "high20": 348.2200012207031,
       "downtrend": false,
       "from_news": false
     },
@@ -108,10 +109,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 205.32000732421875,
-      "rsi": 38.930821096182385,
-      "drop20": -2.1026979893945863,
-      "mom5": -0.49432443141154137,
+      "price": 205.24000549316406,
+      "rsi": 38.71851519009461,
+      "drop20": -2.140843143966853,
+      "mom5": -0.533096280047074,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -133,7 +134,7 @@
       "ticker": "ASML",
       "action": "buy",
       "type": "Einstieg",
-      "msg": "ASML: -15.6 % unter 20-Tage-Hoch (Kurs 1575.13), möglicher Einstieg. Analyst: BUY."
+      "msg": "ASML: -15.8 % unter 20-Tage-Hoch (Kurs 1572.31), möglicher Einstieg. Analyst: BUY."
     }
   ],
   "trades": [],
