@@ -28,7 +28,14 @@ def send_mail(subject, body):
 
 def main(mode):
     pf = executive.load()
-    analyses = analyst.run()
+    # Im Report-Modus: erst News holen, neue Ticker extrahieren, dann analysieren
+    if mode == "report":
+        news = researcher.run()
+        new_tickers = news.get("new_tickers", [])
+        analyses = analyst.run(extra_tickers=new_tickers)
+    else:
+        news = None
+        analyses = analyst.run()
     prices = {t: (last_price(t) or a["price"]) for t, a in analyses.items()}
     for t in pf["positions"]:
         prices.setdefault(t, last_price(t) or pf["positions"][t]["avg_price"])
@@ -44,7 +51,6 @@ def main(mode):
 
     lines = [f"Börsen-Team, {datetime.now():%d.%m.%Y %H:%M}", ""]
     if mode == "report":
-        news = researcher.run()
         lines += ["== NEWS ==", analyst.summarize_news(news), ""]
     lines.append("== ANALYSE ==")
     for a in sorted(analyses.values(), key=lambda x: -x["score"]):
@@ -75,7 +81,7 @@ def main(mode):
         ],
         "alerts": al,
         "trades": trades,
-        "news": (researcher.run() if mode == "report" else {"general": [], "tickers": {}}),
+        "news": (news if mode == "report" else {"general": [], "tickers": {}}),
     }
     open("report.json", "w").write(json.dumps(report_data, indent=2, ensure_ascii=False))
 

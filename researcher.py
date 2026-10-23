@@ -36,9 +36,42 @@ def _ticker_news(ticker):
     return out
 
 
+def extract_tickers_from_news(headlines: list[str]) -> list[str]:
+    """Nutzt Claude um aus Schlagzeilen neue Ticker zu extrahieren."""
+    import os
+    key = os.environ.get("ANTHROPIC_API_KEY")
+    if not key or not headlines:
+        return []
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=key)
+        text = "\n".join(f"- {h}" for h in headlines[:40])
+        msg = client.messages.create(
+            model=config.CLAUDE_MODEL, max_tokens=200,
+            messages=[{"role": "user", "content":
+                       "Extrahiere aus diesen Schlagzeilen alle klar erkennbaren Börsen-Ticker "
+                       "(US und DE). Gib NUR die Ticker zurück, kommagetrennt, keine Erklärung. "
+                       "Wenn keine erkennbar sind, antworte mit: KEINE\n\n" + text}])
+        raw = msg.content[0].text.strip()
+        if raw.upper() == "KEINE" or not raw:
+            return []
+        tickers = [t.strip().upper() for t in raw.replace(" ", "").split(",") if t.strip()]
+        # Nur neue Ticker zurückgeben (nicht schon in Watchlist)
+        return [t for t in tickers if t not in config.WATCHLIST][:5]
+    except Exception as ex:
+        print(f"Ticker-Extraktion fehlgeschlagen: {ex}")
+        return []
+
+
 def run():
     general = []
     for url in config.FEEDS:
         general += _feed_items(url)
-    per_ticker = {t: _ticker_news(t) for t in config.WATCHLIST}
-    return {"general": general[:40], "tickers": per_ticker}
+    # Neue Ticker aus News extrahieren
+    headlines = [n["title"] for n in general]
+    new_tickers = extract_tickers_from_news(headlines)
+    if new_tickers:
+        print(f"Neue Ticker aus News: {new_tickers}")
+    all_tickers = list(config.WATCHLIST) + new_tickers
+    per_ticker = {t: _ticker_news(t) for t in all_tickers}
+    return {"general": general[:40], "tickers": per_ticker, "new_tickers": new_tickers}

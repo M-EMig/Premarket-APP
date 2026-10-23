@@ -46,12 +46,14 @@ def analyze(ticker):
             "downtrend": downtrend}
 
 
-def run():
+def run(extra_tickers: list[str] | None = None):
     res = {}
-    for t in config.WATCHLIST:
+    all_tickers = list(config.WATCHLIST) + (extra_tickers or [])
+    for t in all_tickers:
         try:
             a = analyze(t)
             if a:
+                a["from_news"] = t not in config.WATCHLIST
                 res[t] = a
         except Exception as ex:
             print(f"Analyse-Fehler {t}: {ex}")
