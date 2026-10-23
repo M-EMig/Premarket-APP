@@ -1,0 +1,295 @@
+{
+  "generated": "2026-10-23T10:17:53.223551",
+  "mode": "report",
+  "depot": {
+    "value": 10000.959545527752,
+    "start": 10000.0,
+    "cash": 8000.0,
+    "positions": {
+      "NVDA": {
+        "shares": 4.710670686914347,
+        "avg_price": 212.28399658203125,
+        "underwater": false,
+        "opened": "2026-10-23"
+      },
+      "MSFT": {
+        "shares": 1.919091055505937,
+        "avg_price": 521.0800170898438,
+        "underwater": false,
+        "opened": "2026-10-23"
+      }
+    }
+  },
+  "analyses": [
+    {
+      "ticker": "NVDA",
+      "price": 212.2100067138672,
+      "rsi": 29.735275292645113,
+      "drop20": -11.298277110292588,
+      "mom5": -2.3109096866936407,
+      "score": 2,
+      "rec": "BUY",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 30: überverkauft",
+        "-11.3 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 239.24000549316406,
+      "downtrend": false
+    },
+    {
+      "ticker": "MSFT",
+      "price": 521.0800170898438,
+      "rsi": 52.08356767484265,
+      "drop20": -4.116293056345633,
+      "mom5": -3.4035268553441633,
+      "score": 2,
+      "rec": "BUY",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50"
+      ],
+      "high20": 543.4500122070312,
+      "downtrend": false
+    },
+    {
+      "ticker": "ASML",
+      "price": 1560.5400390625,
+      "rsi": 15.58170595618121,
+      "drop20": -16.428445727019493,
+      "mom5": -5.84635979398056,
+      "score": 2,
+      "rec": "BUY",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 16: überverkauft",
+        "-16.4 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 1867.31005859375,
+      "downtrend": false
+    },
+    {
+      "ticker": "AAPL",
+      "price": 348.2200012207031,
+      "rsi": 71.66720214360673,
+      "drop20": 0.0,
+      "mom5": 1.818713807223138,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 72: überkauft"
+      ],
+      "high20": 348.2200012207031,
+      "downtrend": false
+    },
+    {
+      "ticker": "SAP.DE",
+      "price": 211.9499969482422,
+      "rsi": 78.99157923254364,
+      "drop20": -1.5788293749288806,
+      "mom5": 6.389918506945658,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 79: überkauft"
+      ],
+      "high20": 215.35000610351562,
+      "downtrend": false
+    },
+    {
+      "ticker": "URTH",
+      "price": 206.1699981689453,
+      "rsi": 45.39296919824462,
+      "drop20": -1.6974193635223012,
+      "mom5": -0.9322004880671475,
+      "score": -1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)"
+      ],
+      "high20": 209.72999572753906,
+      "downtrend": true
+    }
+  ],
+  "alerts": [
+    {
+      "ticker": "NVDA",
+      "action": "buy",
+      "type": "Einstieg",
+      "msg": "NVDA: -11.3 % unter 20-Tage-Hoch (Kurs 212.21), möglicher Einstieg. Analyst: BUY."
+    },
+    {
+      "ticker": "ASML",
+      "action": "buy",
+      "type": "Einstieg",
+      "msg": "ASML: -16.4 % unter 20-Tage-Hoch (Kurs 1560.54), möglicher Einstieg. Analyst: BUY."
+    }
+  ],
+  "trades": [
+    "KAUF NVDA: 4.71 Stk. zu 212.28 (Einstieg)",
+    "KAUF MSFT: 1.92 Stk. zu 521.08 (Analyst: BUY)"
+  ],
+  "news": {
+    "general": [
+      {
+        "title": "Warhound raises $200M to engineer war dogs and arm them with Anduril gear",
+        "link": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+        "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "The secret to fast startup growth isn’t early sales, top names in tech say",
+        "link": "https://techcrunch.com/2026/10/22/the-secret-to-fast-startup-growth-isnt-early-sales-top-names-in-tech-say/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+        "link": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "TechCrunch Disrupt 2026 Startup Battlefield 200: Celebrating outstanding achievements",
+        "link": "https://techcrunch.com/2026/10/22/techcrunch-disrupt-2026-startup-battlefield-200-celebrating-outstanding-achievements/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "Investors break down how founders can raise a Series A today",
+        "link": "https://techcrunch.com/2026/10/22/investors-break-down-how-founders-can-raise-a-series-a-today/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "Fusion startup Helion is developing new semiconductors that could double output of its power plants",
+        "link": "https://techcrunch.com/2026/10/22/fusion-startup-helion-is-developing-new-semiconductors-that-could-double-output-of-its-power-plants/",
+        "source": "Startups | TechCrunch"
+      },
+      {
+        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+        "link": "https://edjefferson.com/localwiki/",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Docker is weird",
+        "link": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+        "source": "Hacker News"
+      },
+      {
+        "title": "How does Fable 5.1 hide messages in images?",
+        "link": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The alien space of science: Coherent but cognitively unavailable directions",
+        "link": "https://arxiv.org/abs/2603.01092",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The foolishness of \"natural language programming\" (1978)",
+        "link": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+        "source": "Hacker News"
+      },
+      {
+        "title": "The HTML-in-Canvas API origin trial",
+        "link": "https://developer.chrome.com/blog/html-in-canvas-origin-trial",
+        "source": "Hacker News"
+      },
+      {
+        "title": "I Did This Without Your Knowledge",
+        "link": "https://www.lesswrong.com/posts/3375SZNGA5dKHQMie/i-did-this-without-your-knowledge",
+        "source": "Hacker News"
+      },
+      {
+        "title": "This I Believe (1952)",
+        "link": "https://www.awakin.org/v2/read/view.php?tid=468",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
+        "link": "https://github.com/dsmurrell/onkey",
+        "source": "Hacker News"
+      },
+      {
+        "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+        "link": "https://github.com/NVIDIA/OpenShell",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Every AI model has the same \"controversial\" take on humans",
+        "link": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Run full iOS 16.5 firmware on Android Devices",
+        "link": "https://github.com/oosexgang/hackios-xnu-kernel",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Show HN: Making a smart TV dumb and then smart",
+        "link": "https://github.com/anubhavmalhotra/r2d2-tv",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Getting ready to operate GNU Taler in Germany",
+        "link": "https://www.taler.net/en/news/2026-13.html",
+        "source": "Hacker News"
+      },
+      {
+        "title": "A lost Schrödinger manuscript reveals a twist in quantum physics",
+        "link": "https://www.sciencealert.com/a-lost-schrdinger-manuscript-reveals-a-surprising-twist-in-quantum-physics",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Quad9 to exit France",
+        "link": "https://quad9.net/news/blog/au-revoir-france/",
+        "source": "Hacker News"
+      },
+      {
+        "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+        "link": "https://simedw.com/2026/10/21/world-model-terminal/",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Jank – The native Clojure dialect with seamless C++ interop",
+        "link": "https://jank-lang.org/",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Tell HN: I unknowingly broke the PHP RCE embargo. I am sorry.",
+        "link": "https://news.ycombinator.com/item?id=50193416",
+        "source": "Hacker News"
+      },
+      {
+        "title": "LLMs are making formal software verification feasible at a much larger scale",
+        "link": "https://www.anthropic.com/research/formal-verification",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Xbox wants you to pay 24 to 40 cents per hour to stream games you bought",
+        "link": "https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/",
+        "source": "Hacker News"
+      },
+      {
+        "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+        "link": "https://news.ycombinator.com/item?id=50200997",
+        "source": "Hacker News"
+      }
+    ],
+    "tickers": {
+      "NVDA": [],
+      "MSFT": [],
+      "AAPL": [],
+      "ASML": [],
+      "SAP.DE": [],
+      "URTH": []
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cash": 8000.0,
+  "positions": {
+    "NVDA": {
+      "shares": 4.710670686914347,
+      "avg_price": 212.28399658203125,
+      "underwater": false,
+      "opened": "2026-10-23"
+    },
+    "MSFT": {
+      "shares": 1.919091055505937,
+      "avg_price": 521.0800170898438,
+      "underwater": false,
+      "opened": "2026-10-23"
+    }
+  },
+  "trades": [
+    {
+      "time": "2026-10-23T10:17:51",
+      "side": "BUY",
+      "ticker": "NVDA",
+      "shares": 4.7107,
+      "price": 212.28,
+      "reason": "Einstieg"
+    },
+    {
+      "time": "2026-10-23T10:17:51",
+      "side": "BUY",
+      "ticker": "MSFT",
+      "shares": 1.9191,
+      "price": 521.08,
+      "reason": "Analyst: BUY"
+    }
+  ]
+}
