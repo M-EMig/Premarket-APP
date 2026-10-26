@@ -11,7 +11,6 @@ FEEDS = [
     # International
     "https://feeds.reuters.com/reuters/businessNews",
     "https://feeds.bloomberg.com/markets/news.rss",
-    "https://www.instagram.com/traderepublic?utm_source=ig_web_button_share_sheet&dlrf=ZDNlZDc0MzIxNw==" 
 ]
 
 # Simuliertes Depot (Paper Trading, kein echtes Geld)
