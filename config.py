@@ -3,10 +3,14 @@
 WATCHLIST = ["NVDA", "MSFT", "AAPL", "ASML", "SAP.DE", "URTH"]
 
 FEEDS = [
-    "https://techcrunch.com/category/startups/feed/",
-    "https://news.ycombinator.com/rss",
+    # Deutsch
+    "https://www.handelsblatt.com/contentexport/feed/schlagzeilen",
+    "https://www.manager-magazin.de/schlagzeilen/index.rss",
+    "https://www.boerse.de/rss/boersennews.xml",
     "https://www.finanzen.net/rss/news",
+    # International
     "https://feeds.reuters.com/reuters/businessNews",
+    "https://feeds.bloomberg.com/markets/news.rss",
 ]
 
 # Simuliertes Depot (Paper Trading, kein echtes Geld)
