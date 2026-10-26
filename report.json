@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T09:04:45.768426",
-  "mode": "report",
+  "generated": "2026-10-26T09:36:39.192991",
+  "mode": "alerts",
   "depot": {
     "value": 10000.55100950361,
     "start": 10000.0,
@@ -92,10 +92,10 @@
     },
     {
       "ticker": "SAP.DE",
-      "price": 214.25,
-      "rsi": 81.62759841444131,
-      "drop20": -0.5107991977427062,
-      "mom5": 7.210770579551484,
+      "price": 215.25,
+      "rsi": 82.30299900642237,
+      "drop20": -0.04643886727709878,
+      "mom5": 7.711170908977616,
       "score": 0,
       "rec": "HOLD",
       "why": [
@@ -139,111 +139,7 @@
   ],
   "trades": [],
   "news": {
-    "general": [
-      {
-        "title": "Show HN: TitleArt – Make text like it's 1997",
-        "link": "https://titleart.dvy.io/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "The result of the C++26 DIS ballot",
-        "link": "https://train-it.eu/blog/cpp26-contracts-the-ballot-result/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "PaperPilot – Zero-Cloud, Pure-Rust PDF Engine with WASM and MCP",
-        "link": "https://github.com/KrushnaVardhanReddy/PaperPilot",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Behind the scenes at the NeXT Computer office",
-        "link": "https://exhibits.stanford.edu/menuez/browse/next-computer-inc?per_page=96&sort=pub_year_isi+asc%2C+title_sort+asc&view=masonry",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Dolly Parton's Imagination Library",
-        "link": "https://imaginationlibrary.com/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Show HN: A Truly Modular Keyboard",
-        "link": "https://github.com/notaroomba/keybytes",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Attention Is Not What You Need (2025)",
-        "link": "https://arxiv.org/abs/2512.19428",
-        "source": "Hacker News"
-      },
-      {
-        "title": "IBM CEO says open weight models are now good and cheap on-prem",
-        "link": "https://www.theregister.com/systems/2026/10/22/ibm-ceo-says-open-weight-models-are-now-irresistibly-good-and-cheap-on-prem/5304640",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Microsoft Decision-1: 9B Qwen Model Launch Explained",
-        "link": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "F-Zero X on Nintendo 3DS",
-        "link": "https://hypnotize.works/gdx-3ds/postmortem/index.html",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Why I Am a Programmer",
-        "link": "https://www.alfie.wtf/programming/why-i-am-a-programmer.html",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Steal My Bitcoin CTF PoC",
-        "link": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
-        "source": "Hacker News"
-      },
-      {
-        "title": "The State of Context Engineering",
-        "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
-        "link": "https://adrs.systems",
-        "source": "Hacker News"
-      },
-      {
-        "title": "We should be more ambitious with the software we build",
-        "link": "https://danluu.com/ambitious/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
-        "link": "https://lynchlab.net/llm-skin-cancer",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Removing Next.js Got My Blog to 100 on Every Lighthouse Category",
-        "link": "https://korindiehacker.bloffy.blog/en/removing-nextjs-got-my-blog-to-100-on-every-lighthouse-category",
-        "source": "Hacker News"
-      },
-      {
-        "title": "Where the Romans Fought (interactive map)",
-        "link": "https://iosiflazaridis.github.io/battles-of-the-romans/",
-        "source": "Hacker News"
-      },
-      {
-        "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-        "link": "https://minimaxir.com/2026/10/cheap-llms/",
-        "source": "Hacker News"
-      }
-    ],
-    "tickers": {
-      "NVDA": [],
-      "MSFT": [],
-      "AAPL": [],
-      "ASML": [],
-      "SAP.DE": [],
-      "URTH": []
-    },
-    "new_tickers": []
+    "general": [],
+    "tickers": {}
   }
 }
