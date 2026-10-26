@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-26T09:36:39.192991",
-  "mode": "alerts",
+  "generated": "2026-10-26T09:58:29.380042",
+  "mode": "report",
   "depot": {
     "value": 10000.55100950361,
     "start": 10000.0,
@@ -92,18 +92,18 @@
     },
     {
       "ticker": "SAP.DE",
-      "price": 215.25,
-      "rsi": 82.30299900642237,
-      "drop20": -0.04643886727709878,
-      "mom5": 7.711170908977616,
+      "price": 215.85000610351562,
+      "rsi": 82.5567218097309,
+      "drop20": 0.0,
+      "mom5": 8.011414160834551,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 82: überkauft"
+        "RSI 83: überkauft"
       ],
-      "high20": 215.35000610351562,
+      "high20": 215.85000610351562,
       "downtrend": false,
       "from_news": false
     },
@@ -139,7 +139,216 @@
   ],
   "trades": [],
   "news": {
-    "general": [],
-    "tickers": {}
+    "general": [
+      {
+        "title": "Großbritannien: „Die Menschen können das getrost vergessen“ – Burnham lehnt Neuwahlen trotz EU-Kurs ab",
+        "link": "https://www.handelsblatt.com/politik/international/grossbritannien-britischer-premier-plant-trotz-umstrittenem-eu-kurs-keine-neuwahl/100264930.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Marketing: Ein Plüschcroissant für den Nacken – und fertig ist der Hype",
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/marketing-wie-lidl-mit-einem-plueschcroissant-einen-hype-ausloest/100263538.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Philanthropie: Drei Gründe, warum das globale Geben an Grenzen stößt",
+        "link": "https://www.handelsblatt.com/meinung/kolumnen/philanthropie-warum-das-globale-geben-zunehmend-an-seine-grenzen-stoesst/100263988.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Gastronomie: Exklusive Top-Liste: Diese 20 deutschen Rieslinge gehören zur Weltspitze",
+        "link": "https://www.handelsblatt.com/arts_und_style/lifestyle/wein-diese-deutschen-rieslinge-zaehlen-zu-den-besten-der-welt/100263491.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "China: Machtpoker in China: Xi auf dem Weg zur nächsten Amtszeit?",
+        "link": "https://www.handelsblatt.com/politik/international/china-wie-xi-sich-fuer-das-naechste-jahrzehnt-absichert/100262220.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Südamerika: Lula bleibt Präsident von Brasilien – Bolsonaro will Wahl anfechten",
+        "link": "https://www.handelsblatt.com/video/politik/suedamerika-lula-bleibt-praesident-von-brasilien-bolsonaro-will-wahl-anfechten/100264933.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Serbien: Ende der Vucic-Ära: Studentenbewegung triumphiert bei Parlamentswahl",
+        "link": "https://www.handelsblatt.com/video/politik/serbien-ende-der-vucic-aera-studentenbewegung-triumphiert-bei-parlamentswahl/100264932.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Video: Obama wirft Trump Bereicherung auf Kosten der Amerikaner vor",
+        "link": "https://www.handelsblatt.com/video/politik/obama-wirft-trump-bereicherung-auf-kosten-der-amerikaner-vor/100264924.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Konjunktur: Ifo-Index steigt sechstes Mal in Folge – „Konjunkturbelebung setzt sich fort“",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-ifo-geschaeftsklima-steigt-sechsten-monat-in-folge/100264921.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Studentenbewegung triumphiert: Serbien steht nach Parlamentswahl vor einem Machtwechsel",
+        "link": "https://www.handelsblatt.com/politik/international/studentenbewegung-triumphiert-serbien-steht-nach-parlamentswahl-vor-einem-machtwechsel/100264844.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Bundespolitik: Juso-Chef Türmer spricht sich für eine Frau an der SPD-Spitze aus",
+        "link": "https://www.handelsblatt.com/politik/deutschland/spd-juso-chef-tuermer-spricht-sich-fuer-frau-an-der-parteispitze-aus/100264905.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Dax aktuell: Dax beginnt große Zahlenwoche leicht im Plus",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-beginnt-grosse-zahlenwoche-leicht-im-plus/100264883.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Elektromobilität: Fahrer verbrennt im Tesla Model Y – die Tür ging nicht auf",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/tesla-fahrer-verbrennt-im-model-y-die-tuer-ging-nicht-auf/100262851.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Nikkei, Yen, Hang Seng: Asiens Börsen geben etwa nach – Tech-Werte belasten und Ölpreis sinkt",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-geben-etwa-nach-tech-werte-belasten-und-oelpreis-sinkt/100264841.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Deutschland: Keine Angst vor 2033 – auch der Weltuntergang ist nicht mehr das, was er einmal war",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/deutschland-warum-die-zukunft-nicht-so-duester-sein-muss-wie-wir-glauben/100263609.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Pharma: Bayers Xarelto-Nachfolger Asundexian in China zugelassen",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharma-bayers-xarelto-nachfolger-asundexian-in-china-zugelassen/100264912.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Nach FCAS-Aus: Airbus prüft offenbar Beteiligung an neuem Kampfjet-Programm",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-airbus-erwaegt-offenbar-beteiligung-an-neuem-kampfjet-programm/100264792.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Sperren und Stummschalten: iPhone und iPad: 3 Tipps für mehr Sicherheit",
+        "link": "https://www.handelsblatt.com/technik/it-internet/sperren-und-stummschalten-iphone-und-ipad-3-tipps-fuer-mehr-sicherheit/100264917.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Rückenwind für Trump-Kritiker: Wie KI-Rechenzentren zum Streitthema der US-Midterms wurden",
+        "link": "https://www.handelsblatt.com/politik/international/rueckenwind-fuer-trump-kritiker-wie-ki-rechenzentren-zum-streitthema-der-us-midterms-wurden/100264913.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Wagniskapital: Revolut bietet Kunden jetzt Investments in junge Start-ups an",
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/geldanlage-revolut-ermoeglicht-kunden-jetzt-investitionen-in-junge-start-ups/100264587.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Daniel Stelter: Rot-Grün-Rot in Berlin – mehr Eingriffe, weniger Wohnungen",
+        "link": "https://www.handelsblatt.com/meinung/wirtschaftsforum/beyond-the-obvious-rot-gruen-rot-in-berlin-mehr-eingriffe-weniger-wohnungen/100264768.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Beyond the obvious: Wie die Politik den Berliner Wohnungsmarkt zerstört hat",
+        "link": "https://www.handelsblatt.com/audio/bto/beyond-the-obvious-wie-die-politik-den-berliner-wohnungsmarkt-zerstoert-hat/100264754.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Vertreter aus Saudi-Arabien, Türkei und Pakistan im Iran erwartet",
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-vertreter-aus-saudi-arabien-tuerkei-und-pakistan-im-iran-erwartet/100136895.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Autokonzern: Exklusive Auswertung: So läuft die Modelloffensive von Mercedes",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autobauer-so-laeuft-die-modelloffensive-von-mercedes/100263196.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Interview mit Christian Freuding: „Ich bin sicher, Russland orientiert sich nicht an unseren Planungszeiträumen“",
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundeswehr-modernitaet-bemisst-sich-nicht-mehr-in-der-dicke-des-panzerstahls/100262564.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Chinese Conglomerate Huafa Seeks to Extend Some Debt Payments",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/chinese-conglomerate-huafa-seeks-to-extend-some-debt-payments",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Audi Splits Logos for China as Carmaker Fights to Revive Sales",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/audi-splits-logos-for-china-as-carmaker-fights-to-revive-sales",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "AI Agents Seen Taking Credit Trading Work From Humans Over Time",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/ai-agents-seen-taking-credit-trading-work-from-humans-over-time",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Brazil Markets Set to Plunge on Lula’s Improbable Election Win",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/brazil-markets-brace-for-rout-on-lula-s-improbable-election-win",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "CoreWeave Rout Sends Warning Sign to Rest of the Stock Market",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/coreweave-rout-sends-warning-sign-to-rest-of-the-stock-market",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Turkey Raises Qualified-Investor Bar Fivefold After Fund Rout",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/turkey-raises-qualified-investor-bar-fivefold-after-fund-rout",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "India Opposition Leader Gandhi Acquitted in Defamation Case",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/india-s-opposition-leader-gandhi-acquitted-in-defamation-case",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Stocks Gain Before Tech Earnings as Oil Declines: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "French Markets Rebound After Nation Avoids Moody’s Downgrade",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/french-markets-rebound-after-nation-avoids-moody-s-downgrade",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "(USD:UGX) Shilling Freefall Has Uganda Tapping Meager Reserve War-Chest",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/-usd-ugx-shilling-freefall-has-uganda-tapping-meager-reserve-war-chest",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "BofA Sees Oil Around $120 If Iran Resumes Infrastructure Strikes",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-26/bofa-sees-oil-around-120-if-iran-resumes-strikes-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Brazil Braces for More Market Turbulence: Market Analysis",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-26/brazil-braces-for-more-market-turbulence-3-minutes-mliv-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Chinese Conglomerate Huafa’s Bonds Plunge in Biggest Daily Drop",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/chinese-conglomerate-huafa-s-bonds-plunge-in-biggest-daily-drop",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Ken Griffin’s Citadel Securities to Expand India Office",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-26/ken-griffin-s-citadel-securities-to-expand-india-office",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Horizons Middle East & Africa 10/26/2026 (Video)",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-26/horizons-middle-east-africa-10-26-2026-video",
+        "source": "Bloomberg Markets"
+      }
+    ],
+    "tickers": {
+      "NVDA": [],
+      "MSFT": [],
+      "AAPL": [],
+      "ASML": [],
+      "SAP.DE": [],
+      "URTH": []
+    },
+    "new_tickers": []
   }
 }
