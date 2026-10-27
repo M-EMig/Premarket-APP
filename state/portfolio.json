@@ -1,5 +1,5 @@
 {
-  "cash": 8019.278295898686,
+  "cash": 8024.467068726591,
   "positions": {
     "MSFT": {
       "shares": 1.919091055505937,
@@ -7,10 +7,10 @@
       "underwater": false,
       "opened": "2026-10-23"
     },
-    "AAPL": {
-      "shares": 2.919337180577671,
-      "avg_price": 343.9100036621094,
-      "underwater": true,
+    "NVDA": {
+      "shares": 4.63620949184343,
+      "avg_price": 216.82000732421875,
+      "underwater": false,
       "opened": "2026-10-27"
     }
   },
@@ -62,6 +62,22 @@
       "shares": 4.6576,
       "price": 217.22,
       "reason": "Break-even"
+    },
+    {
+      "time": "2026-10-27T14:44:02",
+      "side": "SELL",
+      "ticker": "AAPL",
+      "shares": 2.9193,
+      "price": 346.11,
+      "reason": "Break-even"
+    },
+    {
+      "time": "2026-10-27T14:44:02",
+      "side": "BUY",
+      "ticker": "NVDA",
+      "shares": 4.6362,
+      "price": 216.82,
+      "reason": "Einstieg"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-27T13:46:36.835687",
+  "generated": "2026-10-27T14:44:02.643546",
   "mode": "alerts",
   "depot": {
-    "value": 10039.9197984716,
+    "value": 10052.22975978105,
     "start": 10000.0,
-    "cash": 8019.278295898686,
+    "cash": 8024.467068726591,
     "positions": {
       "MSFT": {
         "shares": 1.919091055505937,
@@ -12,10 +12,10 @@
         "underwater": false,
         "opened": "2026-10-23"
       },
-      "AAPL": {
-        "shares": 2.919337180577671,
-        "avg_price": 343.9100036621094,
-        "underwater": true,
+      "NVDA": {
+        "shares": 4.63620949184343,
+        "avg_price": 216.82000732421875,
+        "underwater": false,
         "opened": "2026-10-27"
       }
     }
@@ -23,17 +23,17 @@
   "analyses": [
     {
       "ticker": "NVDA",
-      "price": 217.19500732421875,
-      "rsi": 31.249417899402857,
-      "drop20": -9.214595244429225,
-      "mom5": 0.3349222060457402,
+      "price": 216.85000610351562,
+      "rsi": 30.807886855392496,
+      "drop20": -9.358802405765786,
+      "mom5": 0.17554620994577608,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
         "RSI 31: überverkauft",
-        "-9.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-9.4 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 239.24000549316406,
       "downtrend": false,
@@ -41,10 +41,10 @@
     },
     {
       "ticker": "MSFT",
-      "price": 530.3599853515625,
-      "rsi": 50.34592651296221,
-      "drop20": -2.408690139192049,
-      "mom5": -0.2839058001932071,
+      "price": 532.8250122070312,
+      "rsi": 51.80921870372652,
+      "drop20": -1.9551016213708916,
+      "mom5": 0.1795583692652869,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -57,10 +57,10 @@
     },
     {
       "ticker": "AAPL",
-      "price": 343.510009765625,
-      "rsi": 60.16043968597485,
-      "drop20": -1.3525907295867556,
-      "mom5": 1.1811516246318154,
+      "price": 346.1099853515625,
+      "rsi": 63.31075923167156,
+      "drop20": -0.6059433294307803,
+      "mom5": 1.94697653948821,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -73,33 +73,34 @@
     },
     {
       "ticker": "ASML",
-      "price": 1608.4300537109375,
-      "rsi": 27.21073067019978,
-      "drop20": -13.863793197674523,
-      "mom5": -1.374133120296861,
-      "score": 1,
-      "rec": "HOLD",
+      "price": 1615.780029296875,
+      "rsi": 28.43068757383405,
+      "drop20": -13.470180173843193,
+      "mom5": -0.9234466188631996,
+      "score": 2,
+      "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "RSI 27: überverkauft",
-        "-13.9 % unter 20-Tage-Hoch (Rücksetzer)"
+        "SMA20 über SMA50",
+        "RSI 28: überverkauft",
+        "-13.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1867.31005859375,
-      "downtrend": true,
+      "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 214.1999969482422,
-      "rsi": 80.53768292926647,
-      "drop20": -0.53401863138125,
-      "mom5": 6.276355100444175,
+      "price": 213.25,
+      "rsi": 80.10335972884738,
+      "drop20": -0.9751595282083136,
+      "mom5": 5.805009561442498,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 81: überkauft"
+        "RSI 80: überkauft"
       ],
       "high20": 215.35000610351562,
       "downtrend": false,
@@ -107,10 +108,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 206.7550048828125,
-      "rsi": 43.22129931803033,
-      "drop20": -1.418486103719463,
-      "mom5": -0.3109879617420819,
+      "price": 206.99000549316406,
+      "rsi": 44.15047465630718,
+      "drop20": -1.3064369857397673,
+      "mom5": -0.19768004599119982,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -123,20 +124,27 @@
   ],
   "alerts": [
     {
-      "ticker": "NVDA",
+      "ticker": "AAPL",
       "action": "sell",
       "type": "Break-even",
-      "msg": "NVDA: war im Minus, jetzt +0.9 %. Ausstieg zum Ausgleich."
+      "msg": "AAPL: war im Minus, jetzt +0.6 %. Ausstieg zum Ausgleich."
     },
     {
-      "ticker": "AAPL",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "AAPL: -0.1 %, warte auf nächstes Plus."
+      "ticker": "NVDA",
+      "action": "buy",
+      "type": "Einstieg",
+      "msg": "NVDA: -9.4 % unter 20-Tage-Hoch (Kurs 216.85), möglicher Einstieg. Analyst: BUY."
+    },
+    {
+      "ticker": "ASML",
+      "action": "buy",
+      "type": "Einstieg",
+      "msg": "ASML: -13.5 % unter 20-Tage-Hoch (Kurs 1615.78), möglicher Einstieg. Analyst: BUY."
     }
   ],
   "trades": [
-    "VERKAUF NVDA: 4.66 Stk. zu 217.22, +0.9 % (Break-even)"
+    "VERKAUF AAPL: 2.92 Stk. zu 346.11, +0.6 % (Break-even)",
+    "KAUF NVDA: 4.64 Stk. zu 216.82 (Einstieg)"
   ],
   "news": {
     "general": [],
