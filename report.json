@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-27T14:44:02.643546",
+  "generated": "2026-10-27T15:42:53.609984",
   "mode": "alerts",
   "depot": {
-    "value": 10052.22975978105,
+    "value": 10060.56446571733,
     "start": 10000.0,
     "cash": 8024.467068726591,
     "positions": {
@@ -23,17 +23,17 @@
   "analyses": [
     {
       "ticker": "NVDA",
-      "price": 216.85000610351562,
-      "rsi": 30.807886855392496,
-      "drop20": -9.358802405765786,
-      "mom5": 0.17554620994577608,
+      "price": 218.08999633789062,
+      "rsi": 32.3689786598909,
+      "drop20": -8.840498524348083,
+      "mom5": 0.7483693389624957,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 31: überverkauft",
-        "-9.4 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 32: überverkauft",
+        "-8.8 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 239.24000549316406,
       "downtrend": false,
@@ -41,10 +41,10 @@
     },
     {
       "ticker": "MSFT",
-      "price": 532.8250122070312,
-      "rsi": 51.80921870372652,
-      "drop20": -1.9551016213708916,
-      "mom5": 0.1795583692652869,
+      "price": 534.1099853515625,
+      "rsi": 52.52934638027004,
+      "drop20": -1.718654272825848,
+      "mom5": 0.4211537133019583,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -57,10 +57,10 @@
     },
     {
       "ticker": "AAPL",
-      "price": 346.1099853515625,
-      "rsi": 63.31075923167156,
-      "drop20": -0.6059433294307803,
-      "mom5": 1.94697653948821,
+      "price": 347.25,
+      "rsi": 64.45355526149685,
+      "drop20": -0.2785598809094014,
+      "mom5": 2.2827687776141303,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -73,17 +73,17 @@
     },
     {
       "ticker": "ASML",
-      "price": 1615.780029296875,
-      "rsi": 28.43068757383405,
-      "drop20": -13.470180173843193,
-      "mom5": -0.9234466188631996,
+      "price": 1633.050048828125,
+      "rsi": 31.142353813291507,
+      "drop20": -12.545319331811644,
+      "mom5": 0.13551807989331532,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 28: überverkauft",
-        "-13.5 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 31: überverkauft",
+        "-12.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1867.31005859375,
       "downtrend": false,
@@ -91,10 +91,10 @@
     },
     {
       "ticker": "SAP.DE",
-      "price": 213.25,
-      "rsi": 80.10335972884738,
-      "drop20": -0.9751595282083136,
-      "mom5": 5.805009561442498,
+      "price": 214.0500030517578,
+      "rsi": 80.470373082053,
+      "drop20": -0.6036698467205559,
+      "mom5": 6.20193490981491,
       "score": 0,
       "rec": "HOLD",
       "why": [
@@ -108,10 +108,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 206.99000549316406,
-      "rsi": 44.15047465630718,
-      "drop20": -1.3064369857397673,
-      "mom5": -0.19768004599119982,
+      "price": 207.55999755859375,
+      "rsi": 46.28266750608356,
+      "drop20": -1.0346627631482752,
+      "mom5": 0.07714738033659518,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -124,28 +124,13 @@
   ],
   "alerts": [
     {
-      "ticker": "AAPL",
-      "action": "sell",
-      "type": "Break-even",
-      "msg": "AAPL: war im Minus, jetzt +0.6 %. Ausstieg zum Ausgleich."
-    },
-    {
-      "ticker": "NVDA",
-      "action": "buy",
-      "type": "Einstieg",
-      "msg": "NVDA: -9.4 % unter 20-Tage-Hoch (Kurs 216.85), möglicher Einstieg. Analyst: BUY."
-    },
-    {
       "ticker": "ASML",
       "action": "buy",
       "type": "Einstieg",
-      "msg": "ASML: -13.5 % unter 20-Tage-Hoch (Kurs 1615.78), möglicher Einstieg. Analyst: BUY."
+      "msg": "ASML: -12.5 % unter 20-Tage-Hoch (Kurs 1633.05), möglicher Einstieg. Analyst: BUY."
     }
   ],
-  "trades": [
-    "VERKAUF AAPL: 2.92 Stk. zu 346.11, +0.6 % (Break-even)",
-    "KAUF NVDA: 4.64 Stk. zu 216.82 (Einstieg)"
-  ],
+  "trades": [],
   "news": {
     "general": [],
     "tickers": {}
