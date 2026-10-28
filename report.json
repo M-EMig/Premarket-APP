@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T04:35:38.141981",
-  "mode": "report",
+  "generated": "2026-10-28T07:53:08.972089",
+  "mode": "alerts",
   "depot": {
-    "value": 10054.7583139309,
+    "value": 10054.787310287244,
     "start": 10000.0,
     "cash": 7018.985438062233,
     "positions": {
@@ -21,7 +21,7 @@
       "AAPL": {
         "shares": 2.8968067213588395,
         "avg_price": 347.1000061035156,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-10-28"
       }
     }
@@ -130,226 +130,21 @@
   ],
   "alerts": [
     {
+      "ticker": "AAPL",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "AAPL: -0.0 %, warte auf nächstes Plus."
+    },
+    {
       "ticker": "ASML",
       "action": "buy",
       "type": "Einstieg",
       "msg": "ASML: -12.3 % unter 20-Tage-Hoch (Kurs 1635.57), möglicher Einstieg. Analyst: BUY."
     }
   ],
-  "trades": [
-    "KAUF AAPL: 2.90 Stk. zu 347.10 (Analyst: BUY)"
-  ],
+  "trades": [],
   "news": {
-    "general": [
-      {
-        "title": "US-Kongresswahlen: „Blaue Welle“ bei den Midterms? Die Probleme der Demokraten",
-        "link": "https://www.handelsblatt.com/politik/international/us-kongresswahlen-blaue-welle-bei-den-midterms-die-probleme-der-demokraten/100265444.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Bilanz 2025/26: Extremes Niedrigwasser „lässt sich nicht wegbaggern“",
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/bilanz-2025-26-extremes-niedrigwasser-laesst-sich-nicht-wegbaggern/100265443.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Invest: Morgan-Stanley-Stratege: „Die Gewinne können nicht immer so stark wachsen“",
-        "link": "https://www.handelsblatt.com/finanzen/invest-morgan-stanley-stratege-die-gewinne-koennen-nicht-immer-so-stark-wachsen/100221419.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Invest: Morgan-Stanley-Stratege: „Die Gewinne können nicht immer so stark wachsen“",
-        "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-morgan-stanley-stratege-die-gewinne-koennen-nicht-immer-so-stark-wachsen/100265345.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Interbrand-Ranking: „Komplexe Transformation“ – Deutsche Autobauer verlieren ein Fünftel ihres Markenwerts",
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/interbrand-deutsche-autobauer-verlieren-ein-fuenftel-ihres-markenwerts/100263522.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Karriere: Jobwechsel in unsicheren Zeiten: Soll ich es wagen?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/karriere-jobwechsel-in-unsicheren-zeiten-soll-ich-es-wagen/100265436.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Schriftliche Zusage: Jobwechsel: Was ist eigentlich ein Letter of Intent?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/schriftliche-zusage-jobwechsel-was-ist-eigentlich-ein-letter-of-intent/100265435.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Gen-Z-Proteste: Verfassungsschutz sieht Gefahr der Radikalisierung von Schülerprotesten in Deutschland",
-        "link": "https://www.handelsblatt.com/politik/deutschland/gen-z-verfassungsschutz-warnt-vor-linksextremen-bei-schuelerprotesten/100265277.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Lage im Überblick: Netanjahu bei Wahl vorn - aber ohne Mehrheit",
-        "link": "https://www.handelsblatt.com/politik/international/lage-im-ueberblick-netanjahu-bei-wahl-vorn-aber-ohne-mehrheit/100265432.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Gastkommentar: Bessere Bildung: Nicht nur meckern, sondern machen",
-        "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-bessere-bildung-nicht-nur-meckern-sondern-machen/100261980.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Gastkommentar – Global Challenges: Der Autopakt von Berlin und Paris schadet der EU",
-        "link": "https://www.handelsblatt.com/meinung/global-challenges/gastkommentar-global-challenges-der-autopakt-von-berlin-und-paris-schadet-der-eu/100264820.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Rohstoffe: Warum die Kupferpreise Rekordhöhen erreichen",
-        "link": "https://www.handelsblatt.com/politik/deutschland/rohstoffe-warum-die-kupferpreise-rekordhoehen-erreichen/100265429.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Technologie: Chinas Chiphersteller suchen Abnehmer in der deutschen Autoindustrie",
-        "link": "https://www.handelsblatt.com/technik/it-internet/technologie-chinas-chiphersteller-suchen-abnehmer-in-der-deutschen-autoindustrie/100263325.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Gesundheitsgefahren: Hunderttausende Hitzetote – Notstand wegen Klimakrise?",
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/gesundheitsgefahren-hunderttausende-hitzetote-notstand-wegen-klimakrise/100265425.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "KI-Boom: Südkoreas Chipproduzent SK Hynix erzielt erneut Rekordgewinn",
-        "link": "https://www.handelsblatt.com/politik/deutschland/ki-boom-suedkoreas-chipproduzent-sk-hynix-erzielt-erneut-rekordgewinn/100265422.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Präsidentenwahl in Brasilien: Wahlverlierer Bolsonaro flieht offenbar – USA erteilen Visum",
-        "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-wahlverlierer-bolsonaro-flieht-offenbar-usa-erteilen-visum/100265419.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Chip-Hersteller: Nvidia-Zulieferer SK Hynix vervielfacht Gewinn – KI-Boom treibt an",
-        "link": "https://www.handelsblatt.com/technik/ki/chip-hersteller-nvidia-zulieferer-sk-hynix-vervielfacht-gewinn-ki-boom-treibt-an/100265416.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Umfrage: Umweltminister: Audi wettet „auf ein totes Pferd“",
-        "link": "https://www.handelsblatt.com/politik/deutschland/umfrage-umweltminister-audi-wettet-auf-ein-totes-pferd/100265413.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Banken: EZB gibt Intesa Sanpaolo grünes Licht für MPS-Übernahme",
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken-ezb-gibt-intesa-sanpaolo-gruenes-licht-fuer-mps-uebernahme/100265409.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Präsidentenwahl in Brasilien: US-Beamter: Stellen Visum für Flávio Bolsonaro aus",
-        "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-us-beamter-stellen-visum-fuer-flavio-bolsonaro-aus/100265403.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Schicksalswahl ohne Klarheit: Israels Wahl bringt keinen klaren Sieger - was nun?",
-        "link": "https://www.handelsblatt.com/politik/international/schicksalswahl-ohne-klarheit-israels-wahl-bringt-keinen-klaren-sieger-was-nun/100265133.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Knappe Wahl in Israel: Eisenkot: Will Netanjahu-Regierung ablösen",
-        "link": "https://www.handelsblatt.com/politik/international/knappe-wahl-in-israel-eisenkot-will-netanjahu-regierung-abloesen/100265301.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Kommentar: Israels Partner dürfen auf eine verlässlichere Regierung hoffen",
-        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-israels-partner-duerfen-auf-eine-verlaesslichere-regierung-hoffen/100265372.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Wahl in Israel: Erste Hochrechnung sieht Oppositionslager leicht vorn – Arabische Parteien gewinnen deutlich hinzu",
-        "link": "https://www.handelsblatt.com/politik/international/israel-erste-hochrechnung-sieht-oppositionslager-leicht-vorne/100264665.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Machtprobe: Trump will Bezeichnung KI in US-Dokumenten verbieten",
-        "link": "https://www.handelsblatt.com/technik/it-internet/machtprobe-trump-will-bezeichnung-ki-in-us-dokumenten-verbieten/100265395.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Tech Rally Deepens on Hynix Earnings, Oil Climbs: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-27/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Gold Slips to Near $4,000 as Focus Turns to Fed Rate Decision",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-27/gold-holds-above-4-000-as-traders-look-to-fed-rate-decision",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Fortescue Says Iron Ore Deal With China Must Protect Australia",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/fortescue-says-iron-ore-deal-with-china-must-protect-australia",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Hong Kong's Kevin Choi on Innovation",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-28/hong-kong-s-kevin-choi-on-innovation-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Regal's Poman Lo On Green Investing",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-28/regal-s-poman-lo-on-green-investing-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Traders Brace for Jio Debut",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-28/traders-brace-for-jio-debut-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "US, Australia Pledge to ‘Swiftly Execute’ Defense Collaboration",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/us-australia-pledge-to-swiftly-execute-defense-collaboration",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Dongshan Precision Shares Erase Losses in Hong Kong Debut",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-27/dongshan-precision-set-to-debut-after-1-3-billion-hk-listing",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "US-Friendly Nations Slash Treasury Purchases by 60%, Led by Asia",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/us-friendly-nations-slash-treasury-purchases-by-60-led-by-asia",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Jio Platforms Listing Live Updates: Ambani Firm's Trading Debut After Record IPO",
-        "link": "https://www.bloomberg.com/news/live-blog/2026-10-28/jio-platforms-trading-debut",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Chinese Government to Speed Bond Sales to Stimulate Growth",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/chinese-government-to-speed-bond-sales-to-stimulate-growth",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Latest Oil Market News and Analysis for Oct. 28",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-27/latest-oil-market-news-and-analysis-for-oct-28",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Jio Looks to Break India Mega-IPO Jinx With a Blockbuster Stock-Market Debut",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-10-28/jio-looks-to-break-india-mega-ipo-jinx-with-a-blockbuster-stock-market-debut",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "India’s Record Bank Cash Surplus Fades as RBI Curbs Rupee Bets",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/india-s-record-bank-cash-surplus-fades-as-rbi-curbs-rupee-bets",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "New Zealand Dollar Slides Most Versus Aussie Since 2017 on RBNZ",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-28/new-zealand-dollar-slides-most-versus-aussie-since-2017-on-rbnz",
-        "source": "Bloomberg Markets"
-      }
-    ],
-    "tickers": {
-      "NVDA": [],
-      "MSFT": [],
-      "AAPL": [],
-      "ASML": [],
-      "SAP.DE": [],
-      "URTH": []
-    },
-    "new_tickers": []
+    "general": [],
+    "tickers": {}
   }
 }
