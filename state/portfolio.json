@@ -10,7 +10,7 @@
     "NVDA": {
       "shares": 4.63620949184343,
       "avg_price": 216.82000732421875,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-10-27"
     },
     "AAPL": {
