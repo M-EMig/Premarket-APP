@@ -1,5 +1,5 @@
 {
-  "cash": 7018.985438062233,
+  "cash": 8032.824296003314,
   "positions": {
     "MSFT": {
       "shares": 1.919091055505937,
@@ -12,12 +12,6 @@
       "avg_price": 216.82000732421875,
       "underwater": true,
       "opened": "2026-10-27"
-    },
-    "AAPL": {
-      "shares": 2.8968067213588395,
-      "avg_price": 347.1000061035156,
-      "underwater": true,
-      "opened": "2026-10-28"
     }
   },
   "trades": [
@@ -92,6 +86,14 @@
       "shares": 2.8968,
       "price": 347.1,
       "reason": "Analyst: BUY"
+    },
+    {
+      "time": "2026-10-29T13:54:58",
+      "side": "SELL",
+      "ticker": "AAPL",
+      "shares": 2.8968,
+      "price": 349.98,
+      "reason": "Break-even"
     }
   ]
 }
