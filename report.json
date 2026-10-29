@@ -1,8 +1,8 @@
 {
-  "generated": "2026-10-28T12:42:14.089952",
-  "mode": "alerts",
+  "generated": "2026-10-29T04:38:43.008974",
+  "mode": "report",
   "depot": {
-    "value": 10054.787310287244,
+    "value": 10032.385652244613,
     "start": 10000.0,
     "cash": 7018.985438062233,
     "positions": {
@@ -15,7 +15,7 @@
       "NVDA": {
         "shares": 4.63620949184343,
         "avg_price": 216.82000732421875,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-10-27"
       },
       "AAPL": {
@@ -28,29 +28,11 @@
   },
   "analyses": [
     {
-      "ticker": "NVDA",
-      "price": 217.94000244140625,
-      "rsi": 32.18389844616938,
-      "drop20": -8.903194517091928,
-      "mom5": 0.679078492360885,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)",
-        "SMA20 über SMA50",
-        "RSI 32: überverkauft",
-        "-8.9 % unter 20-Tage-Hoch (Rücksetzer)"
-      ],
-      "high20": 239.24000549316406,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "MSFT",
-      "price": 531.3300170898438,
-      "rsi": 50.91545551412206,
-      "drop20": -2.2301950216113475,
-      "mom5": -0.10152443873521211,
+      "price": 531.010009765625,
+      "rsi": 55.3218574104465,
+      "drop20": -2.2890794299342376,
+      "mom5": -0.3640120831168381,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -63,10 +45,10 @@
     },
     {
       "ticker": "AAPL",
-      "price": 347.1000061035156,
-      "rsi": 64.30727935217249,
-      "drop20": -0.32163434416785375,
-      "mom5": 2.2385879539074116,
+      "price": 343.8299865722656,
+      "rsi": 54.74002769237034,
+      "drop20": -1.2607014625949375,
+      "mom5": -0.04651404594661068,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -78,29 +60,59 @@
       "from_news": false
     },
     {
-      "ticker": "ASML",
-      "price": 1635.5699462890625,
-      "rsi": 31.8436188671743,
-      "drop20": -12.294158404920951,
-      "mom5": 0.4230955771034939,
-      "score": 2,
-      "rec": "BUY",
+      "ticker": "NVDA",
+      "price": 215.3800048828125,
+      "rsi": 35.013891324502126,
+      "drop20": -9.973248646758337,
+      "mom5": -2.9688680009233526,
+      "score": 1,
+      "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 32: überverkauft",
-        "-12.3 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-10.0 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1864.8358154296875,
+      "high20": 239.24000549316406,
       "downtrend": false,
       "from_news": false
     },
     {
+      "ticker": "URTH",
+      "price": 208.07000732421875,
+      "rsi": 50.683098268594996,
+      "drop20": -0.7914883121805882,
+      "mom5": -0.20144762716651776,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)"
+      ],
+      "high20": 209.72999572753906,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "ASML",
+      "price": 1662.8499755859375,
+      "rsi": 38.430918035115425,
+      "drop20": -10.831293466830449,
+      "mom5": -0.6938492892595627,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "-10.8 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 1864.8358154296875,
+      "downtrend": true,
+      "from_news": false
+    },
+    {
       "ticker": "SAP.DE",
-      "price": 210.35000610351562,
-      "rsi": 80.4353178066902,
-      "drop20": -2.3218016523280594,
-      "mom5": 0.8147674367412927,
+      "price": 213.14999389648438,
+      "rsi": 80.05650817694303,
+      "drop20": -1.0215983954854124,
+      "mom5": 5.755391053875458,
       "score": 0,
       "rec": "HOLD",
       "why": [
@@ -111,40 +123,234 @@
       "high20": 215.35000610351562,
       "downtrend": false,
       "from_news": false
-    },
-    {
-      "ticker": "URTH",
-      "price": 207.58999633789062,
-      "rsi": 46.390384558501786,
-      "drop20": -1.0203592396142103,
-      "mom5": 0.0916115945023055,
-      "score": -1,
-      "rec": "HOLD",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)"
-      ],
-      "high20": 209.72999572753906,
-      "downtrend": true,
-      "from_news": false
     }
   ],
   "alerts": [
     {
+      "ticker": "NVDA",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "NVDA: -0.7 %, warte auf nächstes Plus."
+    },
+    {
       "ticker": "AAPL",
       "action": "info",
       "type": "Im Minus",
-      "msg": "AAPL: -0.0 %, warte auf nächstes Plus."
-    },
-    {
-      "ticker": "ASML",
-      "action": "buy",
-      "type": "Einstieg",
-      "msg": "ASML: -12.3 % unter 20-Tage-Hoch (Kurs 1635.57), möglicher Einstieg. Analyst: BUY."
+      "msg": "AAPL: -0.9 %, warte auf nächstes Plus."
     }
   ],
   "trades": [],
   "news": {
-    "general": [],
-    "tickers": {}
+    "general": [
+      {
+        "title": "Nikkei, Topix, Kospi: Asiatische Aktien geben nach – Anleger vor Quartalsergebnissen vorsichtig",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-topix-kospi-asiatische-aktien-geben-nach-anleger-vor-quartalsergebnissen-vorsichtig/100265771.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Vor den Midterms: Schlappe für Trump im Streit um 20.000 Wähler in Kalifornien",
+        "link": "https://www.handelsblatt.com/politik/international/vor-den-midterms-schlappe-fuer-trump-im-streit-um-20000-waehler-in-kalifornien/100265777.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Alles Zucker?: Kraftstoff oder Kalorienfalle? Kohlenhydrate verstehen",
+        "link": "https://www.handelsblatt.com/technik/medizin/alles-zucker-kraftstoff-oder-kalorienfalle-kohlenhydrate-verstehen/100265776.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Demonstrationen am 31. Oktober: „Gen Z regelt“: Was vom Protest-Samstag zu erwarten ist",
+        "link": "https://www.handelsblatt.com/politik/deutschland/demonstrationen-am-31-oktober-gen-z-regelt-was-vom-protest-samstag-zu-erwarten-ist/100265774.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "4 Schritte gegen Überlastung: Aufgabenflut: So entgehen Sie dem Burnout zum Jahresende",
+        "link": "https://www.handelsblatt.com/politik/deutschland/4-schritte-gegen-ueberlastung-aufgabenflut-so-entgehen-sie-dem-burnout-zum-jahresende/100265770.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: Finnische Außenministerin plant Gespräch mit Rubio über Ukraine",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-finnische-aussenministerin-plant-gespraech-mit-rubio-ueber-ukraine/27982126.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Brief an Innenminister: Angriffe auf Geschäfte? Verbände fordern Polizeipräsenz",
+        "link": "https://www.handelsblatt.com/politik/deutschland/brief-an-innenminister-angriffe-auf-geschaefte-verbaende-fordern-polizeipraesenz/100265765.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Cyber-Sicherheit: Report: Cyberkriminelle nehmen Rechtssektor ins Visier",
+        "link": "https://www.handelsblatt.com/technik/it-internet/cyber-sicherheit-report-cyberkriminelle-nehmen-rechtssektor-ins-visier/100265763.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Tankstellen: Was macht der Spritpreisdeckel? SPD fordert Tempo von Reiche",
+        "link": "https://www.handelsblatt.com/politik/deutschland/tankstellen-was-macht-der-spritpreisdeckel-spd-fordert-tempo-von-reiche/100265764.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "+++ USA +++: Aktivisten nehmen bei Hackerangriff ICE-Beamte ins Visier",
+        "link": "https://www.handelsblatt.com/politik/international/usa-aktivisten-nehmen-bei-hackerangriff-ice-beamte-ins-visier/29669594.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Energie: Neues Flüssiggas-Schiff soll Versorgung in Deutschland sichern",
+        "link": "https://www.handelsblatt.com/politik/deutschland/energie-neues-fluessiggas-schiff-soll-versorgung-in-deutschland-sichern/100262873.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Wall Street: Warum sich Anleger mit weniger Wachstum zufriedengeben müssen",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/wall-street-warum-sich-anleger-mit-weniger-wachstum-zufriedengeben-muessen/100265278.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Spritpreise: Diese Grafiken zeigen, wie viel vom Tankrabatt bei Ihnen ankommt",
+        "link": "https://www.handelsblatt.com/politik/spritpreise-diese-grafiken-zeigen-wie-viel-vom-tankrabatt-bei-ihnen-ankommt/100263312.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Deep Read: Showdown im italienischen Bankenpoker – Intesa Sanpaolo greift nach der ältesten Bank der Welt",
+        "link": "https://www.handelsblatt.com/finanzen/italien-intesa-sanpaolo-greift-nach-der-aeltesten-bank-der-welt/100263246.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Autoindustrie: Audis wackeliger US-Deal – VW-Aufsichtsrat liegen keine bindenden Zusagen vor",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-vw-aufsichtsrat-fehlen-bindende-zusagen-fuer-audis-us-deal/100265664.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Monatswechsel: Bahn, Kredite, Weihnachtsmarkt – was sich im November ändert",
+        "link": "https://www.handelsblatt.com/politik/deutschland/monatswechsel-bahn-kredite-weihnachtsmarkt-was-sich-im-november-aendert/100265761.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Truth Social: Wall-Street-Firmen kaufen offenbar schnelleren Zugang zu Trumps Posts",
+        "link": "https://www.handelsblatt.com/politik/international/truth-social-wall-street-firmen-kaufen-offenbar-schnelleren-zugang-zu-trumps-posts/100265756.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Integration oder Ausreise?: Wieder mehr Geduldete in Deutschland - Zahl steigt stetig an",
+        "link": "https://www.handelsblatt.com/politik/deutschland/integration-oder-ausreise-wieder-mehr-geduldete-in-deutschland-zahl-steigt-stetig-an/100265757.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Ringen um Parlamentsmehrheit: Wahl-Patt in Israel: Netanjahu und Eisenkot suchen Partner",
+        "link": "https://www.handelsblatt.com/politik/international/ringen-um-parlamentsmehrheit-wahl-patt-in-israel-netanjahu-und-eisenkot-suchen-partner/100265753.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Diplomatie: Medien: Vance lotet mit Iran Chance auf Verhandlungen aus",
+        "link": "https://www.handelsblatt.com/politik/international/diplomatie-medien-vance-lotet-mit-iran-chance-auf-verhandlungen-aus/100265752.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Tech-Konzern: Samsung erzielt Rekordgewinn dank KI-Boom",
+        "link": "https://www.handelsblatt.com/technik/it-internet/tech-konzern-samsung-erzielt-rekordgewinn-dank-ki-boom/100265748.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Globale KI-Nachfrage: Samsung erzielt Rekordgewinn dank KI-Boom",
+        "link": "https://www.handelsblatt.com/politik/deutschland/globale-ki-nachfrage-samsung-erzielt-rekordgewinn-dank-ki-boom/100265750.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Präsidentenwahl in Brasilien: Wahlverlierer Bolsonaro will Opposition von USA aus anführen",
+        "link": "https://www.handelsblatt.com/politik/international/praesidentenwahl-in-brasilien-wahlverlierer-bolsonaro-will-opposition-von-usa-aus-anfuehren/100265745.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Internet-Riese: Langsameres Wachstum in Google-Kerngeschäft alarmiert Börse",
+        "link": "https://www.handelsblatt.com/technik/it-internet/internet-riese-langsameres-wachstum-in-google-kerngeschaeft-alarmiert-boerse/100265714.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "EU-Kanada-Gipfel: Kanada wird vorerst kein assoziiertes EU-Mitglied",
+        "link": "https://www.handelsblatt.com/politik/international/eu-kanada-gipfel-kanada-wird-vorerst-kein-assoziiertes-eu-mitglied/100265737.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Chinese Tech Stocks Sink Even as Chipmaker Sales Surge 1,800%",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/chinese-tech-stocks-sink-even-as-chipmaker-sales-surge-1-800",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Henderson Land: HK Home Market Resilient to High Rates",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-29/henderson-land-hk-home-market-resilient-to-high-rates-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Japan 2-Year Bond Sale Sees Firm Demand Before BOJ Decision",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/japan-s-two-year-bond-sale-demand-stronger-than-12-month-average",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Tech Rally Stalls as Alphabet, Samsung Disappoint: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-28/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-28/oil-declines-as-traders-parse-signs-of-fresh-diplomacy-on-iran",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "HK Dollar Peg Architect Says Narrower Band May Ease Speculation",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/hk-dollar-peg-architect-says-narrower-band-may-ease-speculation",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Prediction Markets Avoid Australia’s Tough Line on Gambling",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/prediction-markets-avoid-australia-s-tough-line-on-gambling",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Anthropic’s IPO Plans Draw Skepticism From Australian CIOs",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-s-ipo-plans-draw-skepticism-from-australian-cios",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Fed's Warsh on Why He Watches Korea's Economy Closely",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-29/fed-s-warsh-on-why-he-watches-korea-s-economy-closely-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Biggest Pharmacy Chain in Malaysia Plans $565 Million Share Sale",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/biggest-pharmacy-chain-in-malaysia-plans-565-million-share-sale",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Gold Dips to Near $4,000 as Fed Holds Rates With Little Guidance",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-28/gold-edges-lower-after-fed-holds-rates-with-limited-guidance",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Iron Ore’s Drop Below $90 Tests High-Cost Supply as Losses Mount",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/iron-ore-s-drop-below-90-tests-high-cost-supply-as-losses-mount",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "CLSA Analyst: Samsung Shares Fell on Lack of Buybacks",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-29/clsa-analyst-samsung-shares-fell-on-lack-of-buybacks-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Indonesia’s Wealth Fund CIO Owns Stake in Sanctioned Brokerage",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/indonesia-s-wealth-fund-cio-owns-stake-in-sanctioned-brokerage",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Jio Breaks the Mega-IPO Jinx With Record Delivery Volumes to Boot",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-10-29/jio-breaks-the-mega-ipo-jinx-with-record-delivery-volumes-to-boot",
+        "source": "Bloomberg Markets"
+      }
+    ],
+    "tickers": {
+      "NVDA": [],
+      "MSFT": [],
+      "AAPL": [],
+      "ASML": [],
+      "SAP.DE": [],
+      "URTH": []
+    },
+    "new_tickers": []
   }
 }
