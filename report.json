@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-29T13:54:58.152767",
-  "mode": "alerts",
+  "generated": "2026-10-30T04:38:23.931818",
+  "mode": "report",
   "depot": {
-    "value": 10031.06219107375,
+    "value": 10041.704785164013,
     "start": 10000.0,
-    "cash": 8032.824296003314,
+    "cash": 7028.662451125744,
     "positions": {
       "MSFT": {
         "shares": 1.919091055505937,
@@ -17,23 +17,29 @@
         "avg_price": 216.82000732421875,
         "underwater": true,
         "opened": "2026-10-27"
+      },
+      "AAPL": {
+        "shares": 2.877996716454189,
+        "avg_price": 348.9100036621094,
+        "underwater": false,
+        "opened": "2026-10-30"
       }
     }
   },
   "analyses": [
     {
       "ticker": "NVDA",
-      "price": 212.52999877929688,
-      "rsi": 33.903507382759756,
-      "drop20": -11.164523533097137,
-      "mom5": 0.15079028099798109,
+      "price": 213.66000366210938,
+      "rsi": 34.65618236214618,
+      "drop20": -10.692192461007776,
+      "mom5": 0.6832839651135236,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 34: überverkauft",
-        "-11.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 35: überverkauft",
+        "-10.7 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 239.24000549316406,
       "downtrend": false,
@@ -41,10 +47,10 @@
     },
     {
       "ticker": "MSFT",
-      "price": 527.9249877929688,
-      "rsi": 44.86302752438508,
-      "drop20": -2.8567529791770685,
-      "mom5": 1.3136122051567334,
+      "price": 530.1400146484375,
+      "rsi": 46.33893403799172,
+      "drop20": -2.4491668524469934,
+      "mom5": 1.7386960277602892,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -57,31 +63,46 @@
     },
     {
       "ticker": "AAPL",
-      "price": 350.0050048828125,
-      "rsi": 67.41821143798961,
+      "price": 348.9100036621094,
+      "rsi": 66.46095067155886,
       "drop20": 0.0,
-      "mom5": 0.5126080224719942,
+      "mom5": 0.19815129486744354,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 350.0050048828125,
+      "high20": 348.9100036621094,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "URTH",
+      "price": 207.97000122070312,
+      "rsi": 45.657047379003714,
+      "drop20": -0.8391715742570027,
+      "mom5": 0.8730674044449493,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)"
+      ],
+      "high20": 209.72999572753906,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "ASML",
-      "price": 1655.6400146484375,
-      "rsi": 36.367781283180534,
-      "drop20": -11.217920583161256,
-      "mom5": 6.234806048873631,
+      "price": 1675.699951171875,
+      "rsi": 38.744493723462675,
+      "drop20": -10.142226071212201,
+      "mom5": 7.52195992717164,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-11.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-10.1 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1864.8358154296875,
       "downtrend": true,
@@ -89,34 +110,19 @@
     },
     {
       "ticker": "SAP.DE",
-      "price": 209.0500030517578,
-      "rsi": 73.9450118314877,
-      "drop20": -2.9254714990486153,
-      "mom5": -2.9254714990486153,
+      "price": 211.1999969482422,
+      "rsi": 82.0859524457718,
+      "drop20": -1.9270996227780834,
+      "mom5": 1.2221438420088937,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 74: überkauft"
+        "RSI 82: überkauft"
       ],
       "high20": 215.35000610351562,
       "downtrend": false,
-      "from_news": false
-    },
-    {
-      "ticker": "URTH",
-      "price": 207.61000061035156,
-      "rsi": 44.46858229769806,
-      "drop20": -1.0108211321100624,
-      "mom5": 0.6984539235559639,
-      "score": -1,
-      "rec": "HOLD",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)"
-      ],
-      "high20": 209.72999572753906,
-      "downtrend": true,
       "from_news": false
     }
   ],
@@ -125,20 +131,223 @@
       "ticker": "NVDA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "NVDA: -2.0 %, warte auf nächstes Plus."
-    },
-    {
-      "ticker": "AAPL",
-      "action": "sell",
-      "type": "Break-even",
-      "msg": "AAPL: war im Minus, jetzt +0.8 %. Ausstieg zum Ausgleich."
+      "msg": "NVDA: -1.4 %, warte auf nächstes Plus."
     }
   ],
   "trades": [
-    "VERKAUF AAPL: 2.90 Stk. zu 349.98, +0.8 % (Break-even)"
+    "KAUF AAPL: 2.88 Stk. zu 348.91 (Analyst: BUY)"
   ],
   "news": {
-    "general": [],
-    "tickers": {}
+    "general": [
+      {
+        "title": "Lkw-Fahrer vor Gericht: Gilt das Verlassen eines Kreisverkehrs als Abbiegen?",
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/lkw-fahrer-vor-gericht-gilt-das-verlassen-eines-kreisverkehrs-als-abbiegen/100266062.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Inflation: Japans Notenbank hält Zinsen stabil – Inflationsrisiken im Blick",
+        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-japans-notenbank-haelt-zinsen-stabil-inflationsrisiken-im-blick/100266049.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Die Lage im Überblick: Waffenruhe für Oleschky: Hilfstransporte sollen anlaufen",
+        "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-waffenruhe-fuer-oleschky-hilfstransporte-sollen-anlaufen/100266057.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Steigende Preise: Kaum Rücklagen für Krisen: Vielen reicht das Geld nicht",
+        "link": "https://www.handelsblatt.com/politik/deutschland/steigende-preise-kaum-ruecklagen-fuer-krisen-vielen-reicht-das-geld-nicht/100266055.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Wachsende Defizite: Krankenhäuser fürchten neue Milliardenlöcher und Pleiten",
+        "link": "https://www.handelsblatt.com/politik/deutschland/wachsende-defizite-krankenhaeuser-fuerchten-neue-milliardenloecher-und-pleiten/100266056.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Diebstahl: Möglicher Hackerangriff auf Kryptowährungsbörse Binance",
+        "link": "https://www.handelsblatt.com/finanzen/diebstahl-moeglicher-hackerangriff-auf-kryptowaehrungsboerse-binance/100266046.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "65 Jahre Anwerbeabkommen: Abenteuer Almanya - Als die ersten Türken kamen",
+        "link": "https://www.handelsblatt.com/politik/deutschland/65-jahre-anwerbeabkommen-abenteuer-almanya-als-die-ersten-tuerken-kamen/100266047.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Konjunktur und Märkte: Wie steht es um die US‑Wirtschaft? Drei Grafiken zeigen Warnsignale",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-wie-geht-es-der-us-wirtschaft-drei-charts-zeigen-warnsignale/100261981.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Immobilien: Speckgürtel Frankfurt – hier lohnt sich der Kauf für Pendler noch",
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-umland-frankfurt-hier-lohnt-sich-der-kauf-fuer-pendler-noch/100262240.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Immobilien: Haussanierung – diese Maßnahmen bringen den größten Effekt",
+        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-haussanierung-diese-massnahmen-bringen-den-groessten-effekt/100263443.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Social Media: Unternehmer wehrt sich gegen Influencer – und erhält Morddrohungen",
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/social-media-unternehmer-klagt-gegen-influencer-und-erhaelt-morddrohungen/100265585.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Kommentar: Berlin droht der politische Totalschaden",
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-berlin-droht-der-politische-totalschaden/100266020.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Jensen Huang: „Deutschland bleibt weit hinter seinem Potenzial zurück“",
+        "link": "https://www.handelsblatt.com/technik/it-internet/jensen-huang-deutschland-bleibt-weit-hinter-seinem-potenzial-zurueck/100265111.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Metall- und Elektroindustrie: IG Metall startet Warnstreiks am Sonntag",
+        "link": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-ig-metall-startet-warnstreiks-am-sonntag/100266042.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Vor dem Protesttag: Prien bietet jungen Leuten Dialog über Probleme an",
+        "link": "https://www.handelsblatt.com/politik/deutschland/vor-dem-protesttag-prien-bietet-jungen-leuten-dialog-ueber-probleme-an/100266040.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Metall- und Elektroindustrie: Was bei den Warnstreiks der Metaller gilt",
+        "link": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-was-bei-den-warnstreiks-der-metaller-gilt/100266041.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Börse im Blick: Quartalszahlen aus zwei mutmaßlich unattraktiven Branchen überraschen",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-zahlen-aus-zwei-mutmasslich-unattraktiven-branchen-ueberraschen/100265551.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Jugendproteste: Jugendforscher über Proteste der Gen Z: „Sauer sein allein reicht nicht“",
+        "link": "https://www.handelsblatt.com/politik/deutschland/jugendproteste-sauer-sein-allein-reicht-nicht/100265361.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Deutschland: Der letzte Optimist – dieser Merz-Berater hat ein Rezept für bessere Stimmung im Land",
+        "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-das-buergertum-seinen-steten-abstieg-aufhalten-koennte/100264898.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Indoorsport: Der Zauber des Indoor-Ruderns",
+        "link": "https://www.handelsblatt.com/meinung/kolumnen/indoorsport-der-zauber-des-indoor-ruderns/100264278.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Nachfolge: Erster Job: Chefin – warum diese Frau für Unternehmensnachfolge wirbt",
+        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/nachfolge-warum-diese-frau-fuer-unternehmensnachfolge-wirbt/100263818.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Pfeifer & Langen: Die süßen Jahre sind vorbei – Wie Chio-Chips und Ültje die Zuckerdynastie durch die Krise retten",
+        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/pfeifer-langen-chips-und-ueltje-retten-die-zuckerdynastie-durch-die-krise/100263452.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Deep Read: \"Eine besondere Form des Staatskapitalismus\" - Wie der Trumpismus ökonomisch wankt",
+        "link": "https://www.handelsblatt.com/politik/international/us-wahlen-der-trumpismus-wankt-oekonomisch-und-politisch/100262692.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Polestar 3 im Test: Der wilde Volvo-Bruder (fast) ohne Tempolimit",
+        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/polestar-3-im-test-der-wilde-volvo-bruder-fast-ohne-tempolimit/100262171.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Geldanlage: So investiert die Rolex-Familie ihr Vermögen",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-so-investiert-die-rolex-familie-ihr-vermoegen/100247042.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Big Tech Earnings Stoke Fresh Unease Across Asian Chip Stocks",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-deepening-ai-funding-concerns-sink-asian-chip-stocks",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Yen Extends Gains Against Dollar After BOJ Keeps Rates Steady",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/yen-holds-gains-against-dollar-after-boj-keeps-rates-steady",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Stocks Drop, Bonds Gain as Tech Results Underwhelm: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Iron Ore Heads for Lowest Month-End Close Since October 2022",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/iron-ore-heads-for-lowest-month-end-close-since-october-2022",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Chinese Investors Seek Shelter in Long-Bond ETFs as Stocks Sink",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/chinese-investors-seek-shelter-in-long-bond-etfs-as-stocks-sink",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "African Export-Import Bank Mulls First Offshore Yuan Loan",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/african-export-import-bank-mulls-first-offshore-yuan-loan",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Taiwan Stocks Heads for Correction as Global AI Selloff Deepens",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/taiwan-stocks-heads-for-correction-as-global-ai-selloff-deepens",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Chinese Conglomerate Huafa Faces Risk of Downgrade by Fitch",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/zhuhai-huafa-put-on-negative-watch-by-fitch-on-refinancing-risk",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Chinese Junk Dollar Bonds Head for Worst Week in a Year on Huafa",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/chinese-junk-dollar-bonds-head-for-worst-week-in-a-year-on-huafa",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Binance Freezes Assets After Suspected Hack",
+        "link": "https://www.bloomberg.com/news/videos/2026-10-30/the-asia-trade-10-30-2026-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Treasuries Extend Rally With Global Peers as Risk-Off Haven",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Copper Declines as Tech Selloff, Oil Rally Dent Risk Appetite",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/copper-declines-as-tech-selloff-oil-rally-dent-risk-appetite",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "US-Owned Startup Plans $600 Million Malaysia Rare-Earth Refinery",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-30/us-owned-startup-plans-600-million-malaysia-rare-earth-refinery",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Prabowo’s Brother Sounds Alarm Over Indonesian Stock Market",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/prabowo-s-own-brother-sounds-alarm-over-indonesian-stock-market",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Latest Oil Market News and Analysis for Oct. 30",
+        "link": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
+        "source": "Bloomberg Markets"
+      }
+    ],
+    "tickers": {
+      "NVDA": [],
+      "MSFT": [],
+      "AAPL": [],
+      "ASML": [],
+      "SAP.DE": [],
+      "URTH": []
+    },
+    "new_tickers": []
   }
 }
