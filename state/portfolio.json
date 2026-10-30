@@ -4,7 +4,7 @@
     "MSFT": {
       "shares": 1.919091055505937,
       "avg_price": 521.0800170898438,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-10-23"
     },
     "NVDA": {
