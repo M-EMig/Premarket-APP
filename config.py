@@ -1,6 +1,6 @@
 """Einstellungen. Hier passt du alles an."""
 
-WATCHLIST = ["NVDA", "MSFT", "AAPL", "ASML", "SAP.DE", "URTH"]
+WATCHLIST = ["NVDA", "MSFT", "AAPL", "ASML", "SAP.DE", "URTH", "TSLA", "MU", "NKE"]
 
 FEEDS = [
     # Deutsch
