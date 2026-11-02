@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-30T04:38:23.931818",
+  "generated": "2026-11-02T04:51:25.225518",
   "mode": "report",
   "depot": {
-    "value": 10041.704785164013,
+    "value": 9972.107653423001,
     "start": 10000.0,
-    "cash": 7028.662451125744,
+    "cash": 6031.454182424626,
     "positions": {
       "MSFT": {
         "shares": 1.919091055505937,
         "avg_price": 521.0800170898438,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-10-23"
       },
       "NVDA": {
@@ -21,36 +21,24 @@
       "AAPL": {
         "shares": 2.877996716454189,
         "avg_price": 348.9100036621094,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-10-30"
+      },
+      "TSLA": {
+        "shares": 2.494205434557632,
+        "avg_price": 399.80999755859375,
+        "underwater": false,
+        "opened": "2026-11-02"
       }
     }
   },
   "analyses": [
     {
-      "ticker": "NVDA",
-      "price": 213.66000366210938,
-      "rsi": 34.65618236214618,
-      "drop20": -10.692192461007776,
-      "mom5": 0.6832839651135236,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)",
-        "SMA20 über SMA50",
-        "RSI 35: überverkauft",
-        "-10.7 % unter 20-Tage-Hoch (Rücksetzer)"
-      ],
-      "high20": 239.24000549316406,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "MSFT",
-      "price": 530.1400146484375,
-      "rsi": 46.33893403799172,
-      "drop20": -2.4491668524469934,
-      "mom5": 1.7386960277602892,
+      "price": 521.9099731445312,
+      "rsi": 36.15426037961595,
+      "drop20": -3.9635732042810567,
+      "mom5": -0.4957077220043127,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -63,10 +51,10 @@
     },
     {
       "ticker": "AAPL",
-      "price": 348.9100036621094,
-      "rsi": 66.46095067155886,
-      "drop20": 0.0,
-      "mom5": 0.19815129486744354,
+      "price": 344.6300048828125,
+      "rsi": 54.91671620375115,
+      "drop20": -1.226677003919241,
+      "mom5": -0.8914980029254727,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -78,50 +66,116 @@
       "from_news": false
     },
     {
-      "ticker": "URTH",
-      "price": 207.97000122070312,
-      "rsi": 45.657047379003714,
-      "drop20": -0.8391715742570027,
-      "mom5": 0.8730674044449493,
-      "score": 1,
-      "rec": "HOLD",
+      "ticker": "TSLA",
+      "price": 399.80999755859375,
+      "rsi": 59.705883392913336,
+      "drop20": -1.8774834479246771,
+      "mom5": 7.4122820502414255,
+      "score": 2,
+      "rec": "BUY",
       "why": [
-        "Kurs über SMA50 (Aufwärtstrend)"
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50"
       ],
-      "high20": 209.72999572753906,
+      "high20": 407.4599914550781,
       "downtrend": false,
       "from_news": false
     },
     {
-      "ticker": "ASML",
-      "price": 1675.699951171875,
-      "rsi": 38.744493723462675,
-      "drop20": -10.142226071212201,
-      "mom5": 7.52195992717164,
-      "score": 0,
+      "ticker": "NVDA",
+      "price": 204.63999938964844,
+      "rsi": 30.969086205497078,
+      "drop20": -14.46246668996347,
+      "mom5": -2.9958319696068325,
+      "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-10.1 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 31: überverkauft",
+        "-14.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1864.8358154296875,
+      "high20": 239.24000549316406,
+      "downtrend": true,
+      "from_news": false
+    },
+    {
+      "ticker": "ASML",
+      "price": 1565.9000244140625,
+      "rsi": 32.95850702733614,
+      "drop20": -15.694418338711479,
+      "mom5": -0.243941663033731,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "RSI 33: überverkauft",
+        "-15.7 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 1857.40966796875,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 211.1999969482422,
-      "rsi": 82.0859524457718,
-      "drop20": -1.9270996227780834,
-      "mom5": 1.2221438420088937,
+      "price": 211.25,
+      "rsi": 73.17139837994853,
+      "drop20": -1.9038801891395396,
+      "mom5": -1.4692136129468514,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 82: überkauft"
+        "RSI 73: überkauft"
       ],
       "high20": 215.35000610351562,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "MU",
+      "price": 884.739990234375,
+      "rsi": 39.132708763261846,
+      "drop20": -18.669192842412286,
+      "mom5": 0.8193268237048246,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "-18.7 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 1087.828857421875,
+      "downtrend": true,
+      "from_news": false
+    },
+    {
+      "ticker": "URTH",
+      "price": 204.63999938964844,
+      "rsi": 37.07060125252128,
+      "drop20": -2.4269281655367347,
+      "mom5": -0.24859591616330778,
+      "score": -1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)"
+      ],
+      "high20": 209.72999572753906,
+      "downtrend": true,
+      "from_news": false
+    },
+    {
+      "ticker": "NKE",
+      "price": 38.66999816894531,
+      "rsi": 71.55844812108745,
+      "drop20": 0.0,
+      "mom5": 3.6729194635574114,
+      "score": -1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "RSI 72: überkauft"
+      ],
+      "high20": 38.66999816894531,
       "downtrend": false,
       "from_news": false
     }
@@ -131,212 +185,218 @@
       "ticker": "NVDA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "NVDA: -1.4 %, warte auf nächstes Plus."
+      "msg": "NVDA: -5.5 %, warte auf nächstes Plus."
+    },
+    {
+      "ticker": "AAPL",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "AAPL: -1.2 %, warte auf nächstes Plus."
     }
   ],
   "trades": [
-    "KAUF AAPL: 2.88 Stk. zu 348.91 (Analyst: BUY)"
+    "KAUF TSLA: 2.49 Stk. zu 399.81 (Analyst: BUY)"
   ],
   "news": {
     "general": [
       {
-        "title": "Lkw-Fahrer vor Gericht: Gilt das Verlassen eines Kreisverkehrs als Abbiegen?",
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/lkw-fahrer-vor-gericht-gilt-das-verlassen-eines-kreisverkehrs-als-abbiegen/100266062.html",
+        "title": "Nikkei, Yen, Hang Seng: Asiens Börsen stabilisieren sich – Ölpreise geben nach",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-asiens-boersen-stabilisieren-sich-oelpreise-geben-nach/100266505.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Inflation: Japans Notenbank hält Zinsen stabil – Inflationsrisiken im Blick",
-        "link": "https://www.handelsblatt.com/finanzen/geldpolitik/inflation-japans-notenbank-haelt-zinsen-stabil-inflationsrisiken-im-blick/100266049.html",
+        "title": "Steinmeier-Nachfolge: SPD nominiert Michel Friedman für die Bundesversammlung",
+        "link": "https://www.handelsblatt.com/politik/deutschland/steinmeier-nachfolge-spd-nominiert-michel-friedman-fuer-die-bundesversammlung/100266516.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Die Lage im Überblick: Waffenruhe für Oleschky: Hilfstransporte sollen anlaufen",
-        "link": "https://www.handelsblatt.com/politik/international/die-lage-im-ueberblick-waffenruhe-fuer-oleschky-hilfstransporte-sollen-anlaufen/100266057.html",
+        "title": "Verfassungsrecht: Was das Grundgesetz zur Vergesellschaftung sagt",
+        "link": "https://www.handelsblatt.com/politik/deutschland/verfassungsrecht-was-das-grundgesetz-zur-vergesellschaftung-sagt/100266518.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Steigende Preise: Kaum Rücklagen für Krisen: Vielen reicht das Geld nicht",
-        "link": "https://www.handelsblatt.com/politik/deutschland/steigende-preise-kaum-ruecklagen-fuer-krisen-vielen-reicht-das-geld-nicht/100266055.html",
+        "title": "Herpes zoster: Später Gruß der Windpocken: 8 Fragen zur Gürtelrose",
+        "link": "https://www.handelsblatt.com/technik/medizin/herpes-zoster-spaeter-gruss-der-windpocken-8-fragen-zur-guertelrose/100266519.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Wachsende Defizite: Krankenhäuser fürchten neue Milliardenlöcher und Pleiten",
-        "link": "https://www.handelsblatt.com/politik/deutschland/wachsende-defizite-krankenhaeuser-fuerchten-neue-milliardenloecher-und-pleiten/100266056.html",
+        "title": "Tipps für Männer: Wechseljahre: Wie unterstütze ich meine Partnerin?",
+        "link": "https://www.handelsblatt.com/technik/medizin/tipps-fuer-maenner-wechseljahre-wie-unterstuetze-ich-meine-partnerin/100266517.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Diebstahl: Möglicher Hackerangriff auf Kryptowährungsbörse Binance",
-        "link": "https://www.handelsblatt.com/finanzen/diebstahl-moeglicher-hackerangriff-auf-kryptowaehrungsboerse-binance/100266046.html",
+        "title": "Hackerangriff: FBI: Nordkoreanische Hacker stecken hinter milliardenschwerem Krypto-Diebstahl bei Binance",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/binance-fbi-sieht-nordkoreanische-hacker-hinter-krypto-diebstahl/100266403.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "65 Jahre Anwerbeabkommen: Abenteuer Almanya - Als die ersten Türken kamen",
-        "link": "https://www.handelsblatt.com/politik/deutschland/65-jahre-anwerbeabkommen-abenteuer-almanya-als-die-ersten-tuerken-kamen/100266047.html",
+        "title": "Midterms: Auf diese Rennen sollte man bei den US-Zwischenwahlen achten",
+        "link": "https://www.handelsblatt.com/politik/international/midterms-auf-diese-rennen-sollte-man-bei-den-us-zwischenwahlen-achten/100266510.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Konjunktur und Märkte: Wie steht es um die US‑Wirtschaft? Drei Grafiken zeigen Warnsignale",
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-wie-geht-es-der-us-wirtschaft-drei-charts-zeigen-warnsignale/100261981.html",
+        "title": "Treffen der Kreisvorsitzenden: Alarmstufe „dunkelrot“: Kanzler trifft auf verärgerte Basis",
+        "link": "https://www.handelsblatt.com/politik/deutschland/treffen-der-kreisvorsitzenden-alarmstufe-dunkelrot-kanzler-trifft-auf-veraergerte-basis/100266508.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Immobilien: Speckgürtel Frankfurt – hier lohnt sich der Kauf für Pendler noch",
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-umland-frankfurt-hier-lohnt-sich-der-kauf-fuer-pendler-noch/100262240.html",
+        "title": "Steinmeier-Nachfolge: SPD nominiert Michel Friedman für die Bundesversammlung",
+        "link": "https://www.handelsblatt.com/politik/deutschland/steinmeier-nachfolge-spd-nominiert-michel-friedman-fuer-die-bundesversammlung/100266509.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Immobilien: Haussanierung – diese Maßnahmen bringen den größten Effekt",
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-haussanierung-diese-massnahmen-bringen-den-groessten-effekt/100263443.html",
+        "title": "Midterms: Das Wichtigste zu den Parlamentswahlen in den USA",
+        "link": "https://www.handelsblatt.com/politik/international/midterms-das-wichtigste-zu-den-parlamentswahlen-in-den-usa/100266511.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Social Media: Unternehmer wehrt sich gegen Influencer – und erhält Morddrohungen",
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/social-media-unternehmer-klagt-gegen-influencer-und-erhaelt-morddrohungen/100265585.html",
+        "title": "Wohnen: Linke: Mehr als 11.000 Mieter alarmierten über App die Ämter",
+        "link": "https://www.handelsblatt.com/politik/deutschland/wohnen-linke-mehr-als-11000-mieter-alarmierten-ueber-app-die-aemter/100266502.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Kommentar: Berlin droht der politische Totalschaden",
-        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-berlin-droht-der-politische-totalschaden/100266020.html",
+        "title": "Asien: Trotz KI-Boom – Südkoreas Präsident warnt vor Ungleichheit",
+        "link": "https://www.handelsblatt.com/politik/international/asien-trotz-ki-boom-suedkoreas-praesident-warnt-vor-ungleichheit/100266499.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Jensen Huang: „Deutschland bleibt weit hinter seinem Potenzial zurück“",
-        "link": "https://www.handelsblatt.com/technik/it-internet/jensen-huang-deutschland-bleibt-weit-hinter-seinem-potenzial-zurueck/100265111.html",
+        "title": "Betriebliche Veranstaltung: Weihnachtsfeier: Wann der Fehltritt zur Kündigung führt",
+        "link": "https://www.handelsblatt.com/politik/deutschland/betriebliche-veranstaltung-weihnachtsfeier-wann-der-fehltritt-zur-kuendigung-fuehrt/100266500.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Metall- und Elektroindustrie: IG Metall startet Warnstreiks am Sonntag",
-        "link": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-ig-metall-startet-warnstreiks-am-sonntag/100266042.html",
+        "title": "Protestschreiben: Brief an Kanzleramt: Wirtschaft will Plastiksteuer stoppen",
+        "link": "https://www.handelsblatt.com/politik/deutschland/protestschreiben-brief-an-kanzleramt-wirtschaft-will-plastiksteuer-stoppen/100266497.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Vor dem Protesttag: Prien bietet jungen Leuten Dialog über Probleme an",
-        "link": "https://www.handelsblatt.com/politik/deutschland/vor-dem-protesttag-prien-bietet-jungen-leuten-dialog-ueber-probleme-an/100266040.html",
+        "title": "HDE-Konsumbarometer: Robuste deutsche Wirtschaft: Kann der Handel auf das Weihnachtsgeschäft hoffen?",
+        "link": "https://www.handelsblatt.com/politik/konjunktur/konjunktur-kann-der-handel-auf-das-weihnachtsgeschaeft-hoffen/100264970.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Metall- und Elektroindustrie: Was bei den Warnstreiks der Metaller gilt",
-        "link": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-was-bei-den-warnstreiks-der-metaller-gilt/100266041.html",
+        "title": "Baupolitik: Teure Mieten fressen höhere Löhne auf: Reiche-Berater sehen in teuren Wohnungen massive Wachstumsbremse",
+        "link": "https://www.handelsblatt.com/politik/deutschland/wohnungsbau-reiche-berater-sehen-in-teuren-wohnungen-massive-wachstumsbremse/100265867.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Börse im Blick: Quartalszahlen aus zwei mutmaßlich unattraktiven Branchen überraschen",
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-zahlen-aus-zwei-mutmasslich-unattraktiven-branchen-ueberraschen/100265551.html",
+        "title": "Analyse: „Orcel hat keine Skrupel“ – Commerzbank-Investoren fürchten Nachteile nach Übernahme durch Unicredit",
+        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-anteilseigner-wenden-sich-ab-der-investment-case-ist-kaputt/100263991.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Jugendproteste: Jugendforscher über Proteste der Gen Z: „Sauer sein allein reicht nicht“",
-        "link": "https://www.handelsblatt.com/politik/deutschland/jugendproteste-sauer-sein-allein-reicht-nicht/100265361.html",
+        "title": "Vor 120 Jahren entdeckt: Diagnose Alzheimer: „Es ging mir natürlich schlecht“",
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/vor-120-jahren-entdeckt-diagnose-alzheimer-es-ging-mir-natuerlich-schlecht/100266494.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Deutschland: Der letzte Optimist – dieser Merz-Berater hat ein Rezept für bessere Stimmung im Land",
-        "link": "https://www.handelsblatt.com/politik/deutschland/deutschland-wie-das-buergertum-seinen-steten-abstieg-aufhalten-koennte/100264898.html",
+        "title": "+++ Ukraine-Krieg +++: Medien: USA dringen auf Wiederaufnahme russischer Gasexporte nach Europa",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-usa-dringen-offenbar-auf-wiederaufnahme-russischer-gasexporte-nach-europa/27982126.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Indoorsport: Der Zauber des Indoor-Ruderns",
-        "link": "https://www.handelsblatt.com/meinung/kolumnen/indoorsport-der-zauber-des-indoor-ruderns/100264278.html",
+        "title": "Ukraine-Krieg: App für Notfall-Warnungen in Ukraine und Russland gehackt",
+        "link": "https://www.handelsblatt.com/politik/international/ukraine-krieg-app-fuer-notfall-warnungen-in-ukraine-und-russland-gehackt/100266492.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Nachfolge: Erster Job: Chefin – warum diese Frau für Unternehmensnachfolge wirbt",
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/nachfolge-warum-diese-frau-fuer-unternehmensnachfolge-wirbt/100263818.html",
+        "title": "Falschmeldung Radioaktivität: App für Notfall-Warnungen in Ukraine und Russland gehackt",
+        "link": "https://www.handelsblatt.com/politik/international/falschmeldung-radioaktivitaet-app-fuer-notfall-warnungen-in-ukraine-und-russland-gehackt/100266483.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Pfeifer & Langen: Die süßen Jahre sind vorbei – Wie Chio-Chips und Ültje die Zuckerdynastie durch die Krise retten",
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/pfeifer-langen-chips-und-ueltje-retten-die-zuckerdynastie-durch-die-krise/100263452.html",
+        "title": "+++ US-Midterms +++: Streit zwischen Demokraten in Michigan droht zu eskalieren",
+        "link": "https://www.handelsblatt.com/politik/international/usa-streit-zwischen-demokraten-in-michigan-droht-zu-eskalieren/29669594.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Deep Read: \"Eine besondere Form des Staatskapitalismus\" - Wie der Trumpismus ökonomisch wankt",
-        "link": "https://www.handelsblatt.com/politik/international/us-wahlen-der-trumpismus-wankt-oekonomisch-und-politisch/100262692.html",
+        "title": "+++ Iran-Krieg +++: Israelischer Oppositionspolitiker warnt vor neuem Krieg mit Iran unter Netanjahu",
+        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-israelische-opposition-warnt-vor-neuem-krieg-mit-iran/100136895.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Polestar 3 im Test: Der wilde Volvo-Bruder (fast) ohne Tempolimit",
-        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/polestar-3-im-test-der-wilde-volvo-bruder-fast-ohne-tempolimit/100262171.html",
+        "title": "+++ US-Zollpolitik +++: Carney zieht positives Fazit nach Gespräch mit Trump",
+        "link": "https://www.handelsblatt.com/politik/international/us-zoelle-carney-zieht-positives-fazit-nach-gespraech-mit-trump/30026990.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Geldanlage: So investiert die Rolex-Familie ihr Vermögen",
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-so-investiert-die-rolex-familie-ihr-vermoegen/100247042.html",
+        "title": "Sicherheit: ARD: Warnung vor Spähsoftware auf Politiker-Handys",
+        "link": "https://www.handelsblatt.com/politik/deutschland/sicherheit-ard-warnung-vor-spaehsoftware-auf-politiker-handys/100266473.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Big Tech Earnings Stoke Fresh Unease Across Asian Chip Stocks",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/big-tech-s-deepening-ai-funding-concerns-sink-asian-chip-stocks",
+        "title": "Copper Recovers as Easing Tech Rout, Lower Oil Calm Growth Fears",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/copper-recovers-as-easing-tech-rout-lower-oil-calm-growth-fears",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Yen Extends Gains Against Dollar After BOJ Keeps Rates Steady",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/yen-holds-gains-against-dollar-after-boj-keeps-rates-steady",
+        "title": "Japanese Stocks Mixed on Domestic Earnings, Ahead of US Midterms",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/japanese-stocks-fall-on-tech-selloff-kioxia-s-profit-outlook",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Stocks Drop, Bonds Gain as Tech Results Underwhelm: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-29/stock-market-today-dow-s-p-live-updates",
+        "title": "Most Asian Stocks Rise With US Futures, Oil Falls: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-01/stock-market-today-dow-s-p-live-updates",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Iron Ore Heads for Lowest Month-End Close Since October 2022",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/iron-ore-heads-for-lowest-month-end-close-since-october-2022",
+        "title": "Reliance Shares Hit Nine-Month High as Iran War Boosts Refining",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/reliance-industries-surges-most-in-nine-months-on-earnings-beat",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Chinese Investors Seek Shelter in Long-Bond ETFs as Stocks Sink",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/chinese-investors-seek-shelter-in-long-bond-etfs-as-stocks-sink",
+        "title": "Tokyo, Chubu Power Price Hit Multi-Year High as Fuel Costs Climb",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/tokyo-chubu-power-price-hit-multi-year-high-as-fuel-costs-climb",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "African Export-Import Bank Mulls First Offshore Yuan Loan",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/african-export-import-bank-mulls-first-offshore-yuan-loan",
+        "title": "Citi Cuts Lithium Forecasts on Worsening Battery Demand Outlook",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/citi-cuts-lithium-forecasts-on-worsening-battery-demand-outlook",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Taiwan Stocks Heads for Correction as Global AI Selloff Deepens",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/taiwan-stocks-heads-for-correction-as-global-ai-selloff-deepens",
+        "title": "Chinese Steel Group Chides Mills for Ignoring Output Curb Calls",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/chinese-steel-group-chides-mills-for-ignoring-output-curb-calls",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Chinese Conglomerate Huafa Faces Risk of Downgrade by Fitch",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/zhuhai-huafa-put-on-negative-watch-by-fitch-on-refinancing-risk",
+        "title": "Emerging-Market FX Slips as Traders Await Iran Progress, US Data",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/emerging-market-fx-slips-as-traders-await-iran-progress-us-data",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Chinese Junk Dollar Bonds Head for Worst Week in a Year on Huafa",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/chinese-junk-dollar-bonds-head-for-worst-week-in-a-year-on-huafa",
+        "title": "Coal India Unit South Eastern Coalfields Files for India IPO",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/coal-india-unit-south-eastern-coalfields-files-for-india-ipo-mvypw49t",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Binance Freezes Assets After Suspected Hack",
-        "link": "https://www.bloomberg.com/news/videos/2026-10-30/the-asia-trade-10-30-2026-video",
+        "title": "Gold Climbs Back From One-Year Low as Dip Buyers Arrest Slide",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/gold-climbs-back-from-one-year-low-as-dip-buyers-arrest-slide",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Treasuries Extend Rally With Global Peers as Risk-Off Haven",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/treasuries-extend-rally-with-global-peers-on-tech-stock-selloff",
+        "title": "China Stocks Rise on Report of Regulator Market Support Meeting",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-01/china-to-convene-meeting-on-supporting-stock-market-reports-say",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Copper Declines as Tech Selloff, Oil Rally Dent Risk Appetite",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/copper-declines-as-tech-selloff-oil-rally-dent-risk-appetite",
+        "title": "Weak China PMIs Spark Fresh Stimulus Bets",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-02/weak-china-pmis-spark-fresh-stimulus-bets-video",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "US-Owned Startup Plans $600 Million Malaysia Rare-Earth Refinery",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-30/us-owned-startup-plans-600-million-malaysia-rare-earth-refinery",
+        "title": "Sungrow Shares Jump on Bullish Outlook for Battery Storage",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/sungrow-shares-jump-on-bullish-outlook-for-battery-storage",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Prabowo’s Brother Sounds Alarm Over Indonesian Stock Market",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-29/prabowo-s-own-brother-sounds-alarm-over-indonesian-stock-market",
+        "title": "Millennium’s Raiskin Says Asia Markets Enjoying Regulatory Aid",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/millennium-s-raiskin-says-asia-markets-enjoying-regulatory-aid",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Latest Oil Market News and Analysis for Oct. 30",
-        "link": "https://www.bloomberg.com/news/articles/2026-10-29/latest-oil-market-news-and-analysis-for-oct-30",
+        "title": "Latest Oil Market News and Analysis for Nov. 2",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-01/latest-oil-market-news-and-analysis-for-nov-2",
         "source": "Bloomberg Markets"
       }
     ],
@@ -346,7 +406,10 @@
       "AAPL": [],
       "ASML": [],
       "SAP.DE": [],
-      "URTH": []
+      "URTH": [],
+      "TSLA": [],
+      "MU": [],
+      "NKE": []
     },
     "new_tickers": []
   }
