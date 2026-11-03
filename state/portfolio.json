@@ -16,7 +16,7 @@
     "TSLA": {
       "shares": 2.494205434557632,
       "avg_price": 399.80999755859375,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-02"
     }
   },
