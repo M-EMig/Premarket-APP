@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-02T15:23:00.146263",
-  "mode": "alerts",
+  "generated": "2026-11-03T04:44:03.301742",
+  "mode": "report",
   "depot": {
-    "value": 10011.617740735828,
+    "value": 9963.556578810858,
     "start": 10000.0,
     "cash": 7042.565677468478,
     "positions": {
@@ -28,27 +28,11 @@
   },
   "analyses": [
     {
-      "ticker": "MSFT",
-      "price": 526.8699951171875,
-      "rsi": 38.50845599153258,
-      "drop20": -3.0508817218551254,
-      "mom5": -1.0758506818266733,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 543.4500122070312,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "AAPL",
-      "price": 341.1600036621094,
-      "rsi": 49.8638458632414,
-      "drop20": -2.221203152290596,
-      "mom5": -0.7996278010865554,
+      "price": 338.32000732421875,
+      "rsi": 46.588039625543836,
+      "drop20": -3.035165580447552,
+      "mom5": -1.625424174454304,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -60,81 +44,100 @@
       "from_news": false
     },
     {
-      "ticker": "SAP.DE",
-      "price": 210.0500030517578,
-      "rsi": 68.44843115755614,
-      "drop20": -2.461111168583008,
-      "mom5": -1.036512107534604,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 215.35000610351562,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "TSLA",
-      "price": 408.6199951171875,
-      "rsi": 64.12316493718222,
-      "drop20": 0.0,
-      "mom5": 4.340942804749526,
+      "price": 403.82000732421875,
+      "rsi": 62.60470655792891,
+      "drop20": -0.8933353475664263,
+      "mom5": 3.115267953409928,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 408.6199951171875,
+      "high20": 407.4599914550781,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "NVDA",
-      "price": 208.82899475097656,
-      "rsi": 33.29825951005364,
-      "drop20": -12.71150729139089,
-      "mom5": -3.3199098375108482,
+      "price": 202.05999755859375,
+      "rsi": 26.927088031852406,
+      "drop20": -15.54088241133763,
+      "mom5": -6.453704833984375,
       "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "RSI 33: überverkauft",
-        "-12.7 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 27: überverkauft",
+        "-15.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 239.24000549316406,
       "downtrend": true,
       "from_news": false
     },
     {
-      "ticker": "ASML",
-      "price": 1594.6099853515625,
-      "rsi": 38.60339532634542,
-      "drop20": -12.942934533418926,
-      "mom5": 0.3654340269534373,
-      "score": 0,
+      "ticker": "MSFT",
+      "price": 507.1199951171875,
+      "rsi": 27.839451614560573,
+      "drop20": -6.685070618050437,
+      "mom5": -4.784074659545057,
+      "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-12.9 % unter 20-Tage-Hoch (Rücksetzer)"
+        "SMA20 über SMA50",
+        "RSI 28: überverkauft"
+      ],
+      "high20": 543.4500122070312,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "ASML",
+      "price": 1526.1400146484375,
+      "rsi": 32.512734881998995,
+      "drop20": -16.68102395763802,
+      "mom5": -3.944095193708541,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "RSI 33: überverkauft",
+        "-16.7 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1831.68359375,
       "downtrend": true,
       "from_news": false
     },
     {
+      "ticker": "SAP.DE",
+      "price": 211.25,
+      "rsi": 73.17139837994853,
+      "drop20": -1.9038801891395396,
+      "mom5": -1.4692136129468514,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 73: überkauft"
+      ],
+      "high20": 215.35000610351562,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
       "ticker": "MU",
-      "price": 879.469970703125,
-      "rsi": 41.799853545002804,
-      "drop20": -19.153645842100097,
-      "mom5": -2.681204069559684,
+      "price": 833.5900268554688,
+      "rsi": 37.92140736255916,
+      "drop20": -23.37121587020089,
+      "mom5": -7.758103840270925,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-19.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-23.4 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1087.828857421875,
       "downtrend": true,
@@ -142,10 +145,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 206.47000122070312,
-      "rsi": 42.605846469771095,
-      "drop20": -1.5543768527373714,
-      "mom5": 0.12122975391337665,
+      "price": 204.14999389648438,
+      "rsi": 35.133561414343745,
+      "drop20": -2.660564509000274,
+      "mom5": -1.0037859140556216,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -157,46 +160,250 @@
     },
     {
       "ticker": "NKE",
-      "price": 39.21500015258789,
-      "rsi": 73.61700450110962,
+      "price": 39.119998931884766,
+      "rsi": 73.3087121949709,
       "drop20": 0.0,
-      "mom5": 3.442364311338464,
+      "mom5": 3.191767579379867,
       "score": -1,
       "rec": "HOLD",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
-        "RSI 74: überkauft"
+        "RSI 73: überkauft"
       ],
-      "high20": 39.21500015258789,
+      "high20": 39.119998931884766,
       "downtrend": false,
       "from_news": false
     }
   ],
   "alerts": [
     {
-      "ticker": "MSFT",
-      "action": "sell",
-      "type": "Break-even",
-      "msg": "MSFT: war im Minus, jetzt +1.1 %. Ausstieg zum Ausgleich."
-    },
-    {
       "ticker": "NVDA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "NVDA: -3.7 %, warte auf nächstes Plus."
+      "msg": "NVDA: -6.7 %, warte auf nächstes Plus."
     },
     {
       "ticker": "AAPL",
       "action": "info",
       "type": "Im Minus",
-      "msg": "AAPL: -2.2 %, warte auf nächstes Plus."
+      "msg": "AAPL: -2.8 %, warte auf nächstes Plus."
     }
   ],
-  "trades": [
-    "VERKAUF MSFT: 1.92 Stk. zu 526.87, +1.1 % (Break-even)"
-  ],
+  "trades": [],
   "news": {
-    "general": [],
-    "tickers": {}
+    "general": [
+      {
+        "title": "Web- und App-Tipp: Crash-Fakten auf einen Klick: Unfallatlas online",
+        "link": "https://www.handelsblatt.com/technik/it-internet/web-und-app-tipp-crash-fakten-auf-einen-klick-unfallatlas-online/100266823.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Ausschreitungen: Polizeigewerkschaft kontert Kritik an Zuordnung der Krawalle",
+        "link": "https://www.handelsblatt.com/politik/deutschland/ausschreitungen-polizeigewerkschaft-kontert-kritik-an-zuordnung-der-krawalle/100266818.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Digital-Gipfel: Sechs Bundesländer starten Open-Source-Bildungsplattform",
+        "link": "https://www.handelsblatt.com/technik/it-internet/digital-gipfel-sechs-bundeslaender-starten-open-source-bildungsplattform/100266817.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Midterms: Was bei den US-Parlamentswahlen auf dem Spiel steht",
+        "link": "https://www.handelsblatt.com/politik/international/midterms-was-bei-den-us-parlamentswahlen-auf-dem-spiel-steht/100266816.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Ringen um Kriegsende: USA: Nächste Woche Verhandlungen mit Ukraine und Russland",
+        "link": "https://www.handelsblatt.com/politik/international/ringen-um-kriegsende-usa-naechste-woche-verhandlungen-mit-ukraine-und-russland/100266793.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Midterms: US-Amerikaner entscheiden über Machtverhältnisse im Kongress",
+        "link": "https://www.handelsblatt.com/politik/international/midterms-us-amerikaner-entscheiden-ueber-machtverhaeltnisse-im-kongress/100266812.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Streit um Justiz: Nach Chaos – Polens Verfassungsrichter wollen tagen",
+        "link": "https://www.handelsblatt.com/politik/international/streit-um-justiz-nach-chaos-polens-verfassungsrichter-wollen-tagen/100266810.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Energie: „Sie wissen im Ministerium nicht, was sie tun“ – Kritik an Reiches „Netzpaket“ wächst",
+        "link": "https://www.handelsblatt.com/politik/deutschland/energie-reiche-kann-einspareffekt-des-netzpakets-nicht-beziffern/100266453.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Cyberangriff: Diese Folgen hat der Binance-Hack für die Kryptowelt – die fünf wichtigsten Antworten",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/kryptowaehrungen-diese-folgen-hat-der-binance-hack-fuer-bitcoin-ether-und-co./100266746.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Kommentar: Trump setzt auf seine Basis – und riskiert alles",
+        "link": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trump-setzt-auf-seine-basis-und-riskiert-alles/100266478.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Aktien: Der S&P 500 ist nicht mehr überbewertet – wie kann das sein?",
+        "link": "https://www.handelsblatt.com/finanzen/aktien-der-sp-500-ist-nicht-mehr-ueberbewertet-wie-kann-das-sein/100264298.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Kassenfusion: Müssen kleinere Krankenkassen um ihre Zukunft fürchten?",
+        "link": "https://www.handelsblatt.com/politik/deutschland/kassenfusion-muessen-kleinere-krankenkassen-um-ihre-zukunft-fuerchten/100265350.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Kreisvorsitzendenkonferenz: „Es ging hoch her“ – Merz bekommt Frust der CDU-Basis zu spüren",
+        "link": "https://www.handelsblatt.com/politik/deutschland/kreisvorsitzendenkonferenz-es-ging-hoch-her-merz-bekommt-frust-der-cdu-basis-zu-spueren/100266778.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Digitalwährungen: Binance: Nordkorea weist Vorwurf von Milliardenraub zurück",
+        "link": "https://www.handelsblatt.com/politik/deutschland/digitalwaehrungen-binance-nordkorea-weist-vorwurf-von-milliardenraub-zurueck/100266808.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Autotest: Aller guten Dinge sind drei: So fährt der Fiat Tris",
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/autotest-aller-guten-dinge-sind-drei-so-faehrt-der-fiat-tris/100266804.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Tech: KI-Datenfirma Palantir wächst weiter schnell",
+        "link": "https://www.handelsblatt.com/technik/it-internet/tech-ki-datenfirma-palantir-waechst-weiter-schnell/100266800.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Künstliche Intelligenz: KI-Datenfirma Palantir wächst weiter schnell",
+        "link": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-ki-datenfirma-palantir-waechst-weiter-schnell/100266801.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "iPhone-Konzern: Teure Speicherchips treffen Apple im Weihnachtsgeschäft",
+        "link": "https://www.handelsblatt.com/technik/it-internet/iphone-konzern-teure-speicherchips-treffen-apple-im-weihnachtsgeschaeft/100266784.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Korea-Konflikt: Nordkorea testet Streusprengkopf für Marschflugkörper",
+        "link": "https://www.handelsblatt.com/politik/international/korea-konflikt-nordkorea-testet-streusprengkopf-fuer-marschflugkoerper/100266795.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Apple-Warnung: Wie gefährlich der Spionageangriff auf den Bundestag ist",
+        "link": "https://www.handelsblatt.com/politik/deutschland/apple-warnung-wie-gefaehrlich-der-spionageangriff-auf-den-bundestag-ist/100266790.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Technologiekonzern: Teure Speicherchips ziehen Apple-Aktie ins Minus",
+        "link": "https://www.handelsblatt.com/technik/it-internet/technologiekonzern-teure-speicherchips-ziehen-apple-aktie-ins-minus/100265411.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Midterms: „Das Gras ist jetzt wunderschön“ – Trump nutzt die letzte Rede vor der Wahl um über sein Renovierungsprojekt zu reden",
+        "link": "https://www.handelsblatt.com/politik/international/midterms-trump-nutzt-die-letzte-rede-vor-der-wahl-um-ueber-sein-renovierungsprojekt-zu-reden/100266711.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Bundespräsidentenwahl: Merz will eine Frau an der Staatsspitze",
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-merz-will-eine-frau-an-der-staatsspitze/100266760.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Stahlarbeiter: Gewerkschaft fordert fünf Prozent mehr Lohn in Stahlbranche",
+        "link": "https://www.handelsblatt.com/politik/deutschland/stahlarbeiter-gewerkschaft-fordert-fuenf-prozent-mehr-lohn-in-stahlbranche/100266740.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "+++ US-Midterms +++: Gericht stoppt US-Regierung im Streit um Briefwahl in Kalifornien",
+        "link": "https://www.handelsblatt.com/politik/international/us-midterms-gericht-stoppt-us-regierung-im-streit-um-briefwahl-in-kalifornien/29669594.html",
+        "source": "Handelsblatt Schlagzeilen"
+      },
+      {
+        "title": "Taiwan Says China Sought to Diminish Its Status With Emailed APEC Invitation",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/taiwan-says-china-sought-to-diminish-its-status-with-emailed-apec-invitation",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Coal India Said to Plan $1 Billion MCL IPO as Soon as This Month",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/coal-india-said-to-plan-1-billion-mcl-ipo-as-soon-as-this-month",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "China Talks Up Market Openness While Steering Stocks and Yuan",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/china-talks-up-market-openness-while-steering-stocks-and-yuan",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Asian Stocks Fall on US Tech Jitters, Yuan Weakens: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/stock-market-today-dow-s-p-live-updates",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "India to Consider Equity Gains Tax Concerns, Sitharaman Says",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/india-to-consider-equity-gains-tax-concerns-sitharaman-says",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Goldman’s Solomon Sees ‘Very Robust’ Demand for AI Deals",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-03/goldman-s-solomon-sees-very-robust-demand-for-ai-deals-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Latest Oil Market News and Analysis for Nov. 3",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/latest-oil-market-news-and-analysis-for-nov-3",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Oracle Raises $20 Billion for AI Growth as Meta Weighs New Debt",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-02/oracle-is-offering-10-billion-of-high-grade-dollar-bonds",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Pakistan’s Rebound Masks Deeper Problems Weighing on Economy",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/pakistan-s-rebound-masks-deeper-problems-weighing-on-economy",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Onshore Yuan Snaps Winning Streak as PBOC Lifts FX Reserve Ratio",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/offshore-yuan-weakens-after-pboc-moves-to-cool-currency-rally",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Huafa’s $62 Billion Debt Strain Shakes China’s Credit Market",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/huafa-s-62-billion-debt-strain-shakes-china-s-credit-market",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Goldman's Solomon on Tech Supercycle 'Bumps'",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-03/solomon-on-tech-supercycle-bumps-video",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Copper, Tin Fall With Base Metals on Renewed AI Stocks Selloff",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/copper-tin-fall-with-base-metals-on-renewed-ai-stocks-selloff",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Gold Holds Biggest Jump in Two Months on Iran Peace-Deal Hopes",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-03/gold-holds-biggest-jump-in-two-months-on-iran-peace-deal-hopes",
+        "source": "Bloomberg Markets"
+      },
+      {
+        "title": "Reliance’s Record $19 Billion Surge Lifts Nifty, Keeps India Bulls in the Game",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-11-03/reliance-s-record-19-billion-surge-lifts-nifty-keeps-india-bulls-in-the-game",
+        "source": "Bloomberg Markets"
+      }
+    ],
+    "tickers": {
+      "NVDA": [],
+      "MSFT": [],
+      "AAPL": [],
+      "ASML": [],
+      "SAP.DE": [],
+      "URTH": [],
+      "TSLA": [],
+      "MU": [],
+      "NKE": []
+    },
+    "new_tickers": []
   }
 }
