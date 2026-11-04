@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-04T14:07:16.235946",
+  "generated": "2026-11-04T15:20:27.765790",
   "mode": "alerts",
   "depot": {
-    "value": 9955.634130663384,
+    "value": 10096.880078867149,
     "start": 10000.0,
-    "cash": 5062.76239401352,
+    "cash": 7135.416428170318,
     "positions": {
       "NVDA": {
         "shares": 4.63620949184343,
@@ -12,23 +12,11 @@
         "underwater": true,
         "opened": "2026-10-27"
       },
-      "AAPL": {
-        "shares": 2.877996716454189,
-        "avg_price": 348.9100036621094,
-        "underwater": true,
-        "opened": "2026-10-30"
-      },
       "TSLA": {
         "shares": 2.494205434557632,
         "avg_price": 399.80999755859375,
         "underwater": true,
         "opened": "2026-11-02"
-      },
-      "MSFT": {
-        "shares": 1.9094909281241887,
-        "avg_price": 520.989990234375,
-        "underwater": true,
-        "opened": "2026-11-04"
       },
       "NKE": {
         "shares": 25.79977125868177,
@@ -41,26 +29,42 @@
   "analyses": [
     {
       "ticker": "MSFT",
-      "price": 520.989990234375,
-      "rsi": 42.62313563798672,
-      "drop20": -4.132858858801525,
-      "mom5": -1.9460648792444024,
+      "price": 552.8599853515625,
+      "rsi": 55.9803838904196,
+      "drop20": 0.0,
+      "mom5": 4.114795424587481,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 543.4500122070312,
+      "high20": 552.8599853515625,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "AAPL",
+      "price": 353.3299865722656,
+      "rsi": 58.27852019007142,
+      "drop20": 0.0,
+      "mom5": 2.762993447636153,
+      "score": 2,
+      "rec": "BUY",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50"
+      ],
+      "high20": 353.3299865722656,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 212.14999389648438,
-      "rsi": 64.02469048544604,
-      "drop20": -1.4859587259510199,
-      "mom5": 0.4498091675990912,
+      "price": 214.1999969482422,
+      "rsi": 65.82741500716689,
+      "drop20": -0.53401863138125,
+      "mom5": 1.4204545659795675,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -73,10 +77,10 @@
     },
     {
       "ticker": "TSLA",
-      "price": 398.5,
-      "rsi": 64.16048947259415,
-      "drop20": -2.1989868067981755,
-      "mom5": -2.1989868067981755,
+      "price": 388.43499755859375,
+      "rsi": 61.204255860963706,
+      "drop20": -4.6691685798510685,
+      "mom5": -3.905052598693848,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -89,96 +93,80 @@
     },
     {
       "ticker": "NKE",
-      "price": 38.47999954223633,
-      "rsi": 68.1922258720339,
-      "drop20": -1.6359903045058743,
-      "mom5": 2.449409305931294,
+      "price": 40.314998626708984,
+      "rsi": 68.17401489282814,
+      "drop20": 0.0,
+      "mom5": 8.519507323910403,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 39.119998931884766,
+      "high20": 40.314998626708984,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "URTH",
+      "price": 208.01499938964844,
+      "rsi": 49.735594441113065,
+      "drop20": -0.5474298395551025,
+      "mom5": -0.026437224315856156,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)"
+      ],
+      "high20": 209.16000366210938,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "NVDA",
-      "price": 206.69000244140625,
-      "rsi": 36.65752997063902,
-      "drop20": -12.961636678769429,
-      "mom5": -5.161971126904341,
+      "price": 205.4149932861328,
+      "rsi": 38.62957800501744,
+      "drop20": -10.875131424002948,
+      "mom5": -4.6267115659606395,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-13.0 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-10.9 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 237.47000122070312,
+      "high20": 230.47999572753906,
       "downtrend": true,
       "from_news": false
     },
     {
-      "ticker": "AAPL",
-      "price": 331.8999938964844,
-      "rsi": 38.469565792839454,
-      "drop20": -4.875185459600006,
-      "mom5": -4.3791448976518215,
-      "score": 0,
-      "rec": "HOLD",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 348.9100036621094,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "ASML",
-      "price": 1552.1400146484375,
-      "rsi": 40.4264596070293,
-      "drop20": -13.8935098181042,
-      "mom5": -5.100969960344337,
+      "price": 1520.1099853515625,
+      "rsi": 37.11279652541221,
+      "drop20": -14.50423025087657,
+      "mom5": -8.584057030405145,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-13.9 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-14.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1802.5819091796875,
+      "high20": 1777.994384765625,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "MU",
-      "price": 855.0999755859375,
-      "rsi": 43.81327152754393,
-      "drop20": -21.39388748957246,
-      "mom5": -7.931008377317605,
+      "price": 832.6749877929688,
+      "rsi": 39.783571435711224,
+      "drop20": -19.600900066075255,
+      "mom5": -15.312286613148729,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-21.4 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-19.6 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1087.828857421875,
-      "downtrend": true,
-      "from_news": false
-    },
-    {
-      "ticker": "URTH",
-      "price": 204.27999877929688,
-      "rsi": 40.11941875184031,
-      "drop20": -2.3331443858147782,
-      "mom5": -1.5944879892989317,
-      "score": -1,
-      "rec": "HOLD",
-      "why": [
-        "Kurs unter SMA50 (Abwärtstrend)"
-      ],
-      "high20": 209.16000366210938,
+      "high20": 1035.677001953125,
       "downtrend": true,
       "from_news": false
     }
@@ -188,35 +176,30 @@
       "ticker": "NVDA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "NVDA: -4.7 %, warte auf nächstes Plus."
+      "msg": "NVDA: -5.2 %, warte auf nächstes Plus."
     },
     {
       "ticker": "AAPL",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "AAPL: -4.9 %, warte auf nächstes Plus."
+      "action": "sell",
+      "type": "Break-even",
+      "msg": "AAPL: war im Minus, jetzt +1.3 %. Ausstieg zum Ausgleich."
     },
     {
       "ticker": "TSLA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "TSLA: -0.4 %, warte auf nächstes Plus."
+      "msg": "TSLA: -2.8 %, warte auf nächstes Plus."
     },
     {
       "ticker": "MSFT",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "MSFT: -0.0 %, warte auf nächstes Plus."
-    },
-    {
-      "ticker": "SAP.DE",
       "action": "sell",
       "type": "Break-even",
-      "msg": "SAP.DE: war im Minus, jetzt +0.8 %. Ausstieg zum Ausgleich."
+      "msg": "MSFT: war im Minus, jetzt +6.1 %. Ausstieg zum Ausgleich."
     }
   ],
   "trades": [
-    "VERKAUF SAP.DE: 4.73 Stk. zu 212.15, +0.8 % (Break-even)"
+    "VERKAUF AAPL: 2.88 Stk. zu 353.30, +1.3 % (Break-even)",
+    "VERKAUF MSFT: 1.91 Stk. zu 552.96, +6.1 % (Break-even)"
   ],
   "news": {
     "general": [],

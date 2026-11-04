@@ -1,5 +1,5 @@
 {
-  "cash": 5062.76239401352,
+  "cash": 7135.416428170318,
   "positions": {
     "NVDA": {
       "shares": 4.63620949184343,
@@ -7,23 +7,11 @@
       "underwater": true,
       "opened": "2026-10-27"
     },
-    "AAPL": {
-      "shares": 2.877996716454189,
-      "avg_price": 348.9100036621094,
-      "underwater": true,
-      "opened": "2026-10-30"
-    },
     "TSLA": {
       "shares": 2.494205434557632,
       "avg_price": 399.80999755859375,
       "underwater": true,
       "opened": "2026-11-02"
-    },
-    "MSFT": {
-      "shares": 1.9094909281241887,
-      "avg_price": 520.989990234375,
-      "underwater": true,
-      "opened": "2026-11-04"
     },
     "NKE": {
       "shares": 25.79977125868177,
@@ -167,6 +155,22 @@
       "ticker": "SAP.DE",
       "shares": 4.7258,
       "price": 212.15,
+      "reason": "Break-even"
+    },
+    {
+      "time": "2026-11-04T15:20:27",
+      "side": "SELL",
+      "ticker": "AAPL",
+      "shares": 2.878,
+      "price": 353.3,
+      "reason": "Break-even"
+    },
+    {
+      "time": "2026-11-04T15:20:27",
+      "side": "SELL",
+      "ticker": "MSFT",
+      "shares": 1.9095,
+      "price": 552.96,
       "reason": "Break-even"
     }
   ]
