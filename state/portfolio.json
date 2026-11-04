@@ -22,13 +22,13 @@
     "MSFT": {
       "shares": 1.9094909281241887,
       "avg_price": 520.989990234375,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-04"
     },
     "SAP.DE": {
       "shares": 4.725813096388797,
       "avg_price": 210.5,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-04"
     },
     "NKE": {
