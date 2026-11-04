@@ -1,5 +1,5 @@
 {
-  "cash": 4060.1811744587103,
+  "cash": 5062.76239401352,
   "positions": {
     "NVDA": {
       "shares": 4.63620949184343,
@@ -22,12 +22,6 @@
     "MSFT": {
       "shares": 1.9094909281241887,
       "avg_price": 520.989990234375,
-      "underwater": true,
-      "opened": "2026-11-04"
-    },
-    "SAP.DE": {
-      "shares": 4.725813096388797,
-      "avg_price": 210.5,
       "underwater": true,
       "opened": "2026-11-04"
     },
@@ -166,6 +160,14 @@
       "shares": 25.7998,
       "price": 38.48,
       "reason": "Analyst: BUY"
+    },
+    {
+      "time": "2026-11-04T14:07:16",
+      "side": "SELL",
+      "ticker": "SAP.DE",
+      "shares": 4.7258,
+      "price": 212.15,
+      "reason": "Break-even"
     }
   ]
 }
