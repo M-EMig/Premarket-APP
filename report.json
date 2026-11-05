@@ -1,17 +1,11 @@
 {
-  "generated": "2026-11-05T04:50:43.949417",
-  "mode": "report",
+  "generated": "2026-11-05T17:52:44.462729",
+  "mode": "alerts",
   "depot": {
-    "value": 10110.414067018683,
+    "value": 9854.23799917185,
     "start": 10000.0,
-    "cash": 4114.458124683224,
+    "cash": 4961.516788379631,
     "positions": {
-      "NVDA": {
-        "shares": 4.63620949184343,
-        "avg_price": 216.82000732421875,
-        "underwater": true,
-        "opened": "2026-10-27"
-      },
       "TSLA": {
         "shares": 2.494205434557632,
         "avg_price": 399.80999755859375,
@@ -27,13 +21,13 @@
       "MSFT": {
         "shares": 1.8117088447887773,
         "avg_price": 555.7999877929688,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-11-05"
       },
       "AAPL": {
         "shares": 2.8811461832409724,
         "avg_price": 349.510009765625,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-11-05"
       },
       "SAP.DE": {
@@ -47,10 +41,10 @@
   "analyses": [
     {
       "ticker": "MSFT",
-      "price": 555.7999877929688,
-      "rsi": 57.10438738500912,
-      "drop20": 0.0,
-      "mom5": 4.6684577637784,
+      "price": 539.9299926757812,
+      "rsi": 54.51003371051463,
+      "drop20": -2.855342832986707,
+      "mom5": 1.8466778128106265,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -63,10 +57,10 @@
     },
     {
       "ticker": "AAPL",
-      "price": 349.510009765625,
-      "rsi": 55.81179722474921,
-      "drop20": 0.0,
-      "mom5": 1.6519859858603603,
+      "price": 345.1859130859375,
+      "rsi": 51.278950227341284,
+      "drop20": -1.237188223189134,
+      "mom5": -1.0673499002849862,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -78,43 +72,11 @@
       "from_news": false
     },
     {
-      "ticker": "SAP.DE",
-      "price": 206.64999389648438,
-      "rsi": 62.88822404285259,
-      "drop20": -4.0399405435118885,
-      "mom5": -3.049495747654918,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 215.35000610351562,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
-      "ticker": "TSLA",
-      "price": 385.19000244140625,
-      "rsi": 59.53878406708595,
-      "drop20": -5.465564590561057,
-      "mom5": -4.707832052305239,
-      "score": 2,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50"
-      ],
-      "high20": 407.4599914550781,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "NKE",
-      "price": 40.4900016784668,
-      "rsi": 68.79911529847759,
-      "drop20": 0.0,
-      "mom5": 8.990578776319103,
+      "price": 39.19499969482422,
+      "rsi": 60.12750326559676,
+      "drop20": -3.1983253394906153,
+      "mom5": 2.017182620548219,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -126,65 +88,102 @@
       "from_news": false
     },
     {
-      "ticker": "URTH",
-      "price": 207.8699951171875,
-      "rsi": 49.32658592034114,
-      "drop20": -0.6167567997397039,
-      "mom5": -0.09612736097980301,
+      "ticker": "NVDA",
+      "price": 182.69700622558594,
+      "rsi": 28.041296147812005,
+      "drop20": -20.317076413870428,
+      "mom5": -14.491714361986807,
       "score": 1,
       "rec": "HOLD",
       "why": [
-        "Kurs über SMA50 (Aufwärtstrend)"
-      ],
-      "high20": 209.16000366210938,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
-      "ticker": "NVDA",
-      "price": 200.1300048828125,
-      "rsi": 35.0628945487659,
-      "drop20": -13.168167045874412,
-      "mom5": -7.080508707527178,
-      "score": 0,
-      "rec": "HOLD",
-      "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-13.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 28: überverkauft",
+        "-20.3 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 230.47999572753906,
+      "high20": 229.27999877929688,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "ASML",
-      "price": 1496.300048828125,
-      "rsi": 35.50073967807802,
-      "drop20": -15.843376016883926,
-      "mom5": -10.015932237009261,
-      "score": 0,
+      "price": 1386.5400390625,
+      "rsi": 30.310605229478696,
+      "drop20": -22.016624408784423,
+      "mom5": -17.25606734709012,
+      "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-15.8 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 30: überverkauft",
+        "-22.0 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1777.994384765625,
       "downtrend": true,
       "from_news": false
     },
     {
-      "ticker": "MU",
-      "price": 795.22998046875,
-      "rsi": 36.917833406834326,
-      "drop20": -23.216410235134067,
-      "mom5": -19.12065373661327,
-      "score": 0,
+      "ticker": "TSLA",
+      "price": 341.75,
+      "rsi": 45.81531873312962,
+      "drop20": -16.126734607837577,
+      "mom5": -15.261589302245405,
+      "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-23.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "SMA20 über SMA50",
+        "-16.1 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1035.677001953125,
+      "high20": 407.4599914550781,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "MU",
+      "price": 675.4901123046875,
+      "rsi": 32.68389009820909,
+      "drop20": -34.34437454453728,
+      "mom5": -27.698620507634374,
+      "score": 1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)",
+        "RSI 33: überverkauft",
+        "-34.3 % unter 20-Tage-Hoch (Rücksetzer)"
+      ],
+      "high20": 1028.838134765625,
+      "downtrend": true,
+      "from_news": false
+    },
+    {
+      "ticker": "SAP.DE",
+      "price": 215.75,
+      "rsi": 70.44272730223406,
+      "drop20": 0.0,
+      "mom5": 3.279083917498804,
+      "score": 0,
+      "rec": "HOLD",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50",
+        "RSI 70: überkauft"
+      ],
+      "high20": 215.75,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
+      "ticker": "URTH",
+      "price": 200.95509338378906,
+      "rsi": 38.275822890026845,
+      "drop20": -3.9227912290416,
+      "mom5": -3.3730383207863035,
+      "score": -1,
+      "rec": "HOLD",
+      "why": [
+        "Kurs unter SMA50 (Abwärtstrend)"
+      ],
+      "high20": 209.16000366210938,
       "downtrend": true,
       "from_news": false
     }
@@ -192,470 +191,34 @@
   "alerts": [
     {
       "ticker": "NVDA",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "NVDA: -7.6 %, warte auf nächstes Plus."
+      "action": "sell",
+      "type": "Stop-Loss",
+      "msg": "NVDA: -15.7 %, Verlustgrenze erreicht, aussteigen."
     },
     {
       "ticker": "TSLA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "TSLA: -3.6 %, warte auf nächstes Plus."
+      "msg": "TSLA: -14.5 %, warte auf nächstes Plus."
+    },
+    {
+      "ticker": "MSFT",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "MSFT: -2.9 %, warte auf nächstes Plus."
+    },
+    {
+      "ticker": "AAPL",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "AAPL: -1.2 %, warte auf nächstes Plus."
     }
   ],
   "trades": [
-    "KAUF MSFT: 1.81 Stk. zu 555.80 (Analyst: BUY)",
-    "KAUF AAPL: 2.88 Stk. zu 349.51 (Analyst: BUY)",
-    "KAUF SAP.DE: 4.87 Stk. zu 206.65 (Analyst: BUY)"
+    "VERKAUF NVDA: 4.64 Stk. zu 182.71, -15.7 % (Stop-Loss)"
   ],
   "news": {
-    "general": [
-      {
-        "title": "Nikkei, Yen, Hang Seng: Börsen in Asien nach US-Zwischenwahlen uneinheitlich - Technologiewerte brechen ein",
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-boersen-in-asien-nach-us-zwischenwahlen-uneinheitlich-technologiewerte-brechen-ein/100267457.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Technikgeschichte: „.de“ wird 40: Deutschlands digitale Adresse im Wandel",
-        "link": "https://www.handelsblatt.com/technik/it-internet/technikgeschichte-de-wird-40-deutschlands-digitale-adresse-im-wandel/100267462.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Steinmeier-Nachfolge: Unterstützung für Ilse Aigner wächst",
-        "link": "https://www.handelsblatt.com/politik/deutschland/steinmeier-nachfolge-unterstuetzung-fuer-ilse-aigner-waechst/100267461.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Digitaler Durchblick: Schon gewusst? In Ihrem iPhone steckt ein Währungsrechner",
-        "link": "https://www.handelsblatt.com/technik/it-internet/digitaler-durchblick-schon-gewusst-in-ihrem-iphone-steckt-ein-waehrungsrechner/100267458.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ Bundespolitik +++: Schulze unterstützt Aigner als Bundespräsidentin",
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-woidke-aigner-ist-die-perfekte-kandidatin/100137034.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ Ukraine-Krieg +++: Selenskyj ehrt Melania Trump mit ukrainischem Orden",
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-ehrt-melania-trump-mit-ukrainischem-orden/27982126.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "CO2-Neutralität: Allianz: Deutschland und die Welt verpassen Klimaziele",
-        "link": "https://www.handelsblatt.com/politik/deutschland/co2-neutralitaet-allianz-deutschland-und-die-welt-verpassen-klimaziele/100267451.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "VW-Abgasaffäre: VW-Dieselskandal - Neuer Anlauf für Betrugsprozess",
-        "link": "https://www.handelsblatt.com/politik/deutschland/vw-abgasaffaere-vw-dieselskandal-neuer-anlauf-fuer-betrugsprozess/100267453.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Nach den US-Parlamentswahlen: Für welchen Kurs entscheiden sich die Demokraten?",
-        "link": "https://www.handelsblatt.com/politik/international/nach-den-us-parlamentswahlen-fuer-welchen-kurs-entscheiden-sich-die-demokraten/100267452.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Podcast: Ist die Gen Z wirtschaftlich wirklich abgehängt?",
-        "link": "https://www.handelsblatt.com/audio/made-in-berlin-podcast/ist-die-gen-z-wirtschaftlich-wirklich-abgehaengt/100267447.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Nach Regulierung kommt Post?: Versicherer kündigt: Diese Möglichkeiten haben Betroffene",
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/nach-regulierung-kommt-post-versicherer-kuendigt-diese-moeglichkeiten-haben-betroffene/100267450.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ US-Midterms +++: Cruz – Republikaner haben Sorgen der Wähler nicht verstanden",
-        "link": "https://www.handelsblatt.com/politik/international/us-midterms-cruz-republikaner-haben-sorgen-der-waehler-nicht-verstanden/29669594.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Fliegen zum Fest: Über Weihnachten reisen? Eher teuer, aber es gibt Spartipps",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/fliegen-zum-fest-ueber-weihnachten-reisen-eher-teuer-aber-es-gibt-spartipps/100267442.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Reisen zu Feiertagen: Weihnachten mal anders: Urlaub statt Familienessen",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/reisen-zu-feiertagen-weihnachten-mal-anders-urlaub-statt-familienessen/100267441.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Schlaf als Karrierefaktor: Was hilft im Job, wenn der Schlaf nicht mitspielt?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/schlaf-als-karrierefaktor-was-hilft-im-job-wenn-der-schlaf-nicht-mitspielt/100267434.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Migrationspolitik: Gegen den Trend: Mehr Abschiebungen in die Türkei",
-        "link": "https://www.handelsblatt.com/politik/deutschland/migrationspolitik-gegen-den-trend-mehr-abschiebungen-in-die-tuerkei/100267431.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Städte unter der Lupe: Frankfurt ist dynamischste Großstadt Deutschlands",
-        "link": "https://www.handelsblatt.com/politik/deutschland/staedte-unter-der-lupe-frankfurt-ist-dynamischste-grossstadt-deutschlands/100267432.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Droht ein Ausverkauf?: Ausländische Käufer übernehmen reihenweise deutsche Firmen",
-        "link": "https://www.handelsblatt.com/politik/deutschland/droht-ein-ausverkauf-auslaendische-kaeufer-uebernehmen-reihenweise-deutsche-firmen/100267433.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Midterms: Milliardengrab Midterms: Kann man US-Wahlen kaufen?",
-        "link": "https://www.handelsblatt.com/politik/international/midterms-milliardengrab-midterms-kann-man-us-wahlen-kaufen/100267435.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Immobilien: Kaufpreise für Wohnungen sinken erstmals seit mehr als zwei Jahren",
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-kaufpreise-fuer-wohnungen-sinken-erstmals-seit-mehr-als-zwei-jahren/100267271.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Nach Wahlniederlage: Ursachenforschung bei Republikanern: Trumps Rolle im Fokus",
-        "link": "https://www.handelsblatt.com/politik/international/nach-wahlniederlage-ursachenforschung-bei-republikanern-trumps-rolle-im-fokus/100267430.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Autozulieferer: Bosch verschärft seinen Personalabbau – 750 weitere Stellen fallen weg",
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/autozulieferer-bosch-verschaerft-seinen-personalabbau/100267297.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Klima: Rekord-Störung des Polarwirbels: Droht Deutschland jetzt ein Eiswinter?",
-        "link": "https://www.handelsblatt.com/klima-droht-deutschland-ein-eiswinter/100267232.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Streit um Markenrechte: Ritter Sport vs. Haferriegel: Darum geht es in dem Streit",
-        "link": "https://www.handelsblatt.com/politik/deutschland/streit-um-markenrechte-ritter-sport-vs-haferriegel-darum-geht-es-in-dem-streit/100267424.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Teure Fahrerlaubnis: Reform im Bundestag - Wird der Führerschein günstiger?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/teure-fahrerlaubnis-reform-im-bundestag-wird-der-fuehrerschein-guenstiger/100267423.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Wheat Climbs as Weak Russian Export Outlook Fans Supply Concerns",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/wheat-climbs-as-weak-russian-export-outlook-fans-supply-concerns",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Post-Midterm Rotation Hurts Chips, Boosts China: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Gold Extends Rebound Above $4,100 as Dollar and Yields Decline",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-04/gold-holds-above-4-000-as-dollar-yields-fall-on-midterm-result",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "China Bank Funding Costs Hit Record Low on PBOC Rate Shift",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/china-bank-funding-costs-hit-record-low-on-pboc-rate-shift",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Hong Kong Stocks Roar Back as Value Rotation Boosts China Tech",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/hong-kong-stocks-roar-back-as-investors-rotate-away-from-ai",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Deborah Elms: Global Trade Is Being Reshaped at Higher Cost",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-05/deborah-elms-on-trade-reshuffling-and-rising-costs-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Japan’s 10-Year Bond Auction Sees Softer Demand as Yields Drop",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/japan-s-10-year-bond-sale-demand-in-line-with-12-month-average",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Treasuries Gain as US Vote Fuels Hopes for Curbing Bond Supply",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/treasuries-gain-as-us-vote-fuels-hopes-for-curbing-bond-supply",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Latest Oil Market News and Analysis for Nov. 5",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Indian Bonds, Rupee Rally as Sliding Oil Eases Inflation Risks",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/indian-bonds-rupee-rally-as-sliding-oil-eases-inflation-risks",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Philippine October Inflation Accelerates 7.8%, Close to Four-Year High",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/philippine-october-inflation-accelerates-7-8-close-to-four-year-high",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Indonesia Kicks Off First Dollar Bond Sale Since MSCI Fallout",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/indonesia-kicks-off-first-dollar-bond-sale-since-msci-fallout",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Hong Kong Jails Activist Joshua Wong for 10 Years",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-05/hong-kong-jails-activist-joshua-wong-for-10-years-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Australia Chain David Jones Collapses After Almost 200 Years",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-04/australian-chain-david-jones-collapses-after-almost-200-years",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Chinese Renewables Stocks Extend Surge After Democratic Sweep",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-05/chinese-renewables-stocks-extend-surge-after-democratic-sweep",
-        "source": "Bloomberg Markets"
-      }
-    ],
-    "tickers": {
-      "NVDA": [
-        {
-          "title": "Better Nuclear Energy Stock to Buy After the Sell-Off: Oklo vs. BWX Technologies",
-          "link": "https://www.fool.com/investing/2026/11/04/better-nuclear-energy-stock-to-buy-after-the-sell/",
-          "source": "NVDA"
-        },
-        {
-          "title": "Why McDonald's Stock Popped Today",
-          "link": "https://www.fool.com/investing/2026/11/04/why-mcdonald-s-stock-popped-today/",
-          "source": "NVDA"
-        },
-        {
-          "title": "Mine, Enrich, Build, Operate: Which Link in the Nuclear Supply Chain Is the Best Stock Right Now?",
-          "link": "https://www.fool.com/investing/2026/11/04/mine-enrich-build-operate-which-link-in-the-nuclea/",
-          "source": "NVDA"
-        },
-        {
-          "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-mixed-democratic-sweep-nvda-mu-sndk-nbis-iren-stocks/cNG1cuLR9E7",
-          "source": "NVDA"
-        },
-        {
-          "title": "Could Investing $400 per Month in VTI Make You a Millionaire? Here's the Math.",
-          "link": "https://www.fool.com/investing/2026/11/04/could-investing-400-per-month-in-vti-make-you-a-mi/",
-          "source": "NVDA"
-        }
-      ],
-      "MSFT": [
-        {
-          "title": "Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck",
-          "link": "https://finance.yahoo.com/markets/article/apple-microsoft-hit-all-time-highs-as-nasdaq-surges-2-in-post-election-rally-alphacheck-152548814.html",
-          "source": "MSFT"
-        },
-        {
-          "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-elections-oil-apple-microsoft-amazon-buy-signals-coreweave-spacex-skid/?src=A00220&yptr=yahoo",
-          "source": "MSFT"
-        },
-        {
-          "title": "IREN Stock Drops After Report Says It’s Behind Microsoft’s AI Spending Delay, As Investors Turn To Earnings",
-          "link": "https://stocktwits.com/news-articles/markets/equity/iren-stock-drops-after-report-says-it-s-behind-microsoft-s-ai-spending-delay-as-investors-turn-to-earnings/cNG15gfR9Ef",
-          "source": "MSFT"
-        },
-        {
-          "title": "Texas data centers face uncertain future after Hinojosa wins governor’s race",
-          "link": "https://finance.yahoo.com/technology/articles/texas-data-centers-face-uncertain-172340564.html",
-          "source": "MSFT"
-        },
-        {
-          "title": "Arista Networks stock gets fresh backing from Jim Cramer and Wall Street",
-          "link": "https://www.thestreet.com/investing/stocks/arista-networks-stock-gets-fresh-backing-from-jim-cramer-and-wall-street-anet",
-          "source": "MSFT"
-        }
-      ],
-      "AAPL": [
-        {
-          "title": "Apple, Microsoft hit all-time highs as Nasdaq surges 2% in post-election rally: AlphaCheck",
-          "link": "https://finance.yahoo.com/markets/article/apple-microsoft-hit-all-time-highs-as-nasdaq-surges-2-in-post-election-rally-alphacheck-152548814.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "Post-election gridlock might be a bullish sign for Apple,",
-          "link": "https://finance.yahoo.com/video/post-election-gridlock-might-be-a-bullish-sign-for-apple-150824062.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "Why the Democrat blue wave could be a good thing for Apple stock",
-          "link": "https://finance.yahoo.com/markets/stocks/article/why-the-democrat-blue-wave-could-be-a-good-thing-for-apple-stock-100051134.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "Post-election gridlock might be a bullish sign for Apple, memory prices",
-          "link": "https://finance.yahoo.com/video/post-election-gridlock-might-be-a-bullish-sign-for-apple-memory-prices-145614312.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "Dow Jones Futures Rise, Techs Fall; Apple, Microsoft, Amazon Flash Buy Signals In Postelection Rally",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-elections-oil-apple-microsoft-amazon-buy-signals-coreweave-spacex-skid/?src=A00220&yptr=yahoo",
-          "source": "AAPL"
-        }
-      ],
-      "ASML": [
-        {
-          "title": "ASML vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/04/asml-vs-marvell-technology-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/",
-          "source": "ASML"
-        },
-        {
-          "title": "Better AI Semiconductor Monopoly Stock: Taiwan Semiconductor vs. ASML",
-          "link": "https://www.fool.com/investing/2026/11/04/better-ai-semiconductor-monopoly-stock-taiwan-semi/",
-          "source": "ASML"
-        },
-        {
-          "title": "ASML Holding N.V. (ASML) Is a Trending Stock: Facts to Know Before Betting on It",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asml-holding-n-v-asml-130004814.html",
-          "source": "ASML"
-        },
-        {
-          "title": "Democrats’ Victory to Add Volatility to AI Trade",
-          "link": "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-financial-airline-stocks-87443383?siteid=yhoof2&yptr=yahoo",
-          "source": "ASML"
-        },
-        {
-          "title": "Top Wide-Moat Stocks to Buy for Steady Long-Term Returns",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-wide-moat-stocks-buy-114400415.html",
-          "source": "ASML"
-        }
-      ],
-      "SAP.DE": [
-        {
-          "title": "SAP Stocks Rise 4.1% as Sovereign AI Launch Faces Its First Commercial Test",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sap-stocks-rise-4-1-185945004.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Docusign vs. Okta: Which Tech Stock Is a Better Buy for 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/04/docusign-vs-okta-which-tech-stock-is-a-better-buy-for-2027/",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "SAP Stocks Decline as Sovereign AI Faces a Margin Test",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sap-stocks-decline-sovereign-ai-181856399.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "SAP (XTRA:SAP) Gains Ground In European E Invoicing Compliance",
-          "link": "https://finance.yahoo.com/technology/articles/sap-xtra-sap-gains-ground-091519101.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "SAP SE (SAP) Could Benefit From AI Integration as Cloud Growth Accelerates, Janus Henderson Says",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sap-se-sap-could-benefit-201143808.html",
-          "source": "SAP.DE"
-        }
-      ],
-      "URTH": [
-        {
-          "title": "iShares MSCI World ETF vs. iShares Core MSCI Total International Stock ETF: Which Is the Better Buy for the Next Decade?",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/26/ishares-msci-world-etf-vs-ishares-core-msci-total-international-stock-etf-which-is-the-better-buy-for-the-next-decade/",
-          "source": "URTH"
-        },
-        {
-          "title": "Two International ETFs With Contrasting Styles: iShares MSCI World ETF (URTH) and Emerging Markets ETF (EEM)",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/09/two-international-etfs-with-contrasting-styles-ishares-msci-world-etf-urth-and-emerging-markets-etf-eem/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better International ETF: Vanguard VEA vs. iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/03/better-international-etf-vanguard-vea-vs-ishares-urth/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better Global ETF: Vanguard's VT vs. the iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/09/22/better-global-etf-vanguard-s-vt-vs-the-ishares-urth/",
-          "source": "URTH"
-        },
-        {
-          "title": "Which International ETF Is the Better Buy: Schwab's Emerging Markets SCHE or iShares' World ETF URTH?",
-          "link": "https://www.fool.com/coverage/etfs/2026/09/10/which-international-etf-is-the-better-buy-schwab-s-emerging-markets-sche-or-ishares-world-etf-urth/",
-          "source": "URTH"
-        }
-      ],
-      "TSLA": [
-        {
-          "title": "SpaceX, Tesla stocks sink as analyst warns Democrats' victory will create 'major hurdles' for AI build-out",
-          "link": "https://finance.yahoo.com/markets/stocks/article/spacex-tesla-stocks-sink-as-analyst-warns-democrats-victory-will-create-major-hurdles-for-ai-build-out-135511616.html",
-          "source": "TSLA"
-        },
-        {
-          "title": "SpaceX and Tesla 'need to find the path forward with Texas' on the back of midterm 'Blue Wave'",
-          "link": "https://finance.yahoo.com/markets/stocks/article/spacex-and-tesla-need-to-find-the-path-forward-with-texas-on-the-back-of-midterm-blue-wave-151413202.html",
-          "source": "TSLA"
-        },
-        {
-          "title": "How Tesla and SpaceX stocks are reacting to Democrats winning Congress",
-          "link": "https://finance.yahoo.com/video/how-tesla-and-spacex-stocks-are-reacting-to-democrats-winning-congress-143808663.html",
-          "source": "TSLA"
-        },
-        {
-          "title": "Tesla, Uber Could Triple In 5 Years? Elon Musk Ally Jason Calacanis Says Both Stocks Are ‘50% Undervalued’",
-          "link": "https://stocktwits.com/news-articles/markets/equity/tesla-uber-triple-5-years-elon-musk-ally-jason-calacanis-both-stocks-undervalued/cNG1d6SR9EQ",
-          "source": "TSLA"
-        },
-        {
-          "title": "Trump to Pardon Elon Musk Soon? Crypto Punters Bet as Ross Gerber Calls GOP Midterm Loss 'Worst Possible Outcome' for SpaceX CEO",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/11/62902639/trump-elon-musk-pardon-democrats-midterms-ross-gerber?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
-          "source": "TSLA"
-        }
-      ],
-      "MU": [
-        {
-          "title": "Dow, S&P 500, Nasdaq Futures Mixed After A Democratic Sweep In Midterms: NVDA, MU, SNDK, NBIS, IREN In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/dow-nasdaq-sp500-futures-mixed-democratic-sweep-nvda-mu-sndk-nbis-iren-stocks/cNG1cuLR9E7",
-          "source": "MU"
-        },
-        {
-          "title": "TSMC Is Up 30% in a Year and 19% Off Its High: Take Profits, or Buy More?",
-          "link": "https://www.tikr.com/blog/tsmc-is-up-30-in-a-year-and-19-off-its-high-take-profits-or-buy-more?ref=yahoofinance&tlnk=yf-261104-9x47mx2m",
-          "source": "MU"
-        },
-        {
-          "title": "Micron (MU) Stock Looks Near Fair Value Despite AI Optimism",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/micron-mu-stock-looks-near-021122807.html",
-          "source": "MU"
-        },
-        {
-          "title": "Is the Market Bottoming? 3 Tells to Watch",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/market-bottoming-3-tells-watch-010300254.html",
-          "source": "MU"
-        },
-        {
-          "title": "Q3 Earnings Scorecard: Solid Beats, Upward Revisions, and AI Drivers",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/q3-earnings-scorecard-solid-beats-233900397.html",
-          "source": "MU"
-        }
-      ],
-      "NKE": [
-        {
-          "title": "Lululemon Stock Is Down 48% in 2026. Is It a Buy Before 2027?",
-          "link": "https://www.fool.com/investing/2026/11/04/lululemon-stock-is-down-48-in-2026-is-it-a-buy-bef/",
-          "source": "NKE"
-        },
-        {
-          "title": "Will Product Reset Change Nike's (NKE) Narrative",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/product-reset-change-nikes-nke-190936698.html",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike Climbs 7% as Dow Rally Lifts Consumer Stocks; Deckers Gains 7%, Lululemon Rises 6%",
-          "link": "https://247wallst.com/investing/2026/11/04/nike-climbs-7-as-dow-rally-lifts-consumer-stocks-deckers-gains-7-lululemon-rises-6/",
-          "source": "NKE"
-        },
-        {
-          "title": "Walmart's Dec. 11 Dividend Isn't the Real Reason to Own the Stock",
-          "link": "https://www.fool.com/investing/2026/11/04/walmarts-dec-11-dividend-isnt-the-real-reason-to/",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike vs. Lululemon: Which Stock Is a Better Buy for the Last 2 Months of 2026?",
-          "link": "https://www.fool.com/investing/2026/11/04/nike-vs-lululemon-which-stock-is-a-better-buy-for/",
-          "source": "NKE"
-        }
-      ]
-    },
-    "new_tickers": []
+    "general": [],
+    "tickers": {}
   }
 }

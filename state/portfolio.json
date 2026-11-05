@@ -1,12 +1,6 @@
 {
-  "cash": 4114.458124683224,
+  "cash": 4961.516788379631,
   "positions": {
-    "NVDA": {
-      "shares": 4.63620949184343,
-      "avg_price": 216.82000732421875,
-      "underwater": true,
-      "opened": "2026-10-27"
-    },
     "TSLA": {
       "shares": 2.494205434557632,
       "avg_price": 399.80999755859375,
@@ -214,6 +208,14 @@
       "shares": 4.8731,
       "price": 206.65,
       "reason": "Analyst: BUY"
+    },
+    {
+      "time": "2026-11-05T17:52:44",
+      "side": "SELL",
+      "ticker": "NVDA",
+      "shares": 4.6362,
+      "price": 182.71,
+      "reason": "Stop-Loss"
     }
   ]
 }
