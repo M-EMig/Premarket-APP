@@ -22,7 +22,7 @@
     "MSFT": {
       "shares": 1.8117088447887773,
       "avg_price": 555.7999877929688,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-05"
     },
     "AAPL": {
