@@ -1,5 +1,5 @@
 {
-  "cash": 5974.066810051887,
+  "cash": 4977.597712543039,
   "positions": {
     "TSLA": {
       "shares": 2.494205434557632,
@@ -24,6 +24,12 @@
       "avg_price": 206.64999389648438,
       "underwater": false,
       "opened": "2026-11-05"
+    },
+    "AAPL": {
+      "shares": 2.841452823210549,
+      "avg_price": 350.69000244140625,
+      "underwater": false,
+      "opened": "2026-11-10"
     }
   },
   "trades": [
@@ -218,6 +224,14 @@
       "shares": 2.8811,
       "price": 351.44,
       "reason": "Break-even"
+    },
+    {
+      "time": "2026-11-10T04:44:12",
+      "side": "BUY",
+      "ticker": "AAPL",
+      "shares": 2.8415,
+      "price": 350.69,
+      "reason": "Analyst: BUY"
     }
   ]
 }
