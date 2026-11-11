@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-11T04:50:22.610034",
-  "mode": "report",
+  "generated": "2026-11-11T14:49:43.865682",
+  "mode": "alerts",
   "depot": {
-    "value": 9903.553743146076,
+    "value": 9928.09610582902,
     "start": 10000.0,
-    "cash": 4977.597712543039,
+    "cash": 5981.752901784398,
     "positions": {
       "TSLA": {
         "shares": 2.494205434557632,
@@ -15,7 +15,7 @@
       "NKE": {
         "shares": 25.79977125868177,
         "avg_price": 38.47999954223633,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-11-04"
       },
       "MSFT": {
@@ -29,22 +29,16 @@
         "avg_price": 206.64999389648438,
         "underwater": false,
         "opened": "2026-11-05"
-      },
-      "AAPL": {
-        "shares": 2.841452823210549,
-        "avg_price": 350.69000244140625,
-        "underwater": true,
-        "opened": "2026-11-10"
       }
     }
   },
   "analyses": [
     {
       "ticker": "MSFT",
-      "price": 533.1599731445312,
-      "rsi": 50.07030101094488,
-      "drop20": -4.073410425635116,
-      "mom5": 2.335934113567406,
+      "price": 530.1300048828125,
+      "rsi": 53.22086709152499,
+      "drop20": -4.618564856773277,
+      "mom5": -4.618564856773277,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -57,26 +51,26 @@
     },
     {
       "ticker": "AAPL",
-      "price": 348.510009765625,
-      "rsi": 53.12414572821924,
-      "drop20": -0.6216295476360156,
-      "mom5": 5.004524306897418,
+      "price": 353.3399963378906,
+      "rsi": 53.50972762645914,
+      "drop20": 0.0,
+      "mom5": 1.0958159896004016,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 350.69000244140625,
+      "high20": 353.3399963378906,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 211.64999389648438,
-      "rsi": 61.47725834334691,
-      "drop20": -1.9003504535414217,
-      "mom5": 0.5463153902538709,
+      "price": 211.25,
+      "rsi": 43.825294283103744,
+      "drop20": -2.085747392815762,
+      "mom5": -1.423239854560887,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -89,10 +83,10 @@
     },
     {
       "ticker": "TSLA",
-      "price": 379.7799987792969,
-      "rsi": 47.87443520080672,
-      "drop20": -6.793303209214086,
-      "mom5": -4.69761636655035,
+      "price": 387.1099853515625,
+      "rsi": 54.09986305930349,
+      "drop20": -4.994356876817241,
+      "mom5": 0.49845086788000703,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -105,10 +99,10 @@
     },
     {
       "ticker": "NKE",
-      "price": 38.66999816894531,
-      "rsi": 54.6721268930428,
-      "drop20": -4.494945502779246,
-      "mom5": 0.49375943079323914,
+      "price": 38.400001525878906,
+      "rsi": 50.34247358289553,
+      "drop20": -5.1617685007392495,
+      "mom5": -5.1617685007392495,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -121,16 +115,16 @@
     },
     {
       "ticker": "NVDA",
-      "price": 168.88999938964844,
-      "rsi": 19.275290456684402,
-      "drop20": -23.913142108909412,
-      "mom5": -18.28825903781852,
+      "price": 172.0500946044922,
+      "rsi": 24.830868239032924,
+      "drop20": -22.489483417435284,
+      "mom5": -14.030834754020372,
       "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "RSI 19: überverkauft",
-        "-23.9 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 25: überverkauft",
+        "-22.5 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 221.97000122070312,
       "downtrend": true,
@@ -138,15 +132,15 @@
     },
     {
       "ticker": "ASML",
-      "price": 1507.8499755859375,
-      "rsi": 39.12703463712071,
-      "drop20": -10.016708269792229,
-      "mom5": -2.8534822016383465,
+      "price": 1521.0999755859375,
+      "rsi": 47.18288326309782,
+      "drop20": -9.225993918411246,
+      "mom5": 1.6574166910731103,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-10.0 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-9.2 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1675.699951171875,
       "downtrend": true,
@@ -154,15 +148,15 @@
     },
     {
       "ticker": "MU",
-      "price": 725.1099853515625,
-      "rsi": 35.23599012204835,
-      "drop20": -26.25225026134069,
-      "mom5": -15.201730083701893,
+      "price": 776.739990234375,
+      "rsi": 43.70092952247695,
+      "drop20": -21.001189379511388,
+      "mom5": -2.3251123182599365,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-26.3 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-21.0 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 983.22998046875,
       "downtrend": true,
@@ -170,10 +164,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 203.86000061035156,
-      "rsi": 41.816899099036895,
-      "drop20": -2.220732294510064,
-      "mom5": -0.20559926153077557,
+      "price": 204.75999450683594,
+      "rsi": 47.376251736274774,
+      "drop20": -1.7890598532553703,
+      "mom5": -1.496127716074791,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -189,470 +183,32 @@
       "ticker": "TSLA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "TSLA: -5.0 %, warte auf nächstes Plus."
+      "msg": "TSLA: -3.2 %, warte auf nächstes Plus."
+    },
+    {
+      "ticker": "NKE",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "NKE: -0.2 %, warte auf nächstes Plus."
     },
     {
       "ticker": "MSFT",
       "action": "info",
       "type": "Im Minus",
-      "msg": "MSFT: -4.0 %, warte auf nächstes Plus."
+      "msg": "MSFT: -4.6 %, warte auf nächstes Plus."
     },
     {
       "ticker": "AAPL",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "AAPL: -0.6 %, warte auf nächstes Plus."
+      "action": "sell",
+      "type": "Break-even",
+      "msg": "AAPL: war im Minus, jetzt +0.8 %. Ausstieg zum Ausgleich."
     }
   ],
-  "trades": [],
+  "trades": [
+    "VERKAUF AAPL: 2.84 Stk. zu 353.39, +0.8 % (Break-even)"
+  ],
   "news": {
-    "general": [
-      {
-        "title": "Nikkei, Yen, Hang Seng: Japans Börsen im Aufwind – Chip-Nachfrage treibt Kurse",
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-japans-boersen-im-aufwind-chip-nachfrage-treibt-kurse/100268928.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "UN-Klimakonferenz: Die wichtigsten EU-Staatschefs fehlen auf der Klimakonferenz",
-        "link": "https://www.handelsblatt.com/politik/international/un-klimakonferenz-die-wichtigsten-eu-staatschefs-fehlen-auf-der-klimakonferenz/100268967.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Invest: Stiftungsinvestor Lundberg: Warum Private Equity kein Selbstläufer ist",
-        "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-stiftungsinvestor-lundberg-warum-private-equity-kein-selbstlaeufer-ist/100221421.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Invest: Stiftungsinvestor Lundberg – Warum Private Equity kein Selbstläufer ist",
-        "link": "https://www.handelsblatt.com/audio/handelsblatt-invest/invest-stiftungsinvestor-lundberg-warum-private-equity-kein-selbstlaeufer-ist/100268875.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Gasversorgung: Was bringt eine Gasreserve? Kabinettsbeschluss erwartet",
-        "link": "https://www.handelsblatt.com/politik/deutschland/gasversorgung-was-bringt-eine-gasreserve-kabinettsbeschluss-erwartet/100268964.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Antrag bis 15. Dezember nötig: Mehrere Depots? So werden Gewinne und Verluste verrechnet",
-        "link": "https://www.handelsblatt.com/finanzen/steuern-recht/antrag-bis-15-dezember-noetig-mehrere-depots-so-werden-gewinne-und-verluste-verrechnet/100268965.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Geschäftsträger einbestellt: Diplomatischer Eklat zwischen Deutschland und Myanmar",
-        "link": "https://www.handelsblatt.com/politik/international/geschaeftstraeger-einbestellt-diplomatischer-eklat-zwischen-deutschland-und-myanmar/100268927.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Verhandlungen in Abu Dhabi: Ukraine-Gespräche gehen weiter: Kommt ein Gipfeltreffen?",
-        "link": "https://www.handelsblatt.com/politik/international/verhandlungen-in-abu-dhabi-ukraine-gespraeche-gehen-weiter-kommt-ein-gipfeltreffen/100268925.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Asien: Chinesische Firmen halten an Deutschland fest",
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/asien-chinesische-firmen-halten-an-deutschland-fest/100268923.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Immobilien: Deutschland verliert bei Immobilieninvestoren an Attraktivität",
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-deutschland-verliert-bei-immobilieninvestoren-an-attraktivitaet/100266860.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Deloitte-Studie: „Pflegefinanzen unter Druck“: Milliardenpotenzial durch KI und Robotik in der Pflege",
-        "link": "https://www.handelsblatt.com/politik/deutschland/deloitte-studie-milliardenpotenzial-durch-ki-und-robotik-in-der-pflege/100268426.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Mittelstand: Wenn KI die Lieferantenpreise herunterhandelt",
-        "link": "https://www.handelsblatt.com/unternehmen/mittelstand/mittelstand-wenn-ki-die-lieferantenpreise-herunterhandelt/100266920.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Forschungssicherheit: Fördergeld nur noch bei Schutz vor Spionage und Wissensabfluss",
-        "link": "https://www.handelsblatt.com/politik/deutschland/forschungssicherheit-foerdergeld-nur-noch-bei-schutz-vor-spionage-und-wissensabfluss/100268434.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Sicherheit: Kehren Polizisten Sachsen-Anhalt den Rücken? Überdurchschnittlich viele Versetzungsanträge nach AfD‑Sieg",
-        "link": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-ungewoehnlich-viele-polizisten-beantragen-nach-afd-sieg-versetzung/100268780.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Investitionen: Chinesische Firmen halten an Deutschland fest",
-        "link": "https://www.handelsblatt.com/politik/deutschland/investitionen-chinesische-firmen-halten-an-deutschland-fest/100268920.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Arbeitsmarkt: Zahl der arbeitslosen Akademiker erreicht Höchststand",
-        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-zahl-der-arbeitslosen-akademiker-erreicht-hoechststand/100268919.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Künstliche Intelligenz: Microsoft will offenbar Verbot chinesischer KI-Bauteile in USA verhindern",
-        "link": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-microsoft-will-offenbar-verbot-chinesischer-ki-bauteile-in-usa-verhindern/100268916.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Arbeitsrecht: Darf ich bei Kälte die Arbeit verweigern?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsrecht-darf-ich-bei-kaelte-die-arbeit-verweigern/100268912.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Der Winter ist da: Wie kalt darf es an Ihrem Arbeitsplatz werden?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/der-winter-ist-da-wie-kalt-darf-es-an-ihrem-arbeitsplatz-werden/100268913.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "US-Verteidigungsminister: Amtsenthebung Hegseths im US-Repräsentantenhaus gestoppt",
-        "link": "https://www.handelsblatt.com/politik/international/us-verteidigungsminister-amtsenthebung-hegseths-im-us-repraesentantenhaus-gestoppt/100268906.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ Iran-Krieg +++: US-Finanzminister zieht nach Drohungen des Irans auf Militärbasis",
-        "link": "https://www.handelsblatt.com/politik/international/iran-krieg-us-finanzminister-zieht-nach-drohungen-des-irans-auf-militaerbasis/100136895.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ Ukraine-Krieg +++: Lettland und Litauen warnen vor Drohnen im Luftraum",
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-lettland-und-litauen-warnen-vor-drohnen-im-luftraum/27982126.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "USA: US-Repräsentantenhaus lehnt Amtsenthebungsverfahren gegen Hegseth ab",
-        "link": "https://www.handelsblatt.com/politik/international/usa-us-repraesentantenhaus-lehnt-amtsenthebungsverfahren-gegen-hegseth-ab/100268903.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "+++ US-Midterms +++: US-Soldat in Großbritannien wegen Spionageverdachts für Russland festgenommen",
-        "link": "https://www.handelsblatt.com/politik/international/nach-us-midterms-us-soldat-in-grossbritannien-wegen-spionageverdachts-fuer-russland-festgenommen/29669594.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "KI: US-Cloud-Anbieter CoreWeave übertrifft Erwartungen – Aktie steigt",
-        "link": "https://www.handelsblatt.com/technik/ki/ki-us-cloud-anbieter-coreweave-uebertrifft-erwartungen-aktie-steigt/100268896.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Asian Stocks Rally for a Third Day, Bonds Slump: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/stock-market-today-dow-s-p-live-updates",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Singapore Air Plans More Room for Premium Seats",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-11/singapore-air-plans-more-room-for-premium-seats-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Indonesia to Cut 300 More Tightly Held Stocks From Benchmark",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/indonesia-bourse-adds-300-stocks-to-high-concentration-list",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "SoftBank Shares Drop 11% After Booking $7 Billion Loss",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/softbank-group-shares-drop-10-after-booking-7-billion-loss",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "AZ-VC's Selby on Why Anthropic's IPO Puzzles Him",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-11/az-vc-s-selby-on-why-anthropic-s-ipo-puzzles-him-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "US Aim Is to De-Risk Not Decouple With China, Bessent Says",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-11/us-aim-is-to-de-risk-with-china-bessent-says-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Power Turbine Stocks Dip as SoftBank Loss Fuels Fears",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/power-turbine-stocks-dip-as-softbank-writedown-fuels-demand-fear",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "US Ambassador to China on US-China Relations",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-11/us-ambassador-to-china-on-us-china-relations-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Korea Fines Bond Dealers Record $1.2 Billion Over Collusion",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/korea-fines-bond-dealers-record-1-2-billion-over-collusion",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "China Ties 'Bumpy' But Engagement Will Continue, US China Ambassador Says",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-11/us-china-ambassador-on-bumpy-china-ties-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "India Short-Term Rates May Rise, Weighing on Spending, Investment",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-11-11/india-short-term-rates-may-rise-weighing-on-spending-investment",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "China’s Iron Ore Buying Clout Makes Each Deal a Market Event",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-10/china-s-iron-ore-buying-clout-makes-each-deal-a-market-event",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "China Copper Crunch Puts Industry on Defensive as Costs Soar",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/china-s-copper-crunch-puts-industry-on-defensive-as-costs-soar",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Hedge Fund Risk Retreat Largest in a Decade, Morgan Stanley Says",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/hedge-fund-risk-retreat-largest-in-a-decade-says-morgan-stanley",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Lula Team Readies Brazil Fiscal Plan in Bid to Calm Market Jitters",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/lula-team-readies-brazil-fiscal-plan-in-bid-to-calm-market-jitters",
-        "source": "Bloomberg Markets"
-      }
-    ],
-    "tickers": {
-      "NVDA": [
-        {
-          "title": "OpenAI's Q3 results and Nvidia's scandal impact on the AI ecosystem",
-          "link": "https://finance.yahoo.com/video/openais-q3-results-and-nvidias-scandal-impact-on-the-ai-ecosystem-222332740.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "Chip stocks' slide nears $5 trillion as Nvidia hits most extreme selling level since 2019",
-          "link": "https://finance.yahoo.com/markets/article/chip-stocks-slide-nears-5-trillion-as-nvidia-hits-most-extreme-selling-level-since-2019-191532559.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "Nvidia in the hot seat, Anthropic to test the IPO market, hotter-than-expected US inflation",
-          "link": "https://finance.yahoo.com/video/nvidia-in-the-hot-seat-anthropic-to-test-the-ipo-market-hotter-than-expected-us-inflation-184626512.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "Alleged plot to spy on Jensen Huang: Why it's bullish for AI.",
-          "link": "https://finance.yahoo.com/video/alleged-plot-to-spy-on-jensen-huang-why-its-bullish-for-ai-182150462.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "Top strategist: Nvidia CEO Jensen Huang's affair highlights key risk for tech companies",
-          "link": "https://finance.yahoo.com/technology/article/top-strategist-nvidia-ceo-jensen-huangs-affair-highlights-key-risk-for-tech-companies-184212599.html",
-          "source": "NVDA"
-        }
-      ],
-      "MSFT": [
-        {
-          "title": "Dow Jones Futures Rise As CoreWave Jumps, Lifts AI Stocks; Look For This Bullish Signal",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-treasury-yields-nvidia-coreweave/?src=A00220&yptr=yahoo",
-          "source": "MSFT"
-        },
-        {
-          "title": "ESGU Trailed IVV by $26,370 on $300,000 Over Five Years. Its ESG Tilts Are Part of the Reason",
-          "link": "https://247wallst.com/investing/etf/2026/11/10/esgu-trailed-ivv-by-26370-on-300000-over-five-years-its-esg-tilts-are-part-of-the-reason/",
-          "source": "MSFT"
-        },
-        {
-          "title": "Is Seagate A Better Way Than Apple To Own AI Hardware Demand?",
-          "link": "https://www.trefis.com/stock/aapl/articles/623932/is-seagate-a-better-way-than-apple-to-own-ai-hardware-demand/2026-11-10",
-          "source": "MSFT"
-        },
-        {
-          "title": "What Would It Take For AMD Stock To Move Higher?",
-          "link": "https://www.trefis.com/stock/amd/articles/623964/what-would-it-take-for-amd-stock-to-move-higher/2026-11-10",
-          "source": "MSFT"
-        },
-        {
-          "title": "What Nebius Group Buyers Were Betting On",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-group-buyers-were-betting-231720905.html",
-          "source": "MSFT"
-        }
-      ],
-      "AAPL": [
-        {
-          "title": "New iOS exploit could let apps steal crypto keys",
-          "link": "https://finance.yahoo.com/video/ios-exploit-could-let-apps-190000953.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "No chair and 30-year tenures: Will Nvidia's board go soft on Jensen?",
-          "link": "https://finance.yahoo.com/video/no-chair-and-30-year-tenures-will-nvidias-board-go-soft-on-jensen-150036535.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "ESGU Trailed IVV by $26,370 on $300,000 Over Five Years. Its ESG Tilts Are Part of the Reason",
-          "link": "https://247wallst.com/investing/etf/2026/11/10/esgu-trailed-ivv-by-26370-on-300000-over-five-years-its-esg-tilts-are-part-of-the-reason/",
-          "source": "AAPL"
-        },
-        {
-          "title": "Is Seagate A Better Way Than Apple To Own AI Hardware Demand?",
-          "link": "https://www.trefis.com/stock/aapl/articles/623932/is-seagate-a-better-way-than-apple-to-own-ai-hardware-demand/2026-11-10",
-          "source": "AAPL"
-        },
-        {
-          "title": "Nvidia's trillion-dollar bind: Can it afford to lose Jensen Huang?",
-          "link": "https://www.cbsnews.com/news/jensen-huang-affair-nvidia-ceo-dilemma/",
-          "source": "AAPL"
-        }
-      ],
-      "ASML": [
-        {
-          "title": "AI chip exports to China and oversight bills gain momentum in Congress",
-          "link": "https://finance.yahoo.com/video/ai-chip-exports-to-china-and-oversight-bills-gain-momentum-in-congress-143900242.html",
-          "source": "ASML"
-        },
-        {
-          "title": "Intel Can Catch Taiwan Semiconductor on Physics, Not Economics",
-          "link": "https://247wallst.com/investing/2026/11/10/intel-can-catch-taiwan-semiconductor-on-physics-not-economics/",
-          "source": "ASML"
-        },
-        {
-          "title": "ETFs Are Net Sellers of ASML (ASML) on Nov. 6",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-asml-asml-110344885.html",
-          "source": "ASML"
-        },
-        {
-          "title": "The Zacks Analyst Blog Highlights ASML, Alibaba, Intuitive Surgical, Paul Mueller and Presurance",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-asml-062800412.html",
-          "source": "ASML"
-        },
-        {
-          "title": "ASML (ENXTAM:ASML) Stock May Be Priced For Perfection After 125% Run",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/asml-enxtam-asml-stock-may-012112495.html",
-          "source": "ASML"
-        }
-      ],
-      "SAP.DE": [
-        {
-          "title": "Why JPMorgan Says SAP (SAP) Is “No Longer Priced For AI Disruption”",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-jpmorgan-says-sap-sap-222205895.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "SAP Stocks Rise 1.73% After JPMorgan Upgrade on AI Production Shift",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sap-stocks-rise-1-73-181034858.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Descartes Systems Group (TSX:DSG) Has A Fresh Update, So What Is Drawing Attention Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/descartes-systems-group-tsx-dsg-131040331.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Descartes Systems Group (TSX:DSG) Stock Could Be 20% Undervalued After Ocean Visibility Integration",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/descartes-systems-group-tsx-dsg-120838622.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Premarket movers: Nvidia slides on Huang probe, NVR extends rally",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/premarket-movers-nvidia-slides-huang-113609873.html",
-          "source": "SAP.DE"
-        }
-      ],
-      "URTH": [
-        {
-          "title": "What iShares MSCI World ETF (URTH) Bought: Apple Leads on Wednesday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-world-etf-urth-110529877.html",
-          "source": "URTH"
-        },
-        {
-          "title": "iShares MSCI World ETF vs. iShares Core MSCI Total International Stock ETF: Which Is the Better Buy for the Next Decade?",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/26/ishares-msci-world-etf-vs-ishares-core-msci-total-international-stock-etf-which-is-the-better-buy-for-the-next-decade/",
-          "source": "URTH"
-        },
-        {
-          "title": "Two International ETFs With Contrasting Styles: iShares MSCI World ETF (URTH) and Emerging Markets ETF (EEM)",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/09/two-international-etfs-with-contrasting-styles-ishares-msci-world-etf-urth-and-emerging-markets-etf-eem/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better International ETF: Vanguard VEA vs. iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/03/better-international-etf-vanguard-vea-vs-ishares-urth/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better Global ETF: Vanguard's VT vs. the iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/09/22/better-global-etf-vanguard-s-vt-vs-the-ishares-urth/",
-          "source": "URTH"
-        }
-      ],
-      "TSLA": [
-        {
-          "title": "After Terafab Chips, Tesla’s $10 Billion Crystal Sun Solar Factory Breaks Ground",
-          "link": "https://beincrypto.com/tesla-crystal-sun-solar-factory/",
-          "source": "TSLA"
-        },
-        {
-          "title": "What Are Rivian Stock Bulls Not Worried About?",
-          "link": "https://www.trefis.com/stock/rivn/articles/623951/what-are-rivian-stock-bulls-not-worried-about/2026-11-10",
-          "source": "TSLA"
-        },
-        {
-          "title": "Bullish’s New President Backs Issuer-First Model for Tokenized Stocks",
-          "link": "https://www.cryptoprowl.com/releases/bullishs-new-president-backs-issuer-first-model-for-tokenized-stocks-7830",
-          "source": "TSLA"
-        },
-        {
-          "title": "Ethereum ended CoreWeave's mining days. Earnings test its AI bet",
-          "link": "https://www.thestreet.com/crypto/markets/coreweave-stock-could-swing-15-on-q3-earnings-options-imply",
-          "source": "TSLA"
-        },
-        {
-          "title": "Top 3 Founder Run Stocks With Earnings Growth Over 15%",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/top-3-founder-run-stocks-200943803.html",
-          "source": "TSLA"
-        }
-      ],
-      "MU": [
-        {
-          "title": "Micron stock is a screaming buy at current valuation levels: Goldman Sachs",
-          "link": "https://finance.yahoo.com/markets/stocks/article/micron-stock-is-a-screaming-buy-at-current-valuation-levels-goldman-sachs-172852076.html",
-          "source": "MU"
-        },
-        {
-          "title": "Is Seagate A Better Way Than Apple To Own AI Hardware Demand?",
-          "link": "https://www.trefis.com/stock/aapl/articles/623932/is-seagate-a-better-way-than-apple-to-own-ai-hardware-demand/2026-11-10",
-          "source": "MU"
-        },
-        {
-          "title": "‘When Greed Is Good,’ Says Top Investor About Micron Stock",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/greed-good-says-top-investor-224627297.html",
-          "source": "MU"
-        },
-        {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-491215dc?siteid=yhoof2&yptr=yahoo",
-          "source": "MU"
-        },
-        {
-          "title": "Wall Street's $1.6 trillion rebound may look like a bottom — history says it often isn't: Chart of the Day",
-          "link": "https://finance.yahoo.com/markets/article/wall-streets-16-trillion-rebound-may-look-like-a-bottom--history-says-it-often-isnt-chart-of-the-day-110000299.html",
-          "source": "MU"
-        }
-      ],
-      "NKE": [
-        {
-          "title": "Stock Market Today: Dow Dips As Yields Soar; Nvidia Dives; Anthropic Seeks This IPO Price",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-anthropic-ipo/?src=A00220&yptr=yahoo",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike (NKE) Declines More Than Market: Some Information for Investors",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-declines-more-market-214502786.html",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike (NKE) Stock Trades Near Fair Value On Cash Flow",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-nke-stock-trades-near-210941923.html",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike retiree returns as CAO",
-          "link": "https://www.cfodive.com/news/nike-retiree-returns-cao/874311/",
-          "source": "NKE"
-        },
-        {
-          "title": "On Co-CEO Says Asia-Pacific Region Is ‘Match Made in Heaven’ for Its Premium Positioning, But Will Controversy Get in the Way?",
-          "link": "https://wwd.com/footwear-news/shoe-industry-news/mbappe-on-running-china-controversy-growth-analysis-1239409432/",
-          "source": "NKE"
-        }
-      ]
-    },
-    "new_tickers": []
+    "general": [],
+    "tickers": {}
   }
 }
