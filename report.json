@@ -1,8 +1,8 @@
 {
-  "generated": "2026-11-12T04:50:24.374371",
+  "generated": "2026-11-13T04:50:45.064688",
   "mode": "report",
   "depot": {
-    "value": 9916.50497748012,
+    "value": 9927.737895062588,
     "start": 10000.0,
     "cash": 4990.147017980822,
     "positions": {
@@ -33,7 +33,7 @@
       "AAPL": {
         "shares": 2.788307707979619,
         "avg_price": 355.6300048828125,
-        "underwater": false,
+        "underwater": true,
         "opened": "2026-11-12"
       }
     }
@@ -41,10 +41,10 @@
   "analyses": [
     {
       "ticker": "MSFT",
-      "price": 521.1300048828125,
-      "rsi": 50.01671945168364,
-      "drop20": -6.237852405831745,
-      "mom5": -6.237852405831745,
+      "price": 523.0,
+      "rsi": 49.489619933951786,
+      "drop20": -5.901401315824872,
+      "mom5": -2.412627181252658,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -57,26 +57,26 @@
     },
     {
       "ticker": "AAPL",
-      "price": 355.6300048828125,
-      "rsi": 54.92489470167808,
-      "drop20": 0.0,
-      "mom5": 1.7510214146059688,
+      "price": 354.8800048828125,
+      "rsi": 54.93192321090852,
+      "drop20": -0.1350688002407341,
+      "mom5": 3.1901820892343835,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 355.6300048828125,
+      "high20": 355.3599853515625,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 209.9499969482422,
-      "rsi": 51.68394084494905,
-      "drop20": -2.6882980541171775,
-      "mom5": 1.5969044999879722,
+      "price": 210.9499969482422,
+      "rsi": 43.31305785583927,
+      "drop20": -2.224798633491454,
+      "mom5": -1.5632319439148779,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -89,10 +89,10 @@
     },
     {
       "ticker": "TSLA",
-      "price": 390.8399963378906,
-      "rsi": 55.19356459944844,
-      "drop20": -4.07892688011795,
-      "mom5": 1.4668069941259354,
+      "price": 397.45001220703125,
+      "rsi": 57.845640165905984,
+      "drop20": -2.456677823091369,
+      "mom5": 15.642005698082606,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -105,10 +105,10 @@
     },
     {
       "ticker": "NKE",
-      "price": 38.31999969482422,
-      "rsi": 50.0,
-      "drop20": -5.359352664084027,
-      "mom5": -5.359352664084027,
+      "price": 37.7599983215332,
+      "rsi": 52.035393629389766,
+      "drop20": -6.742413543503134,
+      "mom5": -4.550058112417277,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -121,16 +121,16 @@
     },
     {
       "ticker": "NVDA",
-      "price": 173.72999572753906,
-      "rsi": 26.38103669115391,
-      "drop20": -21.732668931780285,
-      "mom5": -13.191429826193302,
+      "price": 166.19000244140625,
+      "rsi": 24.49002161966466,
+      "drop20": -25.129521319340466,
+      "mom5": -8.485684550762274,
       "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "RSI 26: überverkauft",
-        "-21.7 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 24: überverkauft",
+        "-25.1 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 221.97000122070312,
       "downtrend": true,
@@ -138,15 +138,15 @@
     },
     {
       "ticker": "ASML",
-      "price": 1534.4200439453125,
-      "rsi": 48.22231921278929,
-      "drop20": -8.4310981287408,
-      "mom5": 2.547617046931361,
+      "price": 1497.1199951171875,
+      "rsi": 44.834954562118874,
+      "drop20": -10.657036537466047,
+      "mom5": 10.35417890946444,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-8.4 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-10.7 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 1675.699951171875,
       "downtrend": true,
@@ -154,15 +154,15 @@
     },
     {
       "ticker": "MU",
-      "price": 811.2999877929688,
-      "rsi": 46.61543695332322,
-      "drop20": -17.486243919638667,
-      "mom5": 2.0207999847724922,
+      "price": 798.4400024414062,
+      "rsi": 44.00127403816783,
+      "drop20": -18.794176509878803,
+      "mom5": 21.641095175564296,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-17.5 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-18.8 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 983.22998046875,
       "downtrend": true,
@@ -170,10 +170,10 @@
     },
     {
       "ticker": "URTH",
-      "price": 205.97999572753906,
-      "rsi": 49.661797330447804,
-      "drop20": -1.2038993234653184,
-      "mom5": -0.9092218377081962,
+      "price": 205.11000061035156,
+      "rsi": 49.92843009878885,
+      "drop20": -1.6211831712591773,
+      "mom5": 2.745076187698303,
       "score": -1,
       "rec": "HOLD",
       "why": [
@@ -189,333 +189,337 @@
       "ticker": "TSLA",
       "action": "info",
       "type": "Im Minus",
-      "msg": "TSLA: -2.3 %, warte auf nächstes Plus."
+      "msg": "TSLA: -0.5 %, warte auf nächstes Plus."
     },
     {
       "ticker": "NKE",
       "action": "info",
       "type": "Im Minus",
-      "msg": "NKE: -0.4 %, warte auf nächstes Plus."
+      "msg": "NKE: -1.9 %, warte auf nächstes Plus."
     },
     {
       "ticker": "MSFT",
       "action": "info",
       "type": "Im Minus",
-      "msg": "MSFT: -6.2 %, warte auf nächstes Plus."
+      "msg": "MSFT: -5.9 %, warte auf nächstes Plus."
+    },
+    {
+      "ticker": "AAPL",
+      "action": "info",
+      "type": "Im Minus",
+      "msg": "AAPL: -0.2 %, warte auf nächstes Plus."
     }
   ],
-  "trades": [
-    "KAUF AAPL: 2.79 Stk. zu 355.63 (Analyst: BUY)"
-  ],
+  "trades": [],
   "news": {
     "general": [
       {
-        "title": "Aktie des Chip-Riesen sackt ab: Medien: Nvidia-Aufseher beraten über Firmenchef Huang",
-        "link": "https://www.handelsblatt.com/politik/deutschland/aktie-des-chip-riesen-sackt-ab-medien-nvidia-aufseher-beraten-ueber-firmenchef-huang/100269255.html",
+        "title": "Gebrauchtwagen-Check: Top beim TÜV: Der Fiat 500e als Gebrauchter",
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/gebrauchtwagen-check-top-beim-tuev-der-fiat-500e-als-gebrauchter/100269588.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Südamerika-Reise: Hunderttausende jubeln Papst zu bei Rückkehr nach Peru",
-        "link": "https://www.handelsblatt.com/politik/international/suedamerika-reise-hunderttausende-jubeln-papst-zu-bei-rueckkehr-nach-peru/100269261.html",
+        "title": "Nikkei, Yen, Hang Seng: Erholung nach Nvidia-Schock – Asienbörsen starten im Plus",
+        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/nikkei-yen-hang-seng-erholung-nach-nvidia-schock-asienboersen-starten-im-plus/100269580.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Statt einfach durchstehen: Motivationstief im Job: Wie finde ich neuen Antrieb?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/statt-einfach-durchstehen-motivationstief-im-job-wie-finde-ich-neuen-antrieb/100269279.html",
+        "title": "Bundestagsdebatte: Wo BND und Verfassungsschutz künftig hineinschauen dürfen",
+        "link": "https://www.handelsblatt.com/politik/deutschland/bundestagsdebatte-wo-bnd-und-verfassungsschutz-kuenftig-hineinschauen-duerfen/100269586.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Märkte Asien: Asiatische Aktien legen nach unruhigem Start leicht zu",
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/maerkte-asien-asiatische-aktien-legen-nach-unruhigem-start-leicht-zu/100269274.html",
+        "title": "Sorgfaltspflicht verletzt?: Autounfall am Zebrastreifen - Muss Radlerin mithaften?",
+        "link": "https://www.handelsblatt.com/mobilitaet/motor/sorgfaltspflicht-verletzt-autounfall-am-zebrastreifen-muss-radlerin-mithaften/100269579.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Saubere Sache?: Po-Dusche statt nur Klopapier? Wozu ein Arzt rät",
-        "link": "https://www.handelsblatt.com/technik/medizin/saubere-sache-po-dusche-statt-nur-klopapier-wozu-ein-arzt-raet/100269275.html",
+        "title": "Folgekosten des Autokaufs: Chinesische E-Autos: Vollkasko fast doppelt so teuer",
+        "link": "https://www.handelsblatt.com/politik/deutschland/folgekosten-des-autokaufs-chinesische-e-autos-vollkasko-fast-doppelt-so-teuer/100269576.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Kein Drama um den Darm: Jetzt geht's um die Wurst: 6 Fragen zum großen Klogang",
-        "link": "https://www.handelsblatt.com/technik/medizin/kein-drama-um-den-darm-jetzt-gehts-um-die-wurst-6-fragen-zum-grossen-klogang/100269276.html",
+        "title": "Weltdiabetestag: Wie Diabetes den Körper schädigt",
+        "link": "https://www.handelsblatt.com/technik/forschung-innovation/weltdiabetestag-wie-diabetes-den-koerper-schaedigt/100269578.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Made in Berlin: Wo hat der Finanzminister beim Haushalt getrickst?",
-        "link": "https://www.handelsblatt.com/audio/made-in-berlin-podcast/wo-hat-der-finanzminister-beim-haushalt-getrickst/100269272.html",
+        "title": "Auswertung: Dax-Konzerne steigern Gewinne trotz Autokrise",
+        "link": "https://www.handelsblatt.com/politik/deutschland/auswertung-dax-konzerne-steigern-gewinne-trotz-autokrise/100269577.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Haushaltsberatung: Die Nacht der Milliarden im Bundestag",
-        "link": "https://www.handelsblatt.com/politik/deutschland/haushaltsberatung-die-nacht-der-milliarden-im-bundestag/100269269.html",
+        "title": "Nach Midterms: Demokraten streiten um Amt des Mehrheitsführers im US-Senat",
+        "link": "https://www.handelsblatt.com/politik/international/nach-midterms-demokraten-streiten-um-amt-des-mehrheitsfuehrers-im-us-senat/100269575.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Sicherheit: IT-Panne bei Bundeswehr größer als bekannt: Verteidigungsministerium lässt Vorfall untersuchen",
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundeswehr-verteidigungsministerium-beauftragt-untersuchung-zu-it-panne/100268835.html",
+        "title": "E-Mail-Probleme: Stundenlange Störung bei Microsofts Cloud-E-Mail",
+        "link": "https://www.handelsblatt.com/technik/it-internet/e-mail-probleme-stundenlange-stoerung-bei-microsofts-cloud-e-mail/100269542.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "E-Bikes: „Es gab zu viel Gier in der Branche“: Wie Rotwild künftig 10.000 Premium-E-Bikes pro Jahr verkaufen will",
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/e-bikes-es-gab-zu-viel-gier-in-der-branche/100264565.html",
+        "title": "Venezuela: Präsidentin Rodríguez spielt auf Zeit, Machado drängt auf Wahlen",
+        "link": "https://www.handelsblatt.com/politik/international/venezuela-praesidentin-rodriguez-spielt-auf-zeit-machado-draengt-auf-wahlen/100268820.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Mobilitätswende: Der Fahrer wird zum Passagier – Jobrad-Gründer lässt das E-Bike autonom fahren",
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fahrrad-jobrad-gruender-laesst-das-e-bike-autonom-fahren/100266914.html",
+        "title": "Kriminalität: „Zeitalter der Unsicherheit“ – Italien rätselt über Welle an Bombendrohungen gegen Schulen",
+        "link": "https://www.handelsblatt.com/politik/international/sicherheit-italien-raetselt-ueber-welle-an-bombendrohungen-gegen-schulen/100269330.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Sanierungsstau: Sanierungsstau beim Pünktlichkeitssieger: Schweizer Bahn fürchtet „deutsche Verhältnisse“",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/sanierungsstau-schweizer-bahn-fuerchtet-deutsche-verhaeltnisse/100267678.html",
+        "title": "Verteidigung: Verfassungsschützer warnt vor Spionage durch Tesla-Autos",
+        "link": "https://www.handelsblatt.com/politik/deutschland/verteidigung-verfassungsschuetzer-warnt-vor-spionage-durch-tesla-autos/100269299.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "BMW & Skoda: Nach Angriffen in der Ukraine – Autoindustrie fehlen erneut Kabelbäume",
-        "link": "https://www.handelsblatt.com/unternehmen/industrie/bmw-skoda-nach-angriffen-in-der-ukraine-autoindustrie-fehlen-kabelbaeume/100268739.html",
+        "title": "Gastkommentar: Demokratie ist ein Standortfaktor: Firmen müssen sie fördern",
+        "link": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-demokratie-ist-ein-standortfaktor-firmen-muessen-sie-foerdern/100265251.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Kilometer, Zahlweise und Co.: Kfz-Versicherung: So lässt sich auch ohne Wechsel sparen",
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/kilometer-zahlweise-und-co-kfz-versicherung-so-laesst-sich-auch-ohne-wechsel-sparen/100269264.html",
+        "title": "Gesundheitswesen: Klage gegen GKV-Sparpaket: Pharmakonzern MSD zieht vor das Bundesverfassungsgericht",
+        "link": "https://www.handelsblatt.com/unternehmen/industrie/pharma-klage-gegen-gkvsparpaket-merck-tochter-zieht-vor-verfassungsgericht/100268510.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "So gehen Sie's an: Kfz-Police: Richtig vergleichen, wechseln und sicher sparen",
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/so-gehen-sies-an-kfz-police-richtig-vergleichen-wechseln-und-sicher-sparen/100269263.html",
+        "title": "„Nationaler Stahlgipfel“: Welche Zukunft hat die Stahlindustrie in Deutschland?",
+        "link": "https://www.handelsblatt.com/politik/deutschland/nationaler-stahlgipfel-welche-zukunft-hat-die-stahlindustrie-in-deutschland/100269568.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "US-Wahlen: Erstmals seit 1982: Demokrat holt Senatssitz in Mississippi",
-        "link": "https://www.handelsblatt.com/politik/international/us-wahlen-erstmals-seit-1982-demokrat-holt-senatssitz-in-mississippi/100269248.html",
+        "title": "Aktie im Blick: Bayer zelebriert Börsen-Mathematik, die Aktionäre kennen sollten",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/bayer-boersen-mathematik-die-aktionaere-kennen-sollten/100268854.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "+++ Ukraine-Krieg +++: Russischer Botschafter in den USA gestorben",
-        "link": "https://www.handelsblatt.com/politik/international/ukraine-russischer-botschafter-in-den-usa-gestorben/27982126.html",
+        "title": "Judith Dada: „Wir brauchen das europäische Manhattan-Projekt!“",
+        "link": "https://www.handelsblatt.com/technik/ki/judith-dada-wir-brauchen-das-europaeische-manhattan-projekt/100268792.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Finanzen: Koalition findet Kompromisse für Etat – Stromsteuer ungelöst",
-        "link": "https://www.handelsblatt.com/politik/deutschland/finanzen-koalition-findet-kompromisse-fuer-etat-stromsteuer-ungeloest/100269233.html",
+        "title": "Essay: Warum „Trump-Bashing“ manchmal lästig, aber trotzdem erforderlich ist",
+        "link": "https://www.handelsblatt.com/meinung/kommentare/usa-die-irrtuemer-der-trump-versteher/100268636.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Warnung an USA: Iran droht mit Angriffen auf US-Stützpunkte auch in Europa",
-        "link": "https://www.handelsblatt.com/politik/international/warnung-an-usa-iran-droht-mit-angriffen-auf-us-stuetzpunkte-auch-in-europa/100269249.html",
+        "title": "Vermögen: „Mir fehlt der Respekt vor dem Geld“",
+        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/vermoegen-mir-fehlt-der-respekt-vor-dem-geld/100268349.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "+++ USA unter Trump +++: Erstmals seit 1982: Demokrat holt Senatssitz in Mississippi",
-        "link": "https://www.handelsblatt.com/politik/international/usa-erstmals-seit-1982-demokrat-holt-senatssitz-in-mississippi/29669594.html",
+        "title": "Rennradtest: Wie wenig Rennrad ist genug?",
+        "link": "https://www.handelsblatt.com/meinung/kolumnen/rennradtest-wie-wenig-rennrad-ist-genug/100268248.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Nvidia: US-Medien berichten von weiterer Affäre – Nvidia-Verwaltungsrat bereitet offenbar Rauswurf von Jensen Huang vor",
-        "link": "https://www.handelsblatt.com/technik/ki/nvidia-nvidia-verwaltungsrat-bereitet-offenbar-rauswurf-von-jensen-huang-vor/100269242.html",
+        "title": "Renault Twingo E-Tech im Test: Charmantes Comeback des kleinen Franzosen",
+        "link": "https://www.handelsblatt.com/mobilitaet/elektromobilitaet/renault-twingo-e-tech-im-test-charmantes-comeback-des-kleinen-franzosen/100267938.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Autoritarismus-Studie: Rechtsextremes Weltbild so verbreitet wie seit Jahren nicht",
-        "link": "https://www.handelsblatt.com/politik/deutschland/autoritarismus-studie-rechtsextremes-weltbild-so-verbreitet-wie-seit-jahren-nicht/100269039.html",
+        "title": "WHU-Umzug: Wie Vallendar seine Hochschule verlor",
+        "link": "https://www.handelsblatt.com/wochenende/whu-umzug-wie-vallendar-seine-hochschule-verlor/100267632.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Haushalt: Koalition erzielt Teileinigung: Stromsteuer wird vorerst nicht gesenkt, Zuckersteuer wird verschoben",
-        "link": "https://www.handelsblatt.com/politik/deutschland/haushalt-stromsteuer-wird-vorerst-nicht-gesenkt-zuckersteuer-verschoben/100267083.html",
+        "title": "GTA 6: Das Videospiel der Videospiele",
+        "link": "https://www.handelsblatt.com/unternehmen/it-medien/gta-6-das-videospiel-der-videospiele/100266627.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Haushalt: Koalition findet bisher kein Geld für Stromsteuer-Senkung",
-        "link": "https://www.handelsblatt.com/politik/deutschland/haushalt-koalition-findet-bisher-kein-geld-fuer-stromsteuer-senkung/100269235.html",
+        "title": "Rente: Mit der Aktie ins Alter: Die zwölf wichtigsten Antworten zum Vorsorgedepot",
+        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/rente-die-zwoelf-wichtigsten-antworten-zum-altersvorsorgedepot/100265976.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Spionage: Bundeswehr verschärft Sicherheitsregeln für vernetzte Autos – auch für Tesla und BYD",
-        "link": "https://www.handelsblatt.com/politik/deutschland/spionage-bundeswehr-verschaerft-sicherheitsregeln-fuer-vernetzte-autos/100269227.html",
+        "title": "Interview: Wirtschaftweise Werding: „Wir haben einen Riesenschritt in die richtige Richtung gemacht“",
+        "link": "https://www.handelsblatt.com/finanzen/vorsorge/altersvorsorge-sparen/altersvorsorgedepot-riesenschritt-in-die-richtige-richtung-gemacht/100265684.html",
         "source": "Handelsblatt Schlagzeilen"
       },
       {
-        "title": "Nvidia Shares Slide as Investors Consider Future Without Huang",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-tumbles-as-investors-consider-future-without-ceo-huang",
+        "title": "Asian Stocks Erase Gain, Bonds Slide Before US PPI: Markets Wrap",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-12/stock-market-today-dow-s-p-live-updates",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "AMD, Broadcom, Alphabet Poised to Gain From Nvidia Scandal",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/nvidia-turmoil-lifts-amd-broadcom-on-bets-for-business-gains",
+        "title": "China Policy Bank Bonds Suffer Selloff as Tax Worries Hit Market",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/china-policy-bank-bonds-suffer-selloff-as-tax-worries-hit-market",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Latest Oil Market News and Analysis for Nov. 12",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/latest-oil-market-news-and-analysis-for-nov-12",
+        "title": "Copper Climbs From Three-Month Low After Rough Week for Metals",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/copper-climbs-from-three-month-low-after-rough-week-for-metals",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Japan 5-Year Bond Sale Sees Firm Demand as Yields Entice Buyers",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/japan-5-year-bond-sale-sees-firmer-demand-than-12-month-average-mwd011h1",
+        "title": "Top Pension Fund to Buy More India State Bonds on High Yields",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/top-pension-fund-to-buy-more-india-state-bonds-on-high-yields",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "New Zealand Bond Auction Demand Climbs to Highest Since 2013",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/new-zealand-bond-auction-demand-climbs-to-highest-since-2013",
+        "title": "Japan Bonds Fall as Treasury Rout Extends on Fed-Hike Bets",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/japan-bonds-fall-as-treasury-rout-extends-on-fed-hike-bets",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Palm Oil Climbs as El Niño Threatens Indonesia’s 2027 Supplies",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/palm-oil-climbs-as-el-nino-threatens-indonesia-s-2027-supplies",
+        "title": "Latest Oil Market News and Analysis for Nov. 13",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-12/latest-oil-market-news-and-analysis-for-nov-13",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Stock Rally Falters on Nvidia Woes, Oil Declines: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-11/stock-market-today-dow-s-p-live-updates",
+        "title": "Gold Advances After Slump to One-Year Low Attracts Dip Buying",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-12/gold-holds-drop-to-near-one-year-low-as-rate-hike-bets-increase",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "China’s Loan Interest Rates Are Already Low, Central Bank Says",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/china-s-loan-interest-rates-are-already-low-central-bank-says",
+        "title": "Rate Hike Fears Set to Test Nifty’s Rally as India Inflation Accelerates",
+        "link": "https://www.bloomberg.com/news/newsletters/2026-11-13/rate-hike-fears-set-to-test-nifty-s-rally-as-india-inflation-accelerates",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Why Bernstein Downgraded Nvidia Stock",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-12/why-bernstein-downgraded-nvidia-stock-video",
+        "title": "Singtel Says ‘Fairly Insulated’ From Nvidia, Raises Guidance",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/singtel-raises-profit-outlook-as-overseas-businesses-gain-ground",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "IDR/USD: Indonesian Rupiah Drops to Record Amid MSCI Concerns, Oil Risks",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/idr-usd-indonesian-rupiah-drops-to-record-amid-msci-concerns-oil-risks",
+        "title": "Compass Sues Multiple Listing Services, Upping Antitrust Row",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-12/compass-sues-multiple-listing-services-ramping-up-antitrust-row",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Taiwan Drafts Plans for Wealth Fund, Aims for Bill by Year-End",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/taiwan-drafts-plans-for-wealth-fund-aims-for-bill-by-year-end",
+        "title": "New World Suspends Trading as Investors Watch for Next Steps",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/new-world-suspends-trading-as-investors-watch-for-next-steps",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Chief Future Officer: Eimear Bonner, Chevron | Patience Sustains Progress",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-12/chief-future-officer-eimear-bonner-chevron-video",
+        "title": "India Equity Surge Brightens Outlook for Exchanges, Brokerages",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/india-equity-surge-brightens-outlook-for-exchanges-brokerages",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "India Reclaims Spot Among World’s Five Biggest Stock Markets as Rally Extends",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-11-12/india-reclaims-spot-among-world-s-five-biggest-stock-markets-as-rally-extends",
+        "title": "Silver Market Set for Deficit Even as Solar Makers Cut Back",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/silver-market-set-for-deficit-even-as-solar-makers-cut-back",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "How Chevron Is Maintaining Prominence in the Permian Basin",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-12/how-chevron-is-maintaining-prominence-in-the-permian-video",
+        "title": "Australia Bond Yield Falls Below US Peer as Rate Paths Diverge",
+        "link": "https://www.bloomberg.com/news/articles/2026-11-13/australia-bond-yield-falls-below-us-peer-as-rate-paths-diverge",
         "source": "Bloomberg Markets"
       },
       {
-        "title": "Mexican Steel Imports from Asia Fall as More US Supplies Sought",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-12/mexican-steel-imports-from-asia-fall-as-more-us-supplies-sought",
+        "title": "Stocks Fall as Huang Resigns, Nvidia Turns to CFO",
+        "link": "https://www.bloomberg.com/news/videos/2026-11-13/the-close-11-12-2026-video",
         "source": "Bloomberg Markets"
       }
     ],
     "tickers": {
       "NVDA": [
         {
-          "title": "Who is Nvidia executive Kimberly Powell?",
-          "link": "https://finance.yahoo.com/markets/stocks/article/who-is-nvidia-executive-kimberly-powell-231652963.html",
+          "title": "Nvidia market cap plunges $490 billion following former CEO Huang's affair scandals",
+          "link": "https://finance.yahoo.com/technology/article/nvidia-market-cap-plunges-490-billion-following-former-ceo-huangs-affair-scandals-224412004.html",
           "source": "NVDA"
         },
         {
-          "title": "Nvidia reportedly preparing to oust CEO Huang after alleged affairs with spy, Nvidia exec",
-          "link": "https://finance.yahoo.com/technology/article/nvidia-reportedly-preparing-to-oust-ceo-huang-after-alleged-affairs-with-spy-nvidia-exec-231315876.html",
+          "title": "How Nvidia's stock decline might impact your 401(k) and portfolio",
+          "link": "https://finance.yahoo.com/video/how-nvidias-stock-decline-might-impact-your-401k-and-portfolio-221925275.html",
           "source": "NVDA"
         },
         {
-          "title": "Anthropic's Mythos claim may put Nvidia’s CUDA moat in a vulnerable spot",
-          "link": "https://finance.yahoo.com/video/anthropics-mythos-claim-may-put-nvidias-cuda-moat-in-a-vulnerable-spot-214346380.html",
+          "title": "Alleged spy at center of Nvidia CEO affair reportedly being probed over Super Micro smuggling effort",
+          "link": "https://finance.yahoo.com/technology/article/alleged-spy-at-center-of-nvidia-ceo-affair-reportedly-being-probed-over-super-micro-smuggling-effort-214712179.html",
           "source": "NVDA"
         },
         {
-          "title": "Tech round-up: A closer look at Anthropic, Nvidia, CoreWeave, and next week",
-          "link": "https://finance.yahoo.com/video/tech-round-up-a-closer-look-at-anthropic-nvidia-coreweave-and-next-week-211955539.html",
+          "title": "Cathie Wood: After Huang, AI push isn’t ‘going to stop’",
+          "link": "https://finance.yahoo.com/video/cathie-wood-huang-ai-push-214100089.html",
           "source": "NVDA"
         },
         {
-          "title": "Nvidia stock is pricing in 2 major risks as CEO Jensen Huang's affair fallout plays out",
-          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-pricing-in-2-major-risks-as-ceo-jensen-huangs-affair-fallout-plays-out-190743109.html",
+          "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidia’s Huang Upheaval — Here’s How Her Trading Week Unfolded",
+          "link": "https://stocktwits.com/news-articles/markets/equity/cathie-wood-bets-2-ai-firms-nvidia-huang-upheaval-how-trading-week-unfolded/cNbbpHTR9Ol",
           "source": "NVDA"
         }
       ],
       "MSFT": [
         {
-          "title": "Is the AI boom hiding a jobs crisis for graduates?",
-          "link": "https://finance.yahoo.com/video/is-the-ai-boom-hiding-a-jobs-crisis-for-graduates-214503208.html",
+          "title": "Microsoft outage disrupts Outlook, Teams, and Copilot for users 'in any region'",
+          "link": "https://finance.yahoo.com/markets/article/microsoft-outage-disrupts-outlook-teams-and-copilot-for-users-in-any-region-212333470.html",
           "source": "MSFT"
         },
         {
-          "title": "Anthropic's new Claude tools put software stocks on notice",
-          "link": "https://finance.yahoo.com/video/anthropics-new-claude-tools-put-software-stocks-on-notice-151339178.html",
+          "title": "Bill Ackman says Microsoft's position is 'really, really strong' as Anthropic pushes into enterprise software",
+          "link": "https://finance.yahoo.com/markets/stocks/article/bill-ackman-says-microsofts-position-is-really-really-strong-as-anthropic-pushes-into-enterprise-software-223817595.html",
           "source": "MSFT"
         },
         {
-          "title": "Advanced Micro Devices vs. Marvell Technology: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/11/11/advanced-micro-devices-vs-marvell-technology-which-artificial-intelligence-stock-is-a-better-buy-going-into-2027/",
+          "title": "Why Bill Ackman sees value in Microsoft",
+          "link": "https://finance.yahoo.com/video/why-bill-ackman-sees-value-in-microsoft-221331615.html",
           "source": "MSFT"
         },
         {
-          "title": "Anthropic Now Makes Its Own Spreadsheet Software. Here's What I'd Do With Microsoft Stock.",
-          "link": "https://www.fool.com/investing/2026/11/11/anthropic-now-makes-its-own-spreadsheet-software-here-s-what-i-d-do-with-microsoft-stock/",
+          "title": "Michael Burry Sees A ‘Mechanical Bid’ Under NVDA Stock – Even As He Questions Nvidia’s Succession Plan And Asia Sales",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-mechanical-bid-nvda-stock-questions-nvidia-succession-plan-asia-sales/cNbbpPXR9O1",
           "source": "MSFT"
         },
         {
-          "title": "Market Chatter: Microsoft Wants to Power Data Centers Without Subsidies or Higher Costs for Others",
-          "link": "https://finance.yahoo.com/technology/articles/market-chatter-microsoft-wants-power-000818359.html",
+          "title": "Microsoft hit by major global outage",
+          "link": "https://uk.finance.yahoo.com/news/microsoft-hit-major-global-outage-034535921.html",
           "source": "MSFT"
         }
       ],
       "AAPL": [
         {
-          "title": "Tim Cook as Nvidia CEO? Kalshi Bettors See These Names as Top Replacement Bets for Scandal-Embroiled Jensen Huang",
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63171801/tim-cook-nvidia-ceo-jensen-huang-kalshi-prediction-market?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral",
+          "title": "Jensen Huang vs. Steve Jobs: Can Nvidia also thrive without its visionary?",
+          "link": "https://finance.yahoo.com/video/jensen-huang-vs-steve-jobs-can-nvidia-also-thrive-without-its-visionary-144638496.html",
           "source": "AAPL"
         },
         {
-          "title": "Why Did AAPL, XERS, ZETA Stocks Jump To 52-Week Highs Today?",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-did-aapl-xers-zeta-stocks-jump-to-52-week-highs-today/cNGz1aQR99L",
+          "title": "Michael Burry Sees A ‘Mechanical Bid’ Under NVDA Stock – Even As He Questions Nvidia’s Succession Plan And Asia Sales",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-mechanical-bid-nvda-stock-questions-nvidia-succession-plan-asia-sales/cNbbpPXR9O1",
           "source": "AAPL"
         },
         {
-          "title": "Nvidia Stock Tumbles. Jensen Huang Could Be Out Soon.",
-          "link": "https://www.barrons.com/articles/nvidia-stock-price-huang-affair-ceo-ouster-26c99dad?siteid=yhoof2&yptr=yahoo",
+          "title": "3 Warren Buffett Stocks Just Closed at Record Highs. Here's the One I'd Still Buy Now.",
+          "link": "https://www.fool.com/investing/2026/11/12/3-warren-buffett-stocks-just-closed-at-record-highs-here-s-the-one-i-d-still-buy-now/",
           "source": "AAPL"
         },
         {
-          "title": "Stock Market Today, Nov. 11: Stock Market Today, Nov. 11: Nasdaq Surges as CoreWeave's 25% Rally Reignites the AI Trade",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-stock-market-today-nov-11-nasdaq-surges-as-coreweave-s-25-rally-reignites-the-ai-trade/",
+          "title": "Dow, S&P 500, Nasdaq Futures Edge Higher As Markets Attempt To Recover From Nvidia Rout: SLS, MSFT, CADL, MSTR In Focus",
+          "link": "https://stocktwits.com/news-articles/markets/equity/dow-s-and-p-500-nasdaq-futures-edge-higher-as-markets-attempt-to-recover-from-nvidia-rout-sls-msft-cadl-mstr-in-focus/cNbb8QDR9OW",
           "source": "AAPL"
         },
         {
-          "title": "Apple Shares (AAPL) Look Expensive Heading into 2027",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/apple-shares-aapl-look-expensive-211500629.html",
+          "title": "They Were the Indispensable CEOs—Until They Weren’t",
+          "link": "https://www.wsj.com/business/they-were-the-indispensable-ceosuntil-they-werent-1bb8a52c?siteid=yhoof2&yptr=yahoo",
           "source": "AAPL"
         }
       ],
       "ASML": [
         {
-          "title": "Tech, Media & Telecom Roundup: Market Talk",
-          "link": "https://www.wsj.com/business/tech-media-telecom-roundup-market-talk-d1ea7fbd?siteid=yhoof2&yptr=yahoo",
+          "title": "5 Unrivaled Stocks to Buy for the Next Decade",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-unrivaled-stocks-buy-next-223321955.html",
           "source": "ASML"
         },
         {
-          "title": "Semiconductor equipment stocks: fundamentals, fair value, and the top pick",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-equipment-stocks-fundamentals-fair-210035577.html",
+          "title": "Chip Stocks Finish Lower as Industry Digests Jensen Huang Exit",
+          "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-12-2026/card/chip-stocks-down-as-industry-digests-jensen-huang-exit-Lq6UDhwOoZUotX38oTUL?siteid=yhoof2&yptr=yahoo",
           "source": "ASML"
         },
         {
-          "title": "European Chip Stocks Climb After CoreWeave Results Fuel AI Optimism",
-          "link": "https://www.wsj.com/finance/stocks/nikkei-flat-supported-by-bank-pharma-stocks-2c6e1b38?siteid=yhoof2&yptr=yahoo",
+          "title": "Explainer-Tougher curbs on AI chip sales to China likely after Nvidia CEO resigns",
+          "link": "https://ca.finance.yahoo.com/news/explainer-tougher-curbs-ai-chip-185447554.html",
           "source": "ASML"
         },
         {
-          "title": "AI chip exports to China and oversight bills gain momentum in Congress",
-          "link": "https://finance.yahoo.com/video/ai-chip-exports-to-china-and-oversight-bills-gain-momentum-in-congress-143900242.html",
+          "title": "Applied Materials Sits 47% Below Its High. Here’s What the November 12 Report Has to Prove",
+          "link": "https://www.tikr.com/blog/applied-materials-sits-47-below-its-high-heres-what-the-november-12-report-has-to-prove?ref=yahoofinance&tlnk=yf-261112-cw4pcj69",
           "source": "ASML"
         },
         {
-          "title": "Intel Can Catch Taiwan Semiconductor on Physics, Not Economics",
-          "link": "https://247wallst.com/investing/2026/11/10/intel-can-catch-taiwan-semiconductor-on-physics-not-economics/",
+          "title": "Silicon Motion Vs. Qualcomm: Which Chipmaker Has More Potential?",
+          "link": "https://finance.yahoo.com/technology/articles/silicon-motion-vs-qualcomm-chipmaker-140700645.html",
           "source": "ASML"
         }
       ],
@@ -575,59 +579,74 @@
       ],
       "TSLA": [
         {
-          "title": "SpaceX investors confront a painful post-election reality",
-          "link": "https://www.thestreet.com/investing/spacex-ipo-price-democratic-midterm-sell-off",
+          "title": "SpaceX, Telsa merger talks begin to take shape",
+          "link": "https://finance.yahoo.com/video/spacex-telsa-merger-talks-begin-to-take-shape-212004858.html",
           "source": "TSLA"
         },
         {
-          "title": "If SpaceX and Tesla Merge, Here's What a $10,000 Investment in the Combined Company Could Be Worth by 2030",
-          "link": "https://www.fool.com/investing/2026/11/11/if-spacex-and-tesla-merge-heres-what-a-10000-inves/",
+          "title": "Michael Burry Sees A ‘Mechanical Bid’ Under NVDA Stock – Even As He Questions Nvidia’s Succession Plan And Asia Sales",
+          "link": "https://stocktwits.com/news-articles/markets/equity/michael-burry-mechanical-bid-nvda-stock-questions-nvidia-succession-plan-asia-sales/cNbbpPXR9O1",
           "source": "TSLA"
         },
         {
-          "title": "Nasdaq 100 Futures Drop As Reports Relating To Jensen Huang’s Ousting Outweigh CoreWeave’s Strong Outlook —  NVDA, TSLA, SNDK, CAPR, CRWV In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-100-futures-drop-as-reports-relating-to-jensen-huang-s-ousting/cNGzQslR997",
+          "title": "Dow Jones Futures Rise After Market Weathers Nvidia CEO Huang's Exit, Surging Yields",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-ceo-huang-exit-surging-yields-spacex-tesla-merger-deal/?src=A00220&yptr=yahoo",
           "source": "TSLA"
         },
         {
-          "title": "3 Growth Stocks With At Least 18% Revenue Growth",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-least-18-200905110.html",
+          "title": "Cathie Wood Calls Humanoid Robots a '$26 Trillion Opportunity' Over the Next 15 Years: 'Embodied AI' Could Eventually Equal '20% of Global GDP'",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-calls-humanoid-robots-023017667.html",
           "source": "TSLA"
         },
         {
-          "title": "Tesla extends Cybertruck production to clear backlog, Musk says",
-          "link": "https://www.cbsnews.com/news/tesla-extend-cybertruck-production-backlog/",
+          "title": "Musk gives Cybertruck a reprieve, but many will still get refunds",
+          "link": "https://www.thestreet.com/retail/tesla-cybertruck-refunds-musk-production-extension",
           "source": "TSLA"
         }
       ],
       "MU": [
         {
-          "title": "AI Trade bounces back, Kalshi possibly facing charges, OpenAI continues to see heavy losses",
-          "link": "https://finance.yahoo.com/video/ai-trade-bounces-back-kalshi-possibly-facing-charges-openai-continues-to-see-heavy-losses-144418293.html",
+          "title": "5 Best Growth Stocks for the Next 5 Years",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-best-growth-stocks-next-231119066.html",
           "source": "MU"
         },
         {
-          "title": "Jensen Huang’s Future At Nvidia Hangs In Balance As Board Weighs Fallout: Analysts Warn Of Challenges Ahead",
-          "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-s-future-at-nvidia-hangs-in-balance-as-board-reportedly-weighs-fallout-analysts-warn-of-challenges-ahead/cNGzikhR99g",
+          "title": "5 Unrivaled Stocks to Buy for the Next Decade",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-unrivaled-stocks-buy-next-223321955.html",
           "source": "MU"
         },
         {
-          "title": "Nvidia board meets to decide CEO Huang's future as leadership crisis deepens",
-          "link": "https://finance.yahoo.com/news/nvidia-preparing-oust-ceo-jensen-223546395.html",
+          "title": "Micron, Other Memory Chip Stocks Fall on Nvidia Shakeup. Why They’re at Risk.",
+          "link": "https://www.barrons.com/articles/micron-memory-chip-stocks-nvidia-shakeup-adf6b711?siteid=yhoof2&yptr=yahoo",
           "source": "MU"
         },
         {
-          "title": "5-star analyst flags surprise Micron stock catalyst after CoreWeave rally",
-          "link": "https://www.thestreet.com/investing/stocks/micron-keybanc-server-demand",
+          "title": "Applied Materials’ Beat Gets a Lukewarm Reception as Nvidia Fallout Lingers",
+          "link": "https://www.barrons.com/articles/applied-materials-earnings-stock-price-66c09c50?siteid=yhoof2&yptr=yahoo",
           "source": "MU"
         },
         {
-          "title": "3 Growth Stocks With Earnings Growth Over 20%",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-earnings-growth-011311704.html",
+          "title": "Micron Stock Is Down 33% From Its High. History Suggests a $5,000 Investment Now Will Be Worth This Much by 2028.",
+          "link": "https://www.fool.com/investing/2026/11/12/micron-stock-is-down-40-from-its-high-history-sugg/",
           "source": "MU"
         }
       ],
       "NKE": [
+        {
+          "title": "Shoe Shipments and Manufacturing Revenue Down at Yue Yuen",
+          "link": "https://wwd.com/footwear-news/shoe-industry-news/yue-yuen-financial-nine-months-shoe-shipments-manufacturing-1239412084/",
+          "source": "NKE"
+        },
+        {
+          "title": "NIKE's Shares Slide Nearly 40% YTD: Is a Rebound in Sight?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nikes-shares-slide-nearly-40-153300220.html",
+          "source": "NKE"
+        },
+        {
+          "title": "If You Ran Nike, What Would You Do?",
+          "link": "https://www.trefis.com/stock/nke/articles/624710/if-you-ran-nike-what-would-you-do/2026-11-12",
+          "source": "NKE"
+        },
         {
           "title": "A 72-Year-Old With $500,000 in PepsiCo, Nike and Bristol Myers Squibb Collects $1,729 a Month in Dividends. How Safe Is Each Check?",
           "link": "https://www.tikr.com/blog/a-72-year-old-with-500000-in-pepsico-nike-and-bristol-myers-squibb-collects-1729-a-month-in-dividends-how-safe-is-each-check?ref=yahoofinancedividend&tlnk=yf-261111-jx447c8r",
@@ -636,21 +655,6 @@
         {
           "title": "Why Nike’s CEO Comeback Isn’t Working",
           "link": "https://thehustle.videonest.co/videos/2403343/why-nikes-ceo-comeback-isnt-working-uLw_AF2R9s",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike Stock Is Down 78% From Its Peak. Here's Why I'd Buy and Hold for a Decade.",
-          "link": "https://www.fool.com/investing/2026/11/11/nike-stock-is-down-78-from-its-peak-heres-why-id/",
-          "source": "NKE"
-        },
-        {
-          "title": "Lululemon Rebuild Continues With New Marketing, Strategy Officers",
-          "link": "https://www.mediapost.com/publications/article/419371/lululemon-rebuild-continues-with-new-marketing-st.html",
-          "source": "NKE"
-        },
-        {
-          "title": "Will New Tech Leadership Change Hyatt Stock Narrative",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/tech-leadership-change-hyatt-stock-091419796.html",
           "source": "NKE"
         }
       ]
