@@ -28,7 +28,7 @@
     "AAPL": {
       "shares": 2.7876134290273673,
       "avg_price": 356.2699890136719,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-16"
     }
   },
