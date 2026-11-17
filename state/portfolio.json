@@ -28,7 +28,7 @@
     "NKE": {
       "shares": 26.458167790364417,
       "avg_price": 37.1150016784668,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-17"
     }
   },
