@@ -22,7 +22,7 @@
     "SAP.DE": {
       "shares": 4.8730759679227065,
       "avg_price": 206.64999389648438,
-      "underwater": false,
+      "underwater": true,
       "opened": "2026-11-05"
     },
     "AAPL": {
