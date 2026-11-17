@@ -1,5 +1,5 @@
 {
-  "cash": 6002.877043378334,
+  "cash": 5020.882101429803,
   "positions": {
     "TSLA": {
       "shares": 2.494205434557632,
@@ -24,6 +24,12 @@
       "avg_price": 356.2699890136719,
       "underwater": true,
       "opened": "2026-11-16"
+    },
+    "NKE": {
+      "shares": 26.458167790364417,
+      "avg_price": 37.1150016784668,
+      "underwater": false,
+      "opened": "2026-11-17"
     }
   },
   "trades": [
@@ -266,6 +272,14 @@
       "shares": 25.7998,
       "price": 39.06,
       "reason": "Break-even"
+    },
+    {
+      "time": "2026-11-17T18:53:57",
+      "side": "BUY",
+      "ticker": "NKE",
+      "shares": 26.4582,
+      "price": 37.12,
+      "reason": "Einstieg"
     }
   ]
 }
