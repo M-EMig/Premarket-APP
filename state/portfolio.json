@@ -1,17 +1,11 @@
 {
-  "cash": 4995.009014588524,
+  "cash": 6002.877043378334,
   "positions": {
     "TSLA": {
       "shares": 2.494205434557632,
       "avg_price": 399.80999755859375,
       "underwater": true,
       "opened": "2026-11-02"
-    },
-    "NKE": {
-      "shares": 25.79977125868177,
-      "avg_price": 38.47999954223633,
-      "underwater": true,
-      "opened": "2026-11-04"
     },
     "MSFT": {
       "shares": 1.8117088447887773,
@@ -264,6 +258,14 @@
       "shares": 2.7876,
       "price": 356.27,
       "reason": "Analyst: BUY"
+    },
+    {
+      "time": "2026-11-17T15:22:32",
+      "side": "SELL",
+      "ticker": "NKE",
+      "shares": 25.7998,
+      "price": 39.06,
+      "reason": "Break-even"
     }
   ]
 }
