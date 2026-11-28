@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-27T13:30:48.427169",
-  "mode": "report",
+  "generated": "2026-11-28T00:39:13.672597",
+  "mode": "alerts",
   "depot": {
-    "value": 9764.561812504719,
+    "value": 9850.999150960357,
     "start": 10000.0,
-    "cash": 5020.882101429803,
+    "cash": 7007.82102994434,
     "positions": {
       "TSLA": {
         "shares": 2.494205434557632,
@@ -23,68 +23,39 @@
         "avg_price": 206.64999389648438,
         "underwater": true,
         "opened": "2026-11-05"
-      },
-      "AAPL": {
-        "shares": 2.7876134290273673,
-        "avg_price": 356.2699890136719,
-        "underwater": true,
-        "opened": "2026-11-16"
-      },
-      "NKE": {
-        "shares": 26.458167790364417,
-        "avg_price": 37.1150016784668,
-        "underwater": true,
-        "opened": "2026-11-17"
       }
     }
   },
   "analyses": [
     {
-      "ticker": "NKE",
-      "price": 36.65999984741211,
-      "rsi": 40.255379410804096,
-      "drop20": -9.459129840173707,
-      "mom5": 0.9639175458102445,
-      "score": 3,
-      "rec": "BUY",
-      "why": [
-        "Kurs über SMA50 (Aufwärtstrend)",
-        "SMA20 über SMA50",
-        "-9.5 % unter 20-Tage-Hoch (Rücksetzer)"
-      ],
-      "high20": 40.4900016784668,
-      "downtrend": false,
-      "from_news": false
-    },
-    {
       "ticker": "AAPL",
-      "price": 355.5799865722656,
-      "rsi": 61.888804265041884,
-      "drop20": -0.19367402887807694,
-      "mom5": 0.888061925614525,
+      "price": 358.5400085449219,
+      "rsi": 66.34932319291872,
+      "drop20": 0.0,
+      "mom5": 2.671749754629782,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs über SMA50 (Aufwärtstrend)",
         "SMA20 über SMA50"
       ],
-      "high20": 356.2699890136719,
+      "high20": 358.5400085449219,
       "downtrend": false,
       "from_news": false
     },
     {
       "ticker": "SAP.DE",
-      "price": 194.4199981689453,
-      "rsi": 31.364917456313748,
-      "drop20": -9.886443490639484,
-      "mom5": 5.847128659309964,
+      "price": 194.13999938964844,
+      "rsi": 32.273208264435354,
+      "drop20": -10.016222762619497,
+      "mom5": 3.807076758919714,
       "score": 2,
       "rec": "BUY",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
         "SMA20 über SMA50",
-        "RSI 31: überverkauft",
-        "-9.9 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 32: überverkauft",
+        "-10.0 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 215.75,
       "downtrend": false,
@@ -92,10 +63,10 @@
     },
     {
       "ticker": "TSLA",
-      "price": 380.1400146484375,
-      "rsi": 61.51222688685228,
-      "drop20": -5.863996891260781,
-      "mom5": -0.9329684563944673,
+      "price": 400.0,
+      "rsi": 62.765828291050894,
+      "drop20": -0.9459678210425482,
+      "mom5": 6.834752300311031,
       "score": 2,
       "rec": "BUY",
       "why": [
@@ -107,17 +78,33 @@
       "from_news": false
     },
     {
+      "ticker": "NKE",
+      "price": 37.31999969482422,
+      "rsi": 45.64173134236136,
+      "drop20": -7.8290981779050695,
+      "mom5": 8.709576767528171,
+      "score": 2,
+      "rec": "BUY",
+      "why": [
+        "Kurs über SMA50 (Aufwärtstrend)",
+        "SMA20 über SMA50"
+      ],
+      "high20": 40.4900016784668,
+      "downtrend": false,
+      "from_news": false
+    },
+    {
       "ticker": "MSFT",
-      "price": 489.92999267578125,
-      "rsi": 28.958400331760018,
-      "drop20": -11.68110405592897,
-      "mom5": -3.42591412872858,
+      "price": 492.8500061035156,
+      "rsi": 32.416150772169246,
+      "drop20": -11.154717907020494,
+      "mom5": -1.0937149955776104,
       "score": 1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "RSI 29: überverkauft",
-        "-11.7 % unter 20-Tage-Hoch (Rücksetzer)"
+        "RSI 32: überverkauft",
+        "-11.2 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
       "high20": 554.7283935546875,
       "downtrend": true,
@@ -125,549 +112,100 @@
     },
     {
       "ticker": "NVDA",
-      "price": 149.3000030517578,
-      "rsi": 37.68115739610783,
-      "drop20": -30.122624500247174,
-      "mom5": -1.0996314177805888,
+      "price": 150.49000549316406,
+      "rsi": 35.79568019784503,
+      "drop20": -27.190476696701428,
+      "mom5": 3.0894710903010214,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-30.1 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-27.2 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 213.66000366210938,
+      "high20": 206.69000244140625,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "ASML",
-      "price": 1303.0799560546875,
-      "rsi": 46.05725756921806,
-      "drop20": -22.236677566088215,
-      "mom5": -6.60732777068731,
+      "price": 1325.8199462890625,
+      "rsi": 42.19782661477508,
+      "drop20": -15.331762844491593,
+      "mom5": -2.2400830243771597,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-22.2 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-15.3 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 1675.699951171875,
+      "high20": 1565.9000244140625,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "MU",
-      "price": 601.25,
-      "rsi": 45.46112980646043,
-      "drop20": -35.64494338567512,
-      "mom5": -14.748963751555156,
+      "price": 646.9500122070312,
+      "rsi": 46.52548119699473,
+      "drop20": -26.876820382489008,
+      "mom5": -6.29888043575021,
       "score": 0,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)",
-        "-35.6 % unter 20-Tage-Hoch (Rücksetzer)"
+        "-26.9 % unter 20-Tage-Hoch (Rücksetzer)"
       ],
-      "high20": 934.27001953125,
+      "high20": 884.739990234375,
       "downtrend": true,
       "from_news": false
     },
     {
       "ticker": "URTH",
-      "price": 194.5500030517578,
-      "rsi": 42.812676621288986,
-      "drop20": -6.452852858669589,
-      "mom5": -1.603276425942779,
+      "price": 197.66000366210938,
+      "rsi": 47.38350232139261,
+      "drop20": -4.9117196781200745,
+      "mom5": 1.9338868182037894,
       "score": -1,
       "rec": "HOLD",
       "why": [
         "Kurs unter SMA50 (Abwärtstrend)"
       ],
-      "high20": 207.97000122070312,
+      "high20": 207.8699951171875,
       "downtrend": true,
       "from_news": false
     }
   ],
   "alerts": [
     {
-      "ticker": "TSLA",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "TSLA: -4.9 %, warte auf nächstes Plus."
-    },
-    {
       "ticker": "MSFT",
       "action": "info",
       "type": "Im Minus",
-      "msg": "MSFT: -11.9 %, warte auf nächstes Plus."
+      "msg": "MSFT: -11.2 %, warte auf nächstes Plus."
     },
     {
       "ticker": "SAP.DE",
       "action": "info",
       "type": "Im Minus",
-      "msg": "SAP.DE: -5.9 %, warte auf nächstes Plus."
+      "msg": "SAP.DE: -5.6 %, warte auf nächstes Plus."
     },
     {
       "ticker": "AAPL",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "AAPL: -0.2 %, warte auf nächstes Plus."
+      "action": "sell",
+      "type": "Break-even",
+      "msg": "AAPL: war im Minus, jetzt +0.7 %. Ausstieg zum Ausgleich."
     },
     {
       "ticker": "NKE",
-      "action": "info",
-      "type": "Im Minus",
-      "msg": "NKE: -1.2 %, warte auf nächstes Plus."
+      "action": "sell",
+      "type": "Break-even",
+      "msg": "NKE: war im Minus, jetzt +0.5 %. Ausstieg zum Ausgleich."
     }
   ],
-  "trades": [],
+  "trades": [
+    "VERKAUF AAPL: 2.79 Stk. zu 358.70, +0.7 % (Break-even)",
+    "VERKAUF NKE: 26.46 Stk. zu 37.31, +0.5 % (Break-even)"
+  ],
   "news": {
-    "general": [
-      {
-        "title": "Sicherheit: Bafin-Chef warnt Finanzbranche vor Cyberangriffen",
-        "link": "https://www.handelsblatt.com/technik/it-internet/sicherheit-bafin-chef-warnt-finanzbranche-vor-cyberangriffen/100273317.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Spanien: Meinungsumfragen deuten auf Rechtsruck bei Parlamentswahl hin",
-        "link": "https://www.handelsblatt.com/video/politik/spanien-meinungsumfragen-deuten-auf-rechtsruck-bei-parlamentswahl-hin/100273323.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "„Grand Eagle 26“: Großübung der Bundeswehr an Nato-Ostflanke in Litauen",
-        "link": "https://www.handelsblatt.com/video/politik/grand-eagle-26-grossuebung-der-bundeswehr-an-nato-ostflanke-in-litauen/100273322.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Annika Steiner: „Wärmepumpen oder KI machen ein Gebäude nicht zukunftsfähig“",
-        "link": "https://www.handelsblatt.com/finanzen/immobilien/annika-steiner-waermepumpen-oder-ki-machen-ein-gebaeude-nicht-zukunftsfaehig/100271497.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Rutschige Straßen: Winterglätte: Mit diesen Tipps bleibt das Auto in der Spur",
-        "link": "https://www.handelsblatt.com/mobilitaet/motor/rutschige-strassen-winterglaette-mit-diesen-tipps-bleibt-das-auto-in-der-spur/100273319.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Tourismus: Tui-Chef plant Imagewechsel: Wie das Firmenlogo „Smile“ dabei helfen soll",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/tourismus-wie-das-logo-smile-tui-beim-geplanten-imagewechsel-helfen-soll/100270308.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "AfD: Weidel bremst Nord-Stream-Initiative ihrer Partei mit Russland",
-        "link": "https://www.handelsblatt.com/politik/deutschland/afd-weidel-bremst-nord-stream-initiative-ihrer-partei-mit-russland/100273238.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Dax aktuell: Dax legt weiter zu – Adidas und Puma unter Druck",
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-legt-weiter-zu-adidas-und-puma-unter-druck/100273204.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Naturschutz: Gelbwürfeliger Dickkopffalter ist Schmetterling des Jahres",
-        "link": "https://www.handelsblatt.com/technik/forschung-innovation/naturschutz-gelbwuerfeliger-dickkopffalter-ist-schmetterling-des-jahres/100273310.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Airline ändert Zeiten: Ryanair teilt Sitzplätze kurzfristiger zu",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/airline-aendert-zeiten-ryanair-teilt-sitzplaetze-kurzfristiger-zu/100273309.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Haushaltsdebatte im Bundestag: Rentenstreit: Union und SPD suchen weiter Kompromiss",
-        "link": "https://www.handelsblatt.com/politik/deutschland/haushaltsdebatte-im-bundestag-rentenstreit-union-und-spd-suchen-weiter-kompromiss/100273140.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Interview: Herr Joseph, wie kamen Sie an das Datenleck der Deutschen Bank?",
-        "link": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/inside-deutsche-bank-herr-joseph-wie-kamen-sie-an-das-datenleck-der-deutschen-bank/100272415.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Tankstellen: Hunderttausende Verstöße gegen 12-Uhr-Regel: Regierung fürchtet Kontrollchaos beim Spritpreisdeckel",
-        "link": "https://www.handelsblatt.com/politik/deutschland/tankstellen-regierung-fuerchtet-kontrollchaos-beim-spritpreisdeckel/100272752.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Märkte: EU erlaubt Deutscher Börse Milliarden-Übernahme von Allfunds",
-        "link": "https://www.handelsblatt.com/finanzen/maerkte/maerkte-eu-erlaubt-deutscher-boerse-milliarden-uebernahme-von-allfunds/100273297.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "USA: Hacker dringen offenbar in zentrale Cloud-Plattform der US-Luftwaffe ein",
-        "link": "https://www.handelsblatt.com/politik/international/usa-hacker-dringen-offenbar-in-cloud-plattform-der-us-luftwaffe-ein/100273299.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Arbeitsmarkt: Arbeitsmarkt schwächelt - tun die Arbeitsagenturen zu wenig?",
-        "link": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-arbeitsmarkt-schwaechelt-tun-die-arbeitsagenturen-zu-wenig/100273243.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Bundesgerichtshof: Ex-BND-Chef Hanning bleibt in U-Haft",
-        "link": "https://www.handelsblatt.com/politik/deutschland/bundesgerichtshof-ex-bnd-chef-hanning-bleibt-in-u-haft/100273303.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Geld. Leben. Looman.: Auch ein abgezahltes Eigenheim kann im Alter zur Last werden",
-        "link": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/immobilien-wann-der-verkauf-des-abbezahlten-eigenheims-zur-entlastung-wird/100272467.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Aktienhandel: EU: Deutsche Börse darf Fondsplattform Allfunds übernehmen",
-        "link": "https://www.handelsblatt.com/politik/deutschland/aktienhandel-eu-deutsche-boerse-darf-fondsplattform-allfunds-uebernehmen/100273295.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Thiel, Musk und Co.: Die Tech-Elite und ihre neue Lust an der Apokalypse",
-        "link": "https://www.handelsblatt.com/technik/it-internet/tech-elite-das-ist-blanker-narzissmus-mit-ein-paar-zwischenschritten/100243247.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "In diesem Winter: Riesengebirge: Lift statt Bus im Skiort Spindlermühle",
-        "link": "https://www.handelsblatt.com/unternehmen/dienstleister/in-diesem-winter-riesengebirge-lift-statt-bus-im-skiort-spindlermuehle/100273291.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Handelsblatt Wochenend-Kolumne: Die Daumenkinos des digitalen Zeitalters",
-        "link": "https://www.handelsblatt.com/wochenende/handelsblatt-wochenend-kolumne-die-daumenkinos-des-digitalen-zeitalters/100272959.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Die Welt in Bildern: Blickfang",
-        "link": "https://www.handelsblatt.com/die-welt-in-bildern-blickfang/8906950.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Klimawandel: Globale Temperatur erstmals eine Woche über Zwei-Grad-Marke",
-        "link": "https://www.handelsblatt.com/politik/international/klimawandel-globale-temperatur-erstmals-eine-woche-ueber-zwei-grad-marke/100273282.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Christian Wolf: Der Schatten-Chef – Wird More Nutrition seinen Gründer nicht los?",
-        "link": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/fitnessbranche-wird-more-nutrition-seinen-gruender-christian-wolf-nicht-los/100265323.html",
-        "source": "Handelsblatt Schlagzeilen"
-      },
-      {
-        "title": "Latest Oil Market News and Analysis for Nov. 27",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-26/latest-oil-market-news-and-analysis-for-nov-27",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "El Niño, Flooding Put Squeeze on South African Fruit Producers",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/el-nino-flooding-put-squeeze-on-south-african-fruit-producers",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Turkey’s Tightening Steps Show Early Signs of Calming Markets",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/turkey-s-tightening-steps-show-early-signs-of-calming-markets",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "US Stocks Rally After Holiday as AI Trade Rebounds: Markets Wrap",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Brazil Assets Surge as Lula Taps Trabuco as Finance Chief",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Ofwat Warns Thames Water Rescue Decision Remains Months Away",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/ofwat-warns-thames-water-rescue-decision-remains-months-away",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "¿Volverá la derecha al poder en España?",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-27/-volvera-la-derecha-al-poder-en-espana",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Europe Has Too Much Wind, Not Enough Power Grid",
-        "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/europe-has-too-much-wind-not-enough-power-grid",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Deutsche Boerse’s €5.3 billion Allfunds Bid Gets EU Approval",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/deutsche-boerse-s-5-3-billion-allfunds-deal-gets-eu-approval",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Stock Futures Rally as AI Trade Gathers Pace; EU Budget Talks Falter",
-        "link": "https://www.bloomberg.com/news/videos/2026-11-27/bloomberg-brief-11-27-2026-video",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Codelco Loses Commercial Boss to Trafigura in Latest Shakeup",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/codelco-extends-management-shake-up-with-new-commercial-boss",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Polish President Blocks Pre-Election Tax Cut in New Blow to Tusk",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/polish-president-blocks-pre-election-tax-cut-in-new-blow-to-tusk",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "India’s Richest Civic Body Will Open Bond Sales to Retail Buyers",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/india-s-richest-civic-body-will-open-bond-sales-to-retail-buyers",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "China Drives Biggest Stock Gain Since 2024 With Rare Midday Vow",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
-        "source": "Bloomberg Markets"
-      },
-      {
-        "title": "Altria’s Interest in Imperial May Affect Its AB InBev Stake",
-        "link": "https://www.bloomberg.com/news/articles/2026-11-27/altria-s-interest-in-imperial-may-also-affect-its-ab-inbev-stake",
-        "source": "Bloomberg Markets"
-      }
-    ],
-    "tickers": {
-      "NVDA": [
-        {
-          "title": "Nvidia stock is still paying the price for the Jensen Huang CEO drama",
-          "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-is-still-paying-the-price-for-the-jensen-huang-ceo-drama-124902053.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "He was right about AI and still lost $35 billion",
-          "link": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "UnitedHealth Keeps Raising Guidance. Here's What a $10,000 Investment Could Be Worth If the Turnaround Sticks.",
-          "link": "https://www.fool.com/investing/2026/11/27/unitedhealth-keeps-raising-guidance-heres-what-a-10000-investment-could-be-worth-if-the-turnaround-sticks/",
-          "source": "NVDA"
-        },
-        {
-          "title": "Stock Futures Rise as Wall Street Heads for Weekly Gains",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stock-futures-rise-wall-street-130854779.html",
-          "source": "NVDA"
-        },
-        {
-          "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-anthropic-spacex-tesla/?src=A00220&yptr=yahoo",
-          "source": "NVDA"
-        }
-      ],
-      "MSFT": [
-        {
-          "title": "Advanced Micro Devices (AMD) After AI Data Center Wins Looks Cheap Or Already Priced In",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/advanced-micro-devices-amd-ai-130859777.html",
-          "source": "MSFT"
-        },
-        {
-          "title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
-          "link": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488",
-          "source": "MSFT"
-        },
-        {
-          "title": "Latest News In Cloud AI - Cloudera Advances Data Control With Digital Sovereignty Solution",
-          "link": "https://finance.yahoo.com/technology/ai/articles/latest-news-cloud-ai-cloudera-123749135.html",
-          "source": "MSFT"
-        },
-        {
-          "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
-          "link": "https://www.fool.com/investing/2026/11/27/tech-sell-off-1-unstoppable-stock-split-stock-buy-before-joins-nvidia-alphabet-microsoft-apple-usd3-trillion-club/",
-          "source": "MSFT"
-        },
-        {
-          "title": "Market Chatter: Hackers Breach US Air Force Cloud Platform Powered by Microsoft, Amazon, Oracle, Alphabet",
-          "link": "https://finance.yahoo.com/technology/articles/market-chatter-hackers-breach-us-122132707.html",
-          "source": "MSFT"
-        }
-      ],
-      "AAPL": [
-        {
-          "title": "Why Should Apple Stock Holders Watch The December Quarter?",
-          "link": "https://www.trefis.com/stock/aapl/articles/629378/why-should-apple-stock-holders-watch-the-december-quarter/2026-11-27",
-          "source": "AAPL"
-        },
-        {
-          "title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
-          "link": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488",
-          "source": "AAPL"
-        },
-        {
-          "title": "Latest News In Cloud AI - Cloudera Advances Data Control With Digital Sovereignty Solution",
-          "link": "https://finance.yahoo.com/technology/ai/articles/latest-news-cloud-ai-cloudera-123749135.html",
-          "source": "AAPL"
-        },
-        {
-          "title": "Tech Sell-Off: 1 Unstoppable Stock-Split Stock to Buy Before It Joins Nvidia, Alphabet, Microsoft, and Apple in the $3 Trillion Club",
-          "link": "https://www.fool.com/investing/2026/11/27/tech-sell-off-1-unstoppable-stock-split-stock-buy-before-joins-nvidia-alphabet-microsoft-apple-usd3-trillion-club/",
-          "source": "AAPL"
-        },
-        {
-          "title": "Will Rising AI Capex Alter the Free Cash Flow Outlook for Apple Stock?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/rising-ai-capex-alter-free-121600152.html",
-          "source": "AAPL"
-        }
-      ],
-      "ASML": [
-        {
-          "title": "Europe Is Ready to Write Big Checks to Build Its Own Tech Giant",
-          "link": "https://app.moby.co/home/news/news-europe-is-ready-to-write-big-checks-to-build-its-own-tech-giant?utm_source=yahoo_finance&utm_medium=rss",
-          "source": "ASML"
-        },
-        {
-          "title": "European Stock Indexes Rise as Tech Rally Extends",
-          "link": "https://www.wsj.com/finance/stocks/nikkei-rises-0-4-led-by-banks-trading-houses-7e23720e?siteid=yhoof2&yptr=yahoo",
-          "source": "ASML"
-        },
-        {
-          "title": "The tiny Dutch town getting so rich on AI it can’t keep up",
-          "link": "https://uk.finance.yahoo.com/news/tiny-dutch-town-being-overwhelmed-060000999.html",
-          "source": "ASML"
-        },
-        {
-          "title": "The tiny Dutch town getting so rich on AI it can’t keep up",
-          "link": "https://www.telegraph.co.uk/business/2026/11/27/the-tiny-dutch-town-being-overwhelmed-by-an-ai-boom/",
-          "source": "ASML"
-        },
-        {
-          "title": "Netherlands will ask Washington not to enforce MATCH Act, minister says",
-          "link": "https://uk.news.yahoo.com/dutch-minister-says-us-chip-113207674.html",
-          "source": "ASML"
-        }
-      ],
-      "SAP.DE": [
-        {
-          "title": "SAP reportedly planning to cut 10,000 jobs",
-          "link": "https://www.verdict.co.uk/sap-plans-10000-roles-cut/",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Salesforce Before Q3 Earnings Release: Should You Buy the Stock Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/salesforce-q3-earnings-release-buy-110400855.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "German sofware giant SAP weighs at least 10,000 job cuts amid AI shift, reports say",
-          "link": "https://www.euronews.com/2026/11/27/german-sofware-giant-sap-weighs-at-least-10000-job-cuts-amid-ai-shift-reports-say",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sap-weighs-cutting-least-10-161548594.html",
-          "source": "SAP.DE"
-        },
-        {
-          "title": "Will Autonomous Retail Pilot Change SAP's (XTRA:SAP) Narrative",
-          "link": "https://finance.yahoo.com/technology/ai/articles/autonomous-retail-pilot-change-saps-171625672.html",
-          "source": "SAP.DE"
-        }
-      ],
-      "URTH": [
-        {
-          "title": "What iShares MSCI World ETF (URTH) Bought: Apple Leads on Wednesday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-msci-world-etf-urth-110529877.html",
-          "source": "URTH"
-        },
-        {
-          "title": "iShares MSCI World ETF vs. iShares Core MSCI Total International Stock ETF: Which Is the Better Buy for the Next Decade?",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/26/ishares-msci-world-etf-vs-ishares-core-msci-total-international-stock-etf-which-is-the-better-buy-for-the-next-decade/",
-          "source": "URTH"
-        },
-        {
-          "title": "Two International ETFs With Contrasting Styles: iShares MSCI World ETF (URTH) and Emerging Markets ETF (EEM)",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/09/two-international-etfs-with-contrasting-styles-ishares-msci-world-etf-urth-and-emerging-markets-etf-eem/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better International ETF: Vanguard VEA vs. iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/10/03/better-international-etf-vanguard-vea-vs-ishares-urth/",
-          "source": "URTH"
-        },
-        {
-          "title": "Better Global ETF: Vanguard's VT vs. the iShares URTH",
-          "link": "https://www.fool.com/coverage/etfs/2026/09/22/better-global-etf-vanguard-s-vt-vs-the-ishares-urth/",
-          "source": "URTH"
-        }
-      ],
-      "TSLA": [
-        {
-          "title": "Stock Market Today: Dow Jumps 715 Points As Nvidia Rebounds; Anthropic, SpaceX, Tesla Rally (Live Coverage)",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-nvidia-stock-anthropic-spacex-tesla/?src=A00220&yptr=yahoo",
-          "source": "TSLA"
-        },
-        {
-          "title": "SpaceX Cratered 13.5% This Month: Near 300% Returns to Materialize at Today’s Price According to this Pro Analyst",
-          "link": "https://247wallst.com/investing/2026/11/27/spacex-cratered-13-5-this-month-near-300-returns-to-materialize-at-todays-price-according-to-this-pro-analyst/",
-          "source": "TSLA"
-        },
-        {
-          "title": "iShares Paris-Aligned Climate (PABU) Buys $9.4 Million More Apple on Wednesday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ishares-paris-aligned-climate-pabu-110455750.html",
-          "source": "TSLA"
-        },
-        {
-          "title": "What ARK Autonomous Technology & Robotics ETF (ARKQ) Sold: Tesla Leads on Nov. 25",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ark-autonomous-technology-robotics-etf-110448164.html",
-          "source": "TSLA"
-        },
-        {
-          "title": "What Invesco NASDAQ 100 ETF (QQQM) Bought: Apple Leads on Wednesday",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/invesco-nasdaq-100-etf-qqqm-110420784.html",
-          "source": "TSLA"
-        }
-      ],
-      "MU": [
-        {
-          "title": "He was right about AI and still lost $35 billion",
-          "link": "https://finance.yahoo.com/video/ai-still-lost-35-billion-120000023.html",
-          "source": "MU"
-        },
-        {
-          "title": "SNDK, MU, WDC, Other Memory Stocks Rally As Investors Return To Beaten-Down AI Names",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sndk-mu-wdc-other-memory-stocks-rally-as-investors-return-to-beaten-down-ai-names/cNbCupeR9ND",
-          "source": "MU"
-        },
-        {
-          "title": "Dow Jones Futures Rise; Look For This Bullish Market Signal On Black Friday",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-market-wild-ride-nasdaq-nvidia-slash-losses-anthropic-higher/?src=A00220&yptr=yahoo",
-          "source": "MU"
-        },
-        {
-          "title": "Stock market today: Dow, S&P 500, Nasdaq futures gain as AI jitters steady",
-          "link": "https://finance.yahoo.com/markets/live/stock-market-today-firday-november-27-dow-sp-500-nasdaq-black-friday-holiday-091152065.html",
-          "source": "MU"
-        },
-        {
-          "title": "SpaceX Stock Jumps Thanks to AI Rally. Why It Should Be Rising Even More.",
-          "link": "https://www.barrons.com/articles/spacex-stock-ai-rally-113e9386?siteid=yhoof2&yptr=yahoo",
-          "source": "MU"
-        }
-      ],
-      "NKE": [
-        {
-          "title": "For Nike, a comeback is a marathon and not a sprint",
-          "link": "https://www.cnn.com/2026/11/27/business/nike-comeback-turnaround-plan",
-          "source": "NKE"
-        },
-        {
-          "title": "Forget Walmart: Nike Has More to Lose From Vietnam’s Proposed Tariff of Up to 35%",
-          "link": "https://www.tikr.com/blog/forget-walmart-nike-has-more-to-lose-from-vietnams-proposed-tariff-of-up-to-35?ref=yahoofinance&tlnk=yf-261126-xh7cp5rc",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike Stock Is Down 42% in 2026, and Lululemon Is Doing Even Worse",
-          "link": "https://247wallst.com/investing/2026/11/26/nike-stock-is-down-42-in-2026-and-lululemon-is-doing-even-worse/",
-          "source": "NKE"
-        },
-        {
-          "title": "Nike Slumped to $34, Yet This Apparel Pick Surged 23% Since October",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nike-slumped-34-yet-apparel-144519189.html",
-          "source": "NKE"
-        },
-        {
-          "title": "Could Nike Actually Climb 64%? Or Is Jefferies Totally Wrong?",
-          "link": "https://www.tikr.com/blog/could-nike-actually-climb-68-or-is-jefferies-totally-wrong?ref=yahoofinance&tlnk=yf-261127-493x443c",
-          "source": "NKE"
-        }
-      ]
-    },
-    "new_tickers": []
+    "general": [],
+    "tickers": {}
   }
 }

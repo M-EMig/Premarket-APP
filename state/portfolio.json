@@ -1,5 +1,5 @@
 {
-  "cash": 5020.882101429803,
+  "cash": 7007.82102994434,
   "positions": {
     "TSLA": {
       "shares": 2.494205434557632,
@@ -18,18 +18,6 @@
       "avg_price": 206.64999389648438,
       "underwater": true,
       "opened": "2026-11-05"
-    },
-    "AAPL": {
-      "shares": 2.7876134290273673,
-      "avg_price": 356.2699890136719,
-      "underwater": true,
-      "opened": "2026-11-16"
-    },
-    "NKE": {
-      "shares": 26.458167790364417,
-      "avg_price": 37.1150016784668,
-      "underwater": true,
-      "opened": "2026-11-17"
     }
   },
   "trades": [
@@ -280,6 +268,22 @@
       "shares": 26.4582,
       "price": 37.12,
       "reason": "Einstieg"
+    },
+    {
+      "time": "2026-11-28T00:39:13",
+      "side": "SELL",
+      "ticker": "AAPL",
+      "shares": 2.7876,
+      "price": 358.7,
+      "reason": "Break-even"
+    },
+    {
+      "time": "2026-11-28T00:39:13",
+      "side": "SELL",
+      "ticker": "NKE",
+      "shares": 26.4582,
+      "price": 37.31,
+      "reason": "Break-even"
     }
   ]
 }
